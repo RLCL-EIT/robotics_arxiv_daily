@@ -1,0 +1,5 @@
+This project is inspired by the public arXiv daily repository pattern used by
+BaiShuanghao/my_arXiv_daily and Vincentqyw/cv-arxiv-daily.
+
+The implementation in this repository is newly written for a focused robotics
+and embodied AI reading workflow.
