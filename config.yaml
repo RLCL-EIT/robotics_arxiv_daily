@@ -1,7 +1,7 @@
 site:
   title: "My arXiv Daily"
   description: "Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI."
-  max_results_per_topic: 60
+  max_results_per_topic: 100
   keep_days: 90
   max_keywords: 6
 
