@@ -21,6 +21,7 @@
       "first_affiliation": "TBD",
       "first_author": "Yihang Li",
       "id": "2605.18550",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.18550",
       "primary_category": "eess.IV",
       "published": "2026-05-18",
@@ -55,6 +56,11 @@
       "first_affiliation": "TBD",
       "first_author": "Feng Chen",
       "id": "2605.18727",
+      "keywords": [
+        "benchmark",
+        "dexterous hand",
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.18727",
       "primary_category": "cs.RO",
       "published": "2026-05-18",
@@ -84,6 +90,9 @@
       "first_affiliation": "TBD",
       "first_author": "Branden Frieden",
       "id": "2605.19104",
+      "keywords": [
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.19104",
       "primary_category": "cs.RO",
       "published": "2026-05-18",
@@ -112,6 +121,7 @@
       "first_affiliation": "TBD",
       "first_author": "Li Fu",
       "id": "2605.19555",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.19555",
       "primary_category": "physics.class-ph",
       "published": "2026-05-19",
@@ -141,6 +151,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yang Dai",
       "id": "2605.19559",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.19559",
       "primary_category": "cs.CV",
       "published": "2026-05-19",
@@ -169,6 +182,9 @@
       "first_affiliation": "TBD",
       "first_author": "Edison Velasco-Sanchez",
       "id": "2605.20392",
+      "keywords": [
+        "tactile sensing"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.20392",
       "primary_category": "cs.RO",
       "published": "2026-05-19",
@@ -196,6 +212,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yue Feng",
       "id": "2605.20433",
+      "keywords": [
+        "contact-rich manipulation",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.20433",
       "primary_category": "cs.RO",
       "published": "2026-05-19",
@@ -225,6 +245,7 @@
       "first_affiliation": "TBD",
       "first_author": "Hao Xu",
       "id": "2605.20992",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.20992",
       "primary_category": "cs.CV",
       "published": "2026-05-20",
@@ -254,6 +275,13 @@
       "first_affiliation": "TBD",
       "first_author": "Senlan Yao",
       "id": "2605.21330",
+      "keywords": [
+        "in-hand manipulation",
+        "dexterous manipulation",
+        "tactile sensing",
+        "dexterous hand",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.21330",
       "primary_category": "cs.RO",
       "published": "2026-05-20",
@@ -287,6 +315,11 @@
       "first_affiliation": "TBD",
       "first_author": "Elle Miller",
       "id": "2605.21429",
+      "keywords": [
+        "benchmark",
+        "reinforcement learning",
+        "tactile sensing"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.21429",
       "primary_category": "cs.RO",
       "published": "2026-05-20",
@@ -319,6 +352,9 @@
       "first_affiliation": "TBD",
       "first_author": "Ziyi Kou",
       "id": "2605.21714",
+      "keywords": [
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.21714",
       "primary_category": "cs.CV",
       "published": "2026-05-20",
@@ -347,6 +383,10 @@
       "first_affiliation": "TBD",
       "first_author": "Albert Wu",
       "id": "2605.21811",
+      "keywords": [
+        "dexterous manipulation",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.21811",
       "primary_category": "cs.RO",
       "published": "2026-05-20",
@@ -385,6 +425,13 @@
       "first_affiliation": "TBD",
       "first_author": "Anya Zorin",
       "id": "2605.21976",
+      "keywords": [
+        "tactile sensing",
+        "benchmark",
+        "learning from demonstration",
+        "contact-rich manipulation",
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.21976",
       "primary_category": "cs.RO",
       "published": "2026-05-21",
@@ -416,6 +463,9 @@
       "first_affiliation": "TBD",
       "first_author": "Alihan Bakir",
       "id": "2605.22521",
+      "keywords": [
+        "haptic feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.22521",
       "primary_category": "cs.RO",
       "published": "2026-05-21",
@@ -446,6 +496,9 @@
       "first_affiliation": "TBD",
       "first_author": "Lipeng Dai",
       "id": "2605.23263",
+      "keywords": [
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.23263",
       "primary_category": "cs.RO",
       "published": "2026-05-22",
@@ -480,6 +533,13 @@
       "first_affiliation": "TBD",
       "first_author": "Ziyan Feng",
       "id": "2605.23568",
+      "keywords": [
+        "tactile sensing",
+        "visuo-tactile",
+        "teleoperation",
+        "vision-language-action",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.23568",
       "primary_category": "cs.RO",
       "published": "2026-05-22",
@@ -507,6 +567,7 @@
       "first_affiliation": "TBD",
       "first_author": "Jagan K. Balasubramanian",
       "id": "2605.23804",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.23804",
       "primary_category": "cs.HC",
       "published": "2026-05-22",
@@ -533,6 +594,11 @@
       "first_affiliation": "TBD",
       "first_author": "Qixin Liang",
       "id": "2605.24339",
+      "keywords": [
+        "tactile sensing",
+        "benchmark",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.24339",
       "primary_category": "cs.RO",
       "published": "2026-05-23",
@@ -565,6 +631,7 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiheng Fu",
       "id": "2605.24496",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.24496",
       "primary_category": "cs.CV",
       "published": "2026-05-23",
@@ -596,6 +663,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiwei Chen",
       "id": "2605.24500",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.24500",
       "primary_category": "cs.CV",
       "published": "2026-05-23",
@@ -621,6 +691,9 @@
       "first_affiliation": "TBD",
       "first_author": "Adam Lee",
       "id": "2605.24630",
+      "keywords": [
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.24630",
       "primary_category": "cs.CV",
       "published": "2026-05-23",
@@ -655,6 +728,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhi Wang",
       "id": "2605.24934",
+      "keywords": [
+        "teleoperation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.24934",
       "primary_category": "cs.RO",
       "published": "2026-05-24",
@@ -687,6 +763,13 @@
       "first_affiliation": "TBD",
       "first_author": "Boyu Li",
       "id": "2605.25044",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "dataset",
+        "dexterous hand",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.25044",
       "primary_category": "cs.RO",
       "published": "2026-05-24",
@@ -717,6 +800,10 @@
       "first_affiliation": "TBD",
       "first_author": "Pengfei Ye",
       "id": "2605.25216",
+      "keywords": [
+        "imitation learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.25216",
       "primary_category": "cs.RO",
       "published": "2026-05-24",
@@ -748,6 +835,7 @@
       "first_affiliation": "TBD",
       "first_author": "Koyo Fujii",
       "id": "2605.26284",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.26284",
       "primary_category": "cs.RO",
       "published": "2026-05-25",
@@ -784,6 +872,12 @@
       "first_affiliation": "TBD",
       "first_author": "Haoxiang You",
       "id": "2605.26478",
+      "keywords": [
+        "benchmark",
+        "reinforcement learning",
+        "dexterous manipulation",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.26478",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -815,6 +909,7 @@
       "first_affiliation": "TBD",
       "first_author": "Alberto Garzás-Villar",
       "id": "2605.26782",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.26782",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -846,6 +941,10 @@
       "first_affiliation": "TBD",
       "first_author": "Pavan Karke",
       "id": "2605.26944",
+      "keywords": [
+        "grasp synthesis",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.26944",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -876,6 +975,12 @@
       "first_affiliation": "TBD",
       "first_author": "René Zurbrügg",
       "id": "2605.27114",
+      "keywords": [
+        "learning from demonstration",
+        "teleoperation",
+        "diffusion policy",
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.27114",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -903,6 +1008,7 @@
       "first_affiliation": "TBD",
       "first_author": "Morten Roed Frederiksen",
       "id": "2605.27533",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.27533",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -929,6 +1035,7 @@
       "first_affiliation": "TBD",
       "first_author": "Morten Roed Frederiksen",
       "id": "2605.27539",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.27539",
       "primary_category": "cs.RO",
       "published": "2026-05-26",
@@ -960,6 +1067,14 @@
       "first_affiliation": "TBD",
       "first_author": "Qiwei Wu",
       "id": "2605.27886",
+      "keywords": [
+        "force feedback",
+        "benchmark",
+        "tactile sensing",
+        "vision-language-action",
+        "VLA",
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.27886",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -990,6 +1105,7 @@
       "first_affiliation": "TBD",
       "first_author": "Yunseong Bang",
       "id": "2605.28352",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.28352",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -1021,6 +1137,7 @@
       "first_affiliation": "TBD",
       "first_author": "Junha Min",
       "id": "2605.28412",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.28412",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -1048,6 +1165,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zongcai Tan",
       "id": "2605.28448",
+      "keywords": [
+        "teleoperation",
+        "haptic feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.28448",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -1078,6 +1199,10 @@
       "first_affiliation": "TBD",
       "first_author": "Junhwi Cho",
       "id": "2605.28468",
+      "keywords": [
+        "tactile sensing",
+        "humanoid"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.28468",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -1108,6 +1233,12 @@
       "first_affiliation": "TBD",
       "first_author": "Jiahe Pan",
       "id": "2605.28812",
+      "keywords": [
+        "sim-to-real",
+        "contact-rich manipulation",
+        "dexterous manipulation",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.28812",
       "primary_category": "cs.RO",
       "published": "2026-05-27",
@@ -1138,6 +1269,10 @@
       "first_affiliation": "TBD",
       "first_author": "Dayuan Chen",
       "id": "2605.29407",
+      "keywords": [
+        "imitation learning",
+        "teleoperation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.29407",
       "primary_category": "cs.RO",
       "published": "2026-05-28",
@@ -1165,6 +1300,7 @@
       "first_affiliation": "TBD",
       "first_author": "Li Zou",
       "id": "2605.29572",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.29572",
       "primary_category": "cs.RO",
       "published": "2026-05-28",
@@ -1198,6 +1334,14 @@
       "first_affiliation": "TBD",
       "first_author": "Zhongxi Chen",
       "id": "2605.30226",
+      "keywords": [
+        "VLA",
+        "offline reinforcement learning",
+        "reinforcement learning",
+        "vision-language-action",
+        "dexterous manipulation",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.30226",
       "primary_category": "cs.RO",
       "published": "2026-05-28",
@@ -1229,6 +1373,7 @@
       "first_affiliation": "TBD",
       "first_author": "Aaron Kim",
       "id": "2605.30508",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.30508",
       "primary_category": "cs.RO",
       "published": "2026-05-28",
@@ -1260,6 +1405,7 @@
       "first_affiliation": "TBD",
       "first_author": "Weizhe Ni",
       "id": "2605.30569",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2605.30569",
       "primary_category": "cs.RO",
       "published": "2026-05-28",
@@ -1287,6 +1433,9 @@
       "first_affiliation": "TBD",
       "first_author": "C. L. Yako",
       "id": "2605.30780",
+      "keywords": [
+        "in-hand manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.30780",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1315,6 +1464,9 @@
       "first_affiliation": "TBD",
       "first_author": "An Li",
       "id": "2605.30849",
+      "keywords": [
+        "force feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.30849",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1346,6 +1498,10 @@
       "first_affiliation": "TBD",
       "first_author": "Shuai Ke",
       "id": "2605.31321",
+      "keywords": [
+        "imitation learning",
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.31321",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1374,6 +1530,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhuoyi Lu",
       "id": "2605.31352",
+      "keywords": [
+        "motion planning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.31352",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1405,6 +1564,9 @@
       "first_affiliation": "TBD",
       "first_author": "Shuyuan Yang",
       "id": "2605.31434",
+      "keywords": [
+        "haptic feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.31434",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1431,6 +1593,11 @@
       "first_affiliation": "TBD",
       "first_author": "Ulf Kasolowsky",
       "id": "2605.31486",
+      "keywords": [
+        "grasping",
+        "reinforcement learning",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2605.31486",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1461,6 +1628,7 @@
       "first_affiliation": "TBD",
       "first_author": "Christina Kohler",
       "id": "2606.00201",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.00201",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1490,6 +1658,10 @@
       "first_affiliation": "TBD",
       "first_author": "Magnus Malthe Sigsgaard Nielsen",
       "id": "2606.00397",
+      "keywords": [
+        "grasping",
+        "tactile sensing"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.00397",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1520,6 +1692,7 @@
       "first_affiliation": "TBD",
       "first_author": "Carolina Silva-Plata",
       "id": "2606.00418",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.00418",
       "primary_category": "cs.RO",
       "published": "2026-05-29",
@@ -1546,6 +1719,13 @@
       "first_affiliation": "TBD",
       "first_author": "Hikmet Simsir",
       "id": "2606.01151",
+      "keywords": [
+        "reinforcement learning",
+        "benchmark",
+        "behavior cloning",
+        "dexterous manipulation",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.01151",
       "primary_category": "cs.LG",
       "published": "2026-05-31",
@@ -1578,6 +1758,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zong Chen",
       "id": "2606.01332",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.01332",
       "primary_category": "cs.RO",
       "published": "2026-05-31",
@@ -1608,6 +1791,11 @@
       "first_affiliation": "TBD",
       "first_author": "Christian Scherer",
       "id": "2606.02194",
+      "keywords": [
+        "reinforcement learning",
+        "dexterous manipulation",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.02194",
       "primary_category": "cs.LG",
       "published": "2026-06-01",
@@ -1639,6 +1827,7 @@
       "first_affiliation": "TBD",
       "first_author": "Enmin Zhong",
       "id": "2606.02962",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.02962",
       "primary_category": "cs.CV",
       "published": "2026-06-01",
@@ -1667,6 +1856,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yutong Liang",
       "id": "2606.03177",
+      "keywords": [
+        "robot manipulation",
+        "dexterous manipulation",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.03177",
       "primary_category": "cs.RO",
       "published": "2026-06-02",
@@ -1697,6 +1891,9 @@
       "first_affiliation": "TBD",
       "first_author": "Ahsan Tanveer",
       "id": "2606.03204",
+      "keywords": [
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.03204",
       "primary_category": "cs.RO",
       "published": "2026-06-02",
@@ -1726,6 +1923,13 @@
       "first_affiliation": "TBD",
       "first_author": "Qian Zhao",
       "id": "2606.03268",
+      "keywords": [
+        "dexterous manipulation",
+        "reinforcement learning",
+        "imitation learning",
+        "dataset",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.03268",
       "primary_category": "cs.RO",
       "published": "2026-06-02",
@@ -1753,6 +1957,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yanhui Lu",
       "id": "2606.03545",
+      "keywords": [
+        "tactile sensing"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.03545",
       "primary_category": "cs.RO",
       "published": "2026-06-02",
@@ -1784,6 +1991,10 @@
       "first_affiliation": "TBD",
       "first_author": "Dingrui Wang",
       "id": "2606.03868",
+      "keywords": [
+        "foundation model",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.03868",
       "primary_category": "cs.CV",
       "published": "2026-06-02",
@@ -1813,6 +2024,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yilong Wang",
       "id": "2606.04269",
+      "keywords": [
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.04269",
       "primary_category": "cs.RO",
       "published": "2026-06-02",
@@ -1841,6 +2055,9 @@
       "first_affiliation": "TBD",
       "first_author": "Nicklas Nikolaj Grønvall",
       "id": "2606.04776",
+      "keywords": [
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.04776",
       "primary_category": "cs.RO",
       "published": "2026-06-03",
@@ -1873,6 +2090,14 @@
       "first_affiliation": "TBD",
       "first_author": "Amirhosein Alian",
       "id": "2606.04825",
+      "keywords": [
+        "dataset",
+        "teleoperation",
+        "haptic feedback",
+        "imitation learning",
+        "tactile sensing",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.04825",
       "primary_category": "cs.RO",
       "published": "2026-06-03",
@@ -1904,6 +2129,14 @@
       "first_affiliation": "TBD",
       "first_author": "Haofei Lu",
       "id": "2606.05407",
+      "keywords": [
+        "grasping",
+        "diffusion policy",
+        "dexterous hand",
+        "sim-to-real",
+        "imitation learning",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.05407",
       "primary_category": "cs.RO",
       "published": "2026-06-03",
@@ -1932,6 +2165,9 @@
       "first_affiliation": "TBD",
       "first_author": "Diana Cuervo Espinosa",
       "id": "2606.05422",
+      "keywords": [
+        "learning from demonstration"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.05422",
       "primary_category": "cs.RO",
       "published": "2026-06-03",
@@ -1963,6 +2199,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yitong Chen",
       "id": "2606.05737",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.05737",
       "primary_category": "cs.CV",
       "published": "2026-06-04",
@@ -1994,6 +2234,11 @@
       "first_affiliation": "TBD",
       "first_author": "Chong Ma",
       "id": "2606.05773",
+      "keywords": [
+        "VLA",
+        "world model",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.05773",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2022,6 +2267,11 @@
       "first_affiliation": "TBD",
       "first_author": "Anlan Yu",
       "id": "2606.05960",
+      "keywords": [
+        "world model",
+        "imitation learning",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.05960",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2056,6 +2306,13 @@
       "first_affiliation": "TBD",
       "first_author": "Chaoyi Xu",
       "id": "2606.06033",
+      "keywords": [
+        "teleoperation",
+        "dexterous manipulation",
+        "dexterous hand",
+        "tactile sensing",
+        "bimanual manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.06033",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2088,6 +2345,10 @@
       "first_affiliation": "TBD",
       "first_author": "Liwen Zhang",
       "id": "2606.06049",
+      "keywords": [
+        "diffusion policy",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.06049",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2118,6 +2379,12 @@
       "first_affiliation": "TBD",
       "first_author": "Rickmer Krohn",
       "id": "2606.06281",
+      "keywords": [
+        "imitation learning",
+        "tactile sensing",
+        "contact-rich manipulation",
+        "visuo-tactile"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.06281",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2147,6 +2414,9 @@
       "first_affiliation": "TBD",
       "first_author": "Robert Ramirez Sanchez",
       "id": "2606.06323",
+      "keywords": [
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.06323",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2180,6 +2450,9 @@
       "first_affiliation": "TBD",
       "first_author": "Jiyun Jang",
       "id": "2606.06761",
+      "keywords": [
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.06761",
       "primary_category": "cs.RO",
       "published": "2026-06-04",
@@ -2209,6 +2482,11 @@
       "first_affiliation": "TBD",
       "first_author": "Mengze Tian",
       "id": "2606.07386",
+      "keywords": [
+        "robot manipulation",
+        "vision-language-action",
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.07386",
       "primary_category": "cs.RO",
       "published": "2026-06-05",
@@ -2241,6 +2519,14 @@
       "first_affiliation": "TBD",
       "first_author": "Kaijie Shi",
       "id": "2606.07389",
+      "keywords": [
+        "imitation learning",
+        "grasping",
+        "grasp synthesis",
+        "dataset",
+        "benchmark",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.07389",
       "primary_category": "cs.RO",
       "published": "2026-06-05",
@@ -2270,6 +2556,10 @@
       "first_affiliation": "TBD",
       "first_author": "Sung-Wook Lee",
       "id": "2606.07895",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.07895",
       "primary_category": "cs.CV",
       "published": "2026-06-05",
@@ -2310,6 +2600,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yichen Niu",
       "id": "2606.08057",
+      "keywords": [
+        "dexterous manipulation",
+        "dataset",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08057",
       "primary_category": "cs.RO",
       "published": "2026-06-06",
@@ -2339,6 +2634,10 @@
       "first_affiliation": "TBD",
       "first_author": "Cheng Qian",
       "id": "2606.08154",
+      "keywords": [
+        "imitation learning",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08154",
       "primary_category": "cs.RO",
       "published": "2026-06-06",
@@ -2374,6 +2673,12 @@
       "first_affiliation": "TBD",
       "first_author": "Markus Knauer",
       "id": "2606.08169",
+      "keywords": [
+        "foundation model",
+        "vision-language-action",
+        "VLA",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08169",
       "primary_category": "cs.RO",
       "published": "2026-06-06",
@@ -2406,6 +2711,10 @@
       "first_affiliation": "TBD",
       "first_author": "Ziang Li",
       "id": "2606.08242",
+      "keywords": [
+        "policy learning",
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08242",
       "primary_category": "cs.CV",
       "published": "2026-06-06",
@@ -2439,6 +2748,9 @@
       "first_affiliation": "TBD",
       "first_author": "Lingxuan Wu",
       "id": "2606.08414",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08414",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2474,6 +2786,9 @@
       "first_affiliation": "TBD",
       "first_author": "Bingjia Huang",
       "id": "2606.08508",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08508",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2503,6 +2818,10 @@
       "first_affiliation": "TBD",
       "first_author": "Haotian He",
       "id": "2606.08555",
+      "keywords": [
+        "contact-rich manipulation",
+        "force feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08555",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2534,6 +2853,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhexuan Zhou",
       "id": "2606.08657",
+      "keywords": [
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08657",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2568,6 +2890,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yunfan Lou",
       "id": "2606.08737",
+      "keywords": [
+        "world model",
+        "contact-rich manipulation",
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08737",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2595,6 +2922,11 @@
       "first_affiliation": "TBD",
       "first_author": "Dian Yu",
       "id": "2606.08743",
+      "keywords": [
+        "diffusion policy",
+        "reinforcement learning",
+        "trajectory optimization"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08743",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2626,6 +2958,10 @@
       "first_affiliation": "TBD",
       "first_author": "Shengcheng Luo",
       "id": "2606.08765",
+      "keywords": [
+        "dexterous manipulation",
+        "visuo-tactile"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08765",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2656,6 +2992,12 @@
       "first_affiliation": "TBD",
       "first_author": "Raktim Gautam Goswami",
       "id": "2606.08775",
+      "keywords": [
+        "world model",
+        "diffusion policy",
+        "grasping",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08775",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2697,6 +3039,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yunhai Han",
       "id": "2606.08828",
+      "keywords": [
+        "sim-to-real",
+        "foundation model",
+        "motion planning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08828",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2724,6 +3071,12 @@
       "first_affiliation": "TBD",
       "first_author": "Yi Yu",
       "id": "2606.08881",
+      "keywords": [
+        "benchmark",
+        "VLA",
+        "vision-language-action",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.08881",
       "primary_category": "cs.RO",
       "published": "2026-06-07",
@@ -2754,6 +3107,12 @@
       "first_affiliation": "TBD",
       "first_author": "Jia Zheng",
       "id": "2606.09215",
+      "keywords": [
+        "humanoid",
+        "world model",
+        "vision-language-action",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09215",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2788,6 +3147,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yuan Zeng",
       "id": "2606.09243",
+      "keywords": [
+        "benchmark",
+        "tactile sensing"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09243",
       "primary_category": "cs.CV",
       "published": "2026-06-08",
@@ -2823,6 +3186,13 @@
       "first_affiliation": "TBD",
       "first_author": "Huaihang Zheng",
       "id": "2606.09337",
+      "keywords": [
+        "VLA",
+        "reinforcement learning",
+        "contact-rich manipulation",
+        "vision-language-action",
+        "force feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09337",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2851,6 +3221,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yuying Zhang",
       "id": "2606.09381",
+      "keywords": [
+        "imitation learning",
+        "robot manipulation",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09381",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2880,6 +3255,12 @@
       "first_affiliation": "TBD",
       "first_author": "Agis Politis",
       "id": "2606.09451",
+      "keywords": [
+        "dexterous manipulation",
+        "dataset",
+        "force feedback",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09451",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2909,6 +3290,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhenguo Sun",
       "id": "2606.09457",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09457",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2939,6 +3323,11 @@
       "first_affiliation": "TBD",
       "first_author": "Jiacheng Li",
       "id": "2606.09572",
+      "keywords": [
+        "vision-language-action",
+        "robot manipulation",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09572",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -2971,6 +3360,11 @@
       "first_affiliation": "TBD",
       "first_author": "Ruizhe Liao",
       "id": "2606.09615",
+      "keywords": [
+        "dexterous manipulation",
+        "imitation learning",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09615",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3004,6 +3398,10 @@
       "first_affiliation": "TBD",
       "first_author": "Quinn Pfeifer",
       "id": "2606.09758",
+      "keywords": [
+        "imitation learning",
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09758",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3039,6 +3437,11 @@
       "first_affiliation": "TBD",
       "first_author": "Hong Li",
       "id": "2606.09777",
+      "keywords": [
+        "visuo-tactile",
+        "tactile sensing",
+        "contact-rich manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09777",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3071,6 +3474,7 @@
       "first_affiliation": "TBD",
       "first_author": "Yanming Shao",
       "id": "2606.09798",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.09798",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3110,6 +3514,10 @@
       "first_affiliation": "TBD",
       "first_author": "Jisong Cai",
       "id": "2606.09811",
+      "keywords": [
+        "robot manipulation",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.09811",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3144,6 +3552,10 @@
       "first_affiliation": "TBD",
       "first_author": "Sriram Krishna",
       "id": "2606.10025",
+      "keywords": [
+        "robot manipulation",
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10025",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3188,6 +3600,11 @@
       "first_affiliation": "TBD",
       "first_author": "Takehiko Ohkawa",
       "id": "2606.10244",
+      "keywords": [
+        "dexterous manipulation",
+        "dataset",
+        "foundation model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10244",
       "primary_category": "cs.RO",
       "published": "2026-06-08",
@@ -3223,6 +3640,13 @@
       "first_affiliation": "TBD",
       "first_author": "Qianzhong Chen",
       "id": "2606.10305",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "behavior cloning",
+        "reinforcement learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10305",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3262,6 +3686,7 @@
       "first_affiliation": "TBD",
       "first_author": "Xiaoquan Sun",
       "id": "2606.10363",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.10363",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3291,6 +3716,7 @@
       "first_affiliation": "TBD",
       "first_author": "Zi Yin",
       "id": "2606.10371",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.10371",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3334,6 +3760,9 @@
       "first_affiliation": "TBD",
       "first_author": "Shi Jin",
       "id": "2606.10382",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10382",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3367,6 +3796,11 @@
       "first_affiliation": "TBD",
       "first_author": "Haoxuan Han",
       "id": "2606.10449",
+      "keywords": [
+        "humanoid",
+        "reinforcement learning",
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10449",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3397,6 +3831,11 @@
       "first_affiliation": "TBD",
       "first_author": "Qingzi Wang",
       "id": "2606.10495",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10495",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3430,6 +3869,11 @@
       "first_affiliation": "TBD",
       "first_author": "Guiyu Zhao",
       "id": "2606.10568",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10568",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3462,6 +3906,12 @@
       "first_affiliation": "TBD",
       "first_author": "Beomjun Kim",
       "id": "2606.10614",
+      "keywords": [
+        "dexterous manipulation",
+        "dexterous hand",
+        "foundation model",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10614",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3495,6 +3945,9 @@
       "first_affiliation": "TBD",
       "first_author": "Dong Fang",
       "id": "2606.10683",
+      "keywords": [
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10683",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3528,6 +3981,7 @@
       "first_affiliation": "TBD",
       "first_author": "Yitian Shi",
       "id": "2606.10743",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.10743",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3559,6 +4013,9 @@
       "first_affiliation": "TBD",
       "first_author": "Jiawei Gao",
       "id": "2606.10818",
+      "keywords": [
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10818",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3589,6 +4046,12 @@
       "first_affiliation": "TBD",
       "first_author": "Zakariae El Asri",
       "id": "2606.10825",
+      "keywords": [
+        "imitation learning",
+        "reinforcement learning",
+        "world model",
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10825",
       "primary_category": "cs.LG",
       "published": "2026-06-09",
@@ -3618,6 +4081,7 @@
       "first_affiliation": "TBD",
       "first_author": "Orestis Konstantaropoulos",
       "id": "2606.10857",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.10857",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3646,6 +4110,7 @@
       "first_affiliation": "TBD",
       "first_author": "Cristiano Capone",
       "id": "2606.10891",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.10891",
       "primary_category": "q-bio.NC",
       "published": "2026-06-09",
@@ -3676,6 +4141,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yinchen Tian",
       "id": "2606.10899",
+      "keywords": [
+        "bimanual manipulation",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10899",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3707,6 +4176,9 @@
       "first_affiliation": "TBD",
       "first_author": "Hang Yin",
       "id": "2606.10927",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10927",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3736,6 +4208,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yi Chen",
       "id": "2606.10979",
+      "keywords": [
+        "reinforcement learning",
+        "policy learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.10979",
       "primary_category": "cs.AI",
       "published": "2026-06-09",
@@ -3765,6 +4242,7 @@
       "first_affiliation": "TBD",
       "first_author": "Junchang Zheng",
       "id": "2606.11007",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.11007",
       "primary_category": "cs.CR",
       "published": "2026-06-09",
@@ -3793,6 +4271,9 @@
       "first_affiliation": "TBD",
       "first_author": "J. de Curtò",
       "id": "2606.11050",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11050",
       "primary_category": "cs.MA",
       "published": "2026-06-09",
@@ -3825,6 +4306,12 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiyuan Zhou",
       "id": "2606.11087",
+      "keywords": [
+        "reinforcement learning",
+        "imitation learning",
+        "policy learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11087",
       "primary_category": "cs.LG",
       "published": "2026-06-09",
@@ -3863,6 +4350,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yichao Zhong",
       "id": "2606.11092",
+      "keywords": [
+        "humanoid",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11092",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3891,6 +4382,7 @@
       "first_affiliation": "TBD",
       "first_author": "Drake Moore",
       "id": "2606.11151",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.11151",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3925,6 +4417,14 @@
       "first_affiliation": "TBD",
       "first_author": "Yujie Zang",
       "id": "2606.11184",
+      "keywords": [
+        "world model",
+        "contact-rich manipulation",
+        "imitation learning",
+        "force feedback",
+        "tactile sensing",
+        "visuo-tactile"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11184",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -3976,6 +4476,12 @@
       "first_affiliation": "TBD",
       "first_author": "Yifu Yuan",
       "id": "2606.11324",
+      "keywords": [
+        "foundation model",
+        "benchmark",
+        "VLA",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11324",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -4004,6 +4510,10 @@
       "first_affiliation": "TBD",
       "first_author": "Changyi Lin",
       "id": "2606.11372",
+      "keywords": [
+        "tactile sensing",
+        "bimanual manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11372",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -4037,6 +4547,10 @@
       "first_affiliation": "TBD",
       "first_author": "Woojung Son",
       "id": "2606.11381",
+      "keywords": [
+        "dataset",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11381",
       "primary_category": "cs.CV",
       "published": "2026-06-09",
@@ -4065,6 +4579,13 @@
       "first_affiliation": "TBD",
       "first_author": "Abhinav Kumar",
       "id": "2606.11396",
+      "keywords": [
+        "world model",
+        "dexterous manipulation",
+        "offline reinforcement learning",
+        "reinforcement learning",
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11396",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -4099,6 +4620,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yuchi Zhao",
       "id": "2606.11408",
+      "keywords": [
+        "vision-language-action",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11408",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -4130,6 +4655,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yin Bi",
       "id": "2606.11464",
+      "keywords": [
+        "sim-to-real",
+        "benchmark",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11464",
       "primary_category": "cs.RO",
       "published": "2026-06-09",
@@ -4159,6 +4689,11 @@
       "first_affiliation": "TBD",
       "first_author": "Tongle Shen",
       "id": "2606.11525",
+      "keywords": [
+        "reinforcement learning",
+        "grasping",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11525",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4190,6 +4725,9 @@
       "first_affiliation": "TBD",
       "first_author": "Shutong Jin",
       "id": "2606.11535",
+      "keywords": [
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11535",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4222,6 +4760,10 @@
       "first_affiliation": "TBD",
       "first_author": "Seokju Cho",
       "id": "2606.11568",
+      "keywords": [
+        "dataset",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11568",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -4251,6 +4793,10 @@
       "first_affiliation": "TBD",
       "first_author": "Hao Wang",
       "id": "2606.11577",
+      "keywords": [
+        "imitation learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11577",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4280,6 +4826,9 @@
       "first_affiliation": "TBD",
       "first_author": "Jun Hu",
       "id": "2606.11590",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11590",
       "primary_category": "hep-ex",
       "published": "2026-06-10",
@@ -4308,6 +4857,10 @@
       "first_affiliation": "TBD",
       "first_author": "Harsh Gupta",
       "id": "2606.11628",
+      "keywords": [
+        "dataset",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11628",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4342,6 +4895,13 @@
       "first_affiliation": "TBD",
       "first_author": "Siyu Ma",
       "id": "2606.11743",
+      "keywords": [
+        "VLA",
+        "reinforcement learning",
+        "vision-language-action",
+        "robot manipulation",
+        "visuo-tactile"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11743",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4375,6 +4935,14 @@
       "first_affiliation": "TBD",
       "first_author": "Shengcheng Luo",
       "id": "2606.11767",
+      "keywords": [
+        "grasping",
+        "policy learning",
+        "dexterous hand",
+        "sim-to-real",
+        "diffusion policy",
+        "LEAP hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11767",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4408,6 +4976,9 @@
       "first_affiliation": "TBD",
       "first_author": "Xin Guo",
       "id": "2606.11798",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11798",
       "primary_category": "q-fin.CP",
       "published": "2026-06-10",
@@ -4435,6 +5006,7 @@
       "first_affiliation": "TBD",
       "first_author": "Zixiong Hao",
       "id": "2606.11805",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.11805",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -4462,6 +5034,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yu Zhang",
       "id": "2606.11826",
+      "keywords": [
+        "benchmark",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11826",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4489,6 +5065,10 @@
       "first_affiliation": "TBD",
       "first_author": "Mehmet Turan Yardımcı",
       "id": "2606.11891",
+      "keywords": [
+        "humanoid",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11891",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4525,6 +5105,13 @@
       "first_affiliation": "TBD",
       "first_author": "Tobias Jülg",
       "id": "2606.11901",
+      "keywords": [
+        "benchmark",
+        "bimanual manipulation",
+        "dataset",
+        "vision-language-action",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11901",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4555,6 +5142,12 @@
       "first_affiliation": "TBD",
       "first_author": "Xuan Dong",
       "id": "2606.11906",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark",
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11906",
       "primary_category": "cs.CL",
       "published": "2026-06-10",
@@ -4589,6 +5182,9 @@
       "first_affiliation": "TBD",
       "first_author": "Baoyang Jiang",
       "id": "2606.11909",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11909",
       "primary_category": "cs.AI",
       "published": "2026-06-10",
@@ -4615,6 +5211,9 @@
       "first_affiliation": "TBD",
       "first_author": "Gabriel Arslan Waltersson",
       "id": "2606.11952",
+      "keywords": [
+        "in-hand manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11952",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4649,6 +5248,10 @@
       "first_affiliation": "TBD",
       "first_author": "Aleksandar Taranovic",
       "id": "2606.11982",
+      "keywords": [
+        "reinforcement learning",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.11982",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -4677,6 +5280,9 @@
       "first_affiliation": "TBD",
       "first_author": "Frank Xiao",
       "id": "2606.12016",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12016",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -4707,6 +5313,7 @@
       "first_affiliation": "TBD",
       "first_author": "Taerim Yoon",
       "id": "2606.12027",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.12027",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4735,6 +5342,9 @@
       "first_affiliation": "TBD",
       "first_author": "Song Chen",
       "id": "2606.12028",
+      "keywords": [
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12028",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4764,6 +5374,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiming Xu",
       "id": "2606.12042",
+      "keywords": [
+        "sim-to-real",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12042",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4792,6 +5406,11 @@
       "first_affiliation": "TBD",
       "first_author": "Sebastian Stapf",
       "id": "2606.12072",
+      "keywords": [
+        "world model",
+        "reinforcement learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12072",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -4824,6 +5443,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zhilin Fu",
       "id": "2606.12078",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12078",
       "primary_category": "eess.SP",
       "published": "2026-06-10",
@@ -4855,6 +5477,13 @@
       "first_affiliation": "TBD",
       "first_author": "Chuanke Pang",
       "id": "2606.12109",
+      "keywords": [
+        "VLA",
+        "dexterous manipulation",
+        "vision-language-action",
+        "dexterous hand",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12109",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4889,6 +5518,10 @@
       "first_affiliation": "TBD",
       "first_author": "Lu Qiu",
       "id": "2606.12217",
+      "keywords": [
+        "robot manipulation",
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12217",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -4919,6 +5552,7 @@
       "first_affiliation": "TBD",
       "first_author": "Romana Qureshi",
       "id": "2606.12278",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.12278",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -4947,6 +5581,10 @@
       "first_affiliation": "TBD",
       "first_author": "Hyun Joe Jeong",
       "id": "2606.12299",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12299",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -4974,6 +5612,9 @@
       "first_affiliation": "TBD",
       "first_author": "Gege Gao",
       "id": "2606.12316",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12316",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -5007,6 +5648,10 @@
       "first_affiliation": "TBD",
       "first_author": "Balázs Gyenes",
       "id": "2606.12334",
+      "keywords": [
+        "imitation learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12334",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -5036,6 +5681,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zihang Wang",
       "id": "2606.12343",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12343",
       "primary_category": "cs.DC",
       "published": "2026-06-10",
@@ -5066,6 +5714,10 @@
       "first_affiliation": "TBD",
       "first_author": "Ria Doshi",
       "id": "2606.12352",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12352",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5098,6 +5750,12 @@
       "first_affiliation": "TBD",
       "first_author": "Adam Wei",
       "id": "2606.12365",
+      "keywords": [
+        "diffusion policy",
+        "imitation learning",
+        "dataset",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12365",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5128,6 +5786,10 @@
       "first_affiliation": "TBD",
       "first_author": "Kechun Xu",
       "id": "2606.12366",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12366",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5159,6 +5821,9 @@
       "first_affiliation": "TBD",
       "first_author": "Haoyuan Deng",
       "id": "2606.12372",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12372",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5191,6 +5856,12 @@
       "first_affiliation": "TBD",
       "first_author": "Jin Yao",
       "id": "2606.12396",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "foundation model",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12396",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -5227,6 +5898,10 @@
       "first_affiliation": "TBD",
       "first_author": "Jadelynn Dao",
       "id": "2606.12402",
+      "keywords": [
+        "embodied agent",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12402",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5258,6 +5933,12 @@
       "first_affiliation": "TBD",
       "first_author": "Zefu Lin",
       "id": "2606.12403",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12403",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5293,6 +5974,12 @@
       "first_affiliation": "TBD",
       "first_author": "Steven Oh",
       "id": "2606.12406",
+      "keywords": [
+        "policy learning",
+        "teleoperation",
+        "contact-rich manipulation",
+        "behavior cloning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12406",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5323,6 +6010,11 @@
       "first_affiliation": "TBD",
       "first_author": "Leo Xu",
       "id": "2606.12475",
+      "keywords": [
+        "VLA",
+        "imitation learning",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12475",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5355,6 +6047,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yijing Zhou",
       "id": "2606.12499",
+      "keywords": [
+        "robot manipulation",
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12499",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5382,6 +6078,10 @@
       "first_affiliation": "TBD",
       "first_author": "Pengwei Sun",
       "id": "2606.12505",
+      "keywords": [
+        "reinforcement learning",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12505",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -5413,6 +6113,10 @@
       "first_affiliation": "TBD",
       "first_author": "Arthur Zhang",
       "id": "2606.12550",
+      "keywords": [
+        "motion planning",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12550",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5443,6 +6147,9 @@
       "first_affiliation": "TBD",
       "first_author": "Tanmay Bishnoi",
       "id": "2606.12579",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12579",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5473,6 +6180,9 @@
       "first_affiliation": "TBD",
       "first_author": "Jiamin Chang",
       "id": "2606.12586",
+      "keywords": [
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12586",
       "primary_category": "cs.CR",
       "published": "2026-06-10",
@@ -5502,6 +6212,9 @@
       "first_affiliation": "TBD",
       "first_author": "Honglin He",
       "id": "2606.12603",
+      "keywords": [
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12603",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5535,6 +6248,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yangcen Liu",
       "id": "2606.12604",
+      "keywords": [
+        "dexterous manipulation",
+        "policy learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12604",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5560,6 +6277,9 @@
       "first_affiliation": "TBD",
       "first_author": "Miquel Noguer i Alonso",
       "id": "2606.12612",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12612",
       "primary_category": "q-fin.PM",
       "published": "2026-06-10",
@@ -5589,6 +6309,11 @@
       "first_affiliation": "TBD",
       "first_author": "Mahmoud Srewa",
       "id": "2606.12616",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12616",
       "primary_category": "cs.AI",
       "published": "2026-06-10",
@@ -5619,6 +6344,11 @@
       "first_affiliation": "TBD",
       "first_author": "Qingyun Guo",
       "id": "2606.12640",
+      "keywords": [
+        "reinforcement learning",
+        "offline reinforcement learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12640",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -5657,6 +6387,10 @@
       "first_affiliation": "TBD",
       "first_author": "Atindra Jha",
       "id": "2606.12688",
+      "keywords": [
+        "vision-language-action",
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12688",
       "primary_category": "cs.LG",
       "published": "2026-06-10",
@@ -5684,6 +6418,7 @@
       "first_affiliation": "TBD",
       "first_author": "Xin Zhou",
       "id": "2606.12690",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.12690",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5713,6 +6448,11 @@
       "first_affiliation": "TBD",
       "first_author": "Thach Nguyen",
       "id": "2606.12706",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12706",
       "primary_category": "cs.CV",
       "published": "2026-06-10",
@@ -5739,6 +6479,9 @@
       "first_affiliation": "TBD",
       "first_author": "Nikolos Gurney",
       "id": "2606.12721",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12721",
       "primary_category": "cs.AI",
       "published": "2026-06-10",
@@ -5768,6 +6511,9 @@
       "first_affiliation": "TBD",
       "first_author": "Clinton Enwerem",
       "id": "2606.12728",
+      "keywords": [
+        "LEAP hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12728",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5799,6 +6545,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yu Guo",
       "id": "2606.12759",
+      "keywords": [
+        "benchmark",
+        "robot manipulation",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12759",
       "primary_category": "cs.RO",
       "published": "2026-06-10",
@@ -5833,6 +6584,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yijun Ma",
       "id": "2606.12780",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12780",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -5858,6 +6613,10 @@
       "first_affiliation": "TBD",
       "first_author": "Il-Seok Oh",
       "id": "2606.12783",
+      "keywords": [
+        "world model",
+        "foundation model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12783",
       "primary_category": "cs.AI",
       "published": "2026-06-11",
@@ -5886,6 +6645,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yash Vardhan Tomar",
       "id": "2606.12808",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12808",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -5912,6 +6674,10 @@
       "first_affiliation": "TBD",
       "first_author": "Rasul Khanbayov",
       "id": "2606.12828",
+      "keywords": [
+        "reinforcement learning",
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12828",
       "primary_category": "cs.AI",
       "published": "2026-06-11",
@@ -5941,6 +6707,10 @@
       "first_affiliation": "TBD",
       "first_author": "Changye Li",
       "id": "2606.12830",
+      "keywords": [
+        "benchmark",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12830",
       "primary_category": "cs.CV",
       "published": "2026-06-11",
@@ -5969,6 +6739,9 @@
       "first_affiliation": "TBD",
       "first_author": "Woong Shin",
       "id": "2606.12834",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12834",
       "primary_category": "cs.AI",
       "published": "2026-06-11",
@@ -5995,6 +6768,9 @@
       "first_affiliation": "TBD",
       "first_author": "Renmin Cheng",
       "id": "2606.12852",
+      "keywords": [
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12852",
       "primary_category": "cs.AI",
       "published": "2026-06-11",
@@ -6028,6 +6804,10 @@
       "first_affiliation": "TBD",
       "first_author": "Jianli Sun",
       "id": "2606.12859",
+      "keywords": [
+        "VLA",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12859",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6054,6 +6834,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yuchao Dong",
       "id": "2606.12875",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12875",
       "primary_category": "math.OC",
       "published": "2026-06-11",
@@ -6082,6 +6865,9 @@
       "first_affiliation": "TBD",
       "first_author": "Aryan Naveen",
       "id": "2606.12890",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12890",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6117,6 +6903,9 @@
       "first_affiliation": "TBD",
       "first_author": "Ziyi Wang",
       "id": "2606.12908",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12908",
       "primary_category": "cs.CL",
       "published": "2026-06-11",
@@ -6148,6 +6937,10 @@
       "first_affiliation": "TBD",
       "first_author": "Allison Andreyev",
       "id": "2606.12910",
+      "keywords": [
+        "grasping",
+        "motion planning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12910",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6184,6 +6977,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zhe Liu",
       "id": "2606.12936",
+      "keywords": [
+        "benchmark",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12936",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6213,6 +7010,10 @@
       "first_affiliation": "TBD",
       "first_author": "Wei Yu",
       "id": "2606.12954",
+      "keywords": [
+        "grasping",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12954",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6242,6 +7043,12 @@
       "first_affiliation": "TBD",
       "first_author": "Sunghwan Kim",
       "id": "2606.12956",
+      "keywords": [
+        "mobile manipulation",
+        "VLA",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12956",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6271,6 +7078,10 @@
       "first_affiliation": "TBD",
       "first_author": "Shihefeng Wang",
       "id": "2606.12965",
+      "keywords": [
+        "policy learning",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12965",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6303,6 +7114,10 @@
       "first_affiliation": "TBD",
       "first_author": "Gokul Puthumanaillam",
       "id": "2606.12978",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12978",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6328,6 +7143,9 @@
       "first_affiliation": "TBD",
       "first_author": "Vedant Pandya",
       "id": "2606.12979",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12979",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -6358,6 +7176,10 @@
       "first_affiliation": "TBD",
       "first_author": "Ruslan Sharifullin",
       "id": "2606.12987",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12987",
       "primary_category": "cs.CV",
       "published": "2026-06-11",
@@ -6393,6 +7215,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zhihai Bi",
       "id": "2606.12995",
+      "keywords": [
+        "humanoid",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.12995",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6422,6 +7248,9 @@
       "first_affiliation": "TBD",
       "first_author": "Xiaotian Nie",
       "id": "2606.13005",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13005",
       "primary_category": "quant-ph",
       "published": "2026-06-11",
@@ -6456,6 +7285,9 @@
       "first_affiliation": "TBD",
       "first_author": "Dayu Xia",
       "id": "2606.13040",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13040",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6492,6 +7324,9 @@
       "first_affiliation": "TBD",
       "first_author": "Luyao Zhang",
       "id": "2606.13049",
+      "keywords": [
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13049",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6522,6 +7357,9 @@
       "first_affiliation": "TBD",
       "first_author": "Kailin Wang",
       "id": "2606.13053",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13053",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6549,6 +7387,9 @@
       "first_affiliation": "TBD",
       "first_author": "Hongbo Wang",
       "id": "2606.13092",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13092",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -6579,6 +7420,9 @@
       "first_affiliation": "TBD",
       "first_author": "Saehun Chun",
       "id": "2606.13097",
+      "keywords": [
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13097",
       "primary_category": "cs.PL",
       "published": "2026-06-11",
@@ -6620,6 +7464,10 @@
       "first_affiliation": "TBD",
       "first_author": "Chengbo Yuan",
       "id": "2606.13102",
+      "keywords": [
+        "contact-rich manipulation",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13102",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6650,6 +7498,9 @@
       "first_affiliation": "TBD",
       "first_author": "Akshay Krishnamurthy",
       "id": "2606.13125",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13125",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -6676,6 +7527,10 @@
       "first_affiliation": "TBD",
       "first_author": "Taisuke Kobayashi",
       "id": "2606.13169",
+      "keywords": [
+        "reinforcement learning",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13169",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6703,6 +7558,9 @@
       "first_affiliation": "TBD",
       "first_author": "Eshaan Tanwar",
       "id": "2606.13209",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13209",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -6745,6 +7603,11 @@
       "first_affiliation": "TBD",
       "first_author": "Jaehwi Jang",
       "id": "2606.13232",
+      "keywords": [
+        "humanoid",
+        "teleoperation",
+        "whole-body manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13232",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6773,6 +7636,13 @@
       "first_affiliation": "TBD",
       "first_author": "Yoon-Ji Choi",
       "id": "2606.13279",
+      "keywords": [
+        "bimanual manipulation",
+        "VLA",
+        "robot manipulation",
+        "policy learning",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13279",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6811,6 +7681,7 @@
       "first_affiliation": "TBD",
       "first_author": "Christian Diaz Herrera",
       "id": "2606.13352",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.13352",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6843,6 +7714,9 @@
       "first_affiliation": "TBD",
       "first_author": "Sangkyu Lee",
       "id": "2606.13355",
+      "keywords": [
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13355",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6874,6 +7748,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yang Zhou",
       "id": "2606.13376",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13376",
       "primary_category": "cs.CV",
       "published": "2026-06-11",
@@ -6923,6 +7800,9 @@
       "first_affiliation": "TBD",
       "first_author": "Karin Cescon",
       "id": "2606.13393",
+      "keywords": [
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13393",
       "primary_category": "astro-ph.GA",
       "published": "2026-06-11",
@@ -6952,6 +7832,11 @@
       "first_affiliation": "TBD",
       "first_author": "Xiangyu Zhu",
       "id": "2606.13394",
+      "keywords": [
+        "mobile manipulation",
+        "foundation model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13394",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -6983,6 +7868,10 @@
       "first_affiliation": "TBD",
       "first_author": "Pengfei Liu",
       "id": "2606.13435",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13435",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7012,6 +7901,10 @@
       "first_affiliation": "TBD",
       "first_author": "Genze Jiang",
       "id": "2606.13458",
+      "keywords": [
+        "vision-language-action",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13458",
       "primary_category": "cs.NI",
       "published": "2026-06-11",
@@ -7041,6 +7934,9 @@
       "first_affiliation": "TBD",
       "first_author": "Ruiqi Xian",
       "id": "2606.13460",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13460",
       "primary_category": "cs.CV",
       "published": "2026-06-11",
@@ -7075,6 +7971,10 @@
       "first_affiliation": "TBD",
       "first_author": "Daichi Azuma",
       "id": "2606.13494",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13494",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7122,6 +8022,11 @@
       "first_affiliation": "TBD",
       "first_author": "Baochang Ren",
       "id": "2606.13578",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13578",
       "primary_category": "cs.CL",
       "published": "2026-06-11",
@@ -7149,6 +8054,9 @@
       "first_affiliation": "TBD",
       "first_author": "Haosen Yang",
       "id": "2606.13601",
+      "keywords": [
+        "dexterous manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13601",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7180,6 +8088,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yashdeep Chaudhary",
       "id": "2606.13605",
+      "keywords": [
+        "reinforcement learning",
+        "trajectory optimization",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13605",
       "primary_category": "math.OC",
       "published": "2026-06-11",
@@ -7206,6 +8119,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zach Studdiford",
       "id": "2606.13607",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13607",
       "primary_category": "cs.AI",
       "published": "2026-06-11",
@@ -7237,6 +8153,9 @@
       "first_affiliation": "TBD",
       "first_author": "Hongliang Tian",
       "id": "2606.13642",
+      "keywords": [
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13642",
       "primary_category": "gr-qc",
       "published": "2026-06-11",
@@ -7266,6 +8185,10 @@
       "first_affiliation": "TBD",
       "first_author": "Arnav Kumar Jain",
       "id": "2606.13672",
+      "keywords": [
+        "world model",
+        "foundation model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13672",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7299,6 +8222,9 @@
       "first_affiliation": "TBD",
       "first_author": "Junke Wang",
       "id": "2606.13674",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13674",
       "primary_category": "cs.CV",
       "published": "2026-06-11",
@@ -7328,6 +8254,10 @@
       "first_affiliation": "TBD",
       "first_author": "Andy Tang",
       "id": "2606.13675",
+      "keywords": [
+        "dataset",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13675",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7360,6 +8290,14 @@
       "first_affiliation": "TBD",
       "first_author": "Zhao-Heng Yin",
       "id": "2606.13677",
+      "keywords": [
+        "dexterous manipulation",
+        "grasping",
+        "sim-to-real",
+        "motion planning",
+        "reinforcement learning",
+        "in-hand manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13677",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7390,6 +8328,9 @@
       "first_affiliation": "TBD",
       "first_author": "Russ Islam",
       "id": "2606.13721",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13721",
       "primary_category": "cond-mat.soft",
       "published": "2026-06-11",
@@ -7425,6 +8366,10 @@
       "first_affiliation": "TBD",
       "first_author": "Seungjae Lee",
       "id": "2606.13769",
+      "keywords": [
+        "world model",
+        "VLA"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13769",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7455,6 +8400,9 @@
       "first_affiliation": "TBD",
       "first_author": "Haozhe Jiang",
       "id": "2606.13795",
+      "keywords": [
+        "diffusion policy"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13795",
       "primary_category": "cs.LG",
       "published": "2026-06-11",
@@ -7484,6 +8432,9 @@
       "first_affiliation": "TBD",
       "first_author": "Yitao Jiang",
       "id": "2606.13817",
+      "keywords": [
+        "world model"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13817",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7512,6 +8463,10 @@
       "first_affiliation": "TBD",
       "first_author": "Jose Luis Lima de Jesus Silva",
       "id": "2606.13832",
+      "keywords": [
+        "reinforcement learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13832",
       "primary_category": "cs.MA",
       "published": "2026-06-11",
@@ -7543,6 +8498,10 @@
       "first_affiliation": "TBD",
       "first_author": "Senkang Hu",
       "id": "2606.13840",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13840",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7570,6 +8529,10 @@
       "first_affiliation": "TBD",
       "first_author": "Hongyu Zhou",
       "id": "2606.13842",
+      "keywords": [
+        "policy learning",
+        "sim-to-real"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13842",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7597,6 +8560,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zacharias Veiksaar",
       "id": "2606.13848",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13848",
       "primary_category": "cs.NI",
       "published": "2026-06-11",
@@ -7623,6 +8589,11 @@
       "first_affiliation": "TBD",
       "first_author": "Jeffrin Sam",
       "id": "2606.13856",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13856",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7656,6 +8627,12 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiyuan Zhang",
       "id": "2606.13877",
+      "keywords": [
+        "world model",
+        "contact-rich manipulation",
+        "tactile sensing",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13877",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7687,6 +8664,10 @@
       "first_affiliation": "TBD",
       "first_author": "Namai Chandra",
       "id": "2606.13886",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13886",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7715,6 +8696,9 @@
       "first_affiliation": "TBD",
       "first_author": "Zexin Li",
       "id": "2606.13891",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13891",
       "primary_category": "eess.SY",
       "published": "2026-06-11",
@@ -7744,6 +8728,9 @@
       "first_affiliation": "TBD",
       "first_author": "Ziqing Wang",
       "id": "2606.13940",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13940",
       "primary_category": "cs.CL",
       "published": "2026-06-11",
@@ -7775,6 +8762,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zhitian Zhang",
       "id": "2606.13970",
+      "keywords": [
+        "dataset",
+        "robot manipulation"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.13970",
       "primary_category": "cs.RO",
       "published": "2026-06-11",
@@ -7806,6 +8797,10 @@
       "first_affiliation": "TBD",
       "first_author": "Xiangyu Huang",
       "id": "2606.14010",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14010",
       "primary_category": "cs.CV",
       "published": "2026-06-12",
@@ -7840,6 +8835,10 @@
       "first_affiliation": "TBD",
       "first_author": "Zhiyuan Zhang",
       "id": "2606.14058",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14058",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -7871,6 +8870,11 @@
       "first_affiliation": "TBD",
       "first_author": "Yao-Ting Huang",
       "id": "2606.14083",
+      "keywords": [
+        "teleoperation",
+        "force feedback",
+        "learning from demonstration"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14083",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -7916,6 +8920,12 @@
       "first_affiliation": "TBD",
       "first_author": "Duc Minh Nguyen",
       "id": "2606.14084",
+      "keywords": [
+        "VLA",
+        "vision-language-action",
+        "benchmark",
+        "dataset"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14084",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -7945,6 +8955,9 @@
       "first_affiliation": "TBD",
       "first_author": "Omar Adalat",
       "id": "2606.14130",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14130",
       "primary_category": "cs.LG",
       "published": "2026-06-12",
@@ -7970,6 +8983,9 @@
       "first_affiliation": "TBD",
       "first_author": "Lin Feng",
       "id": "2606.14136",
+      "keywords": [
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14136",
       "primary_category": "eess.SY",
       "published": "2026-06-12",
@@ -7997,6 +9013,10 @@
       "first_affiliation": "TBD",
       "first_author": "Qingping Zeng",
       "id": "2606.14153",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14153",
       "primary_category": "cs.CV",
       "published": "2026-06-12",
@@ -8030,6 +9050,7 @@
       "first_affiliation": "TBD",
       "first_author": "Wei-Chen Li",
       "id": "2606.14188",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.14188",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8066,6 +9087,11 @@
       "first_affiliation": "TBD",
       "first_author": "Litian Liang",
       "id": "2606.14218",
+      "keywords": [
+        "teleoperation",
+        "mobile manipulation",
+        "force feedback"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14218",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8094,6 +9120,10 @@
       "first_affiliation": "TBD",
       "first_author": "Abhinaw Priyadershi",
       "id": "2606.14238",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14238",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8132,6 +9162,10 @@
       "first_affiliation": "TBD",
       "first_author": "Tingyang Chen",
       "id": "2606.14249",
+      "keywords": [
+        "reinforcement learning",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14249",
       "primary_category": "cs.AI",
       "published": "2026-06-12",
@@ -8163,6 +9197,10 @@
       "first_affiliation": "TBD",
       "first_author": "Hao Wu",
       "id": "2606.14250",
+      "keywords": [
+        "dexterous hand",
+        "grasping"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14250",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8191,6 +9229,12 @@
       "first_affiliation": "TBD",
       "first_author": "Yanzhao Guo",
       "id": "2606.14255",
+      "keywords": [
+        "VLA",
+        "robot manipulation",
+        "vision-language-action",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14255",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8222,6 +9266,10 @@
       "first_affiliation": "TBD",
       "first_author": "Weiqi Huang",
       "id": "2606.14267",
+      "keywords": [
+        "dataset",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14267",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8256,6 +9304,10 @@
       "first_affiliation": "TBD",
       "first_author": "Haidong Hou",
       "id": "2606.14270",
+      "keywords": [
+        "humanoid",
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14270",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8287,6 +9339,7 @@
       "first_affiliation": "TBD",
       "first_author": "Zohar Rimon",
       "id": "2606.14344",
+      "keywords": [],
       "pdf_url": "https://arxiv.org/pdf/2606.14344",
       "primary_category": "cs.LG",
       "published": "2026-06-12",
@@ -8327,6 +9380,12 @@
       "first_affiliation": "TBD",
       "first_author": "Ge Wang",
       "id": "2606.14375",
+      "keywords": [
+        "VLA",
+        "reinforcement learning",
+        "robot manipulation",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14375",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8381,6 +9440,10 @@
       "first_affiliation": "TBD",
       "first_author": "He Zhang",
       "id": "2606.14409",
+      "keywords": [
+        "VLA",
+        "vision-language-action"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14409",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8411,6 +9474,12 @@
       "first_affiliation": "TBD",
       "first_author": "Rodion Vakhitov",
       "id": "2606.14418",
+      "keywords": [
+        "model-based reinforcement learning",
+        "reinforcement learning",
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14418",
       "primary_category": "cs.AI",
       "published": "2026-06-12",
@@ -8439,6 +9508,11 @@
       "first_affiliation": "TBD",
       "first_author": "Władysław Pałucki",
       "id": "2606.14433",
+      "keywords": [
+        "dataset",
+        "reinforcement learning",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14433",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8469,6 +9543,10 @@
       "first_affiliation": "TBD",
       "first_author": "Seoyoon Kim",
       "id": "2606.14535",
+      "keywords": [
+        "diffusion policy",
+        "imitation learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14535",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8498,6 +9576,9 @@
       "first_affiliation": "TBD",
       "first_author": "Kai S. Yun",
       "id": "2606.14536",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14536",
       "primary_category": "cs.LG",
       "published": "2026-06-12",
@@ -8527,6 +9608,10 @@
       "first_affiliation": "TBD",
       "first_author": "Francesco Capuano",
       "id": "2606.14561",
+      "keywords": [
+        "teleoperation",
+        "dexterous hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14561",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8556,6 +9641,10 @@
       "first_affiliation": "TBD",
       "first_author": "Xiaoxin Lu",
       "id": "2606.14574",
+      "keywords": [
+        "world model",
+        "benchmark"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14574",
       "primary_category": "cs.CL",
       "published": "2026-06-12",
@@ -8585,6 +9674,9 @@
       "first_affiliation": "TBD",
       "first_author": "Shadi Heenatigala",
       "id": "2606.14601",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14601",
       "primary_category": "cs.LG",
       "published": "2026-06-12",
@@ -8611,6 +9703,10 @@
       "first_affiliation": "TBD",
       "first_author": "Yongyan Cao",
       "id": "2606.14606",
+      "keywords": [
+        "dexterous hand",
+        "LEAP hand"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14606",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8642,6 +9738,9 @@
       "first_affiliation": "TBD",
       "first_author": "Chufei Yan",
       "id": "2606.14609",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14609",
       "primary_category": "cs.RO",
       "published": "2026-06-12",
@@ -8679,6 +9778,9 @@
       "first_affiliation": "TBD",
       "first_author": "Jixuan Chen",
       "id": "2606.14674",
+      "keywords": [
+        "embodied agent"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14674",
       "primary_category": "cs.CL",
       "published": "2026-06-12",
@@ -8711,6 +9813,9 @@
       "first_affiliation": "TBD",
       "first_author": "Pengxin Wang",
       "id": "2606.14693",
+      "keywords": [
+        "reinforcement learning"
+      ],
       "pdf_url": "https://arxiv.org/pdf/2606.14693",
       "primary_category": "cs.MA",
       "published": "2026-06-12",
@@ -8722,5 +9827,5 @@
       "updated": "2026-06-12"
     }
   },
-  "updated_at": "2026-06-15T07:54:35.094805+00:00"
+  "updated_at": "2026-06-15T08:02:58.589746+00:00"
 }

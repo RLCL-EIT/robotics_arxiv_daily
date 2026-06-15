@@ -65,6 +65,19 @@ def authors_to_text(authors: list[arxiv.Result.Author], max_authors: int = 4) ->
     return ", ".join(names[:max_authors]) + " et al."
 
 
+def extract_keywords(title: str, summary: str, vocabulary: list[str], max_keywords: int) -> list[str]:
+    text = f"{title} {summary}".lower()
+    scored = []
+    for phrase in vocabulary:
+        phrase_lower = phrase.lower()
+        count = text.count(phrase_lower)
+        if count:
+            first_pos = text.find(phrase_lower)
+            scored.append((count, -first_pos, len(phrase), phrase))
+    scored.sort(reverse=True)
+    return [phrase for _, _, _, phrase in scored[:max_keywords]]
+
+
 def http_get_json(url: str, params: dict[str, Any] | None = None, timeout: int = 5) -> Any | None:
     headers = dict(HTTP_HEADERS)
     try:
@@ -181,23 +194,32 @@ def enrich_code_links(data: dict[str, Any], max_papers: int, max_github_queries:
         github_queries += 3
 
 
-def paper_to_record(result: arxiv.Result, topic: str, unknown: str) -> dict[str, Any]:
+def paper_to_record(
+    result: arxiv.Result,
+    topic: str,
+    unknown: str,
+    keyword_vocabulary: list[str],
+    max_keywords: int,
+) -> dict[str, Any]:
     arxiv_id = normalize_arxiv_id(result.get_short_id())
     published = result.published.date().isoformat() if result.published else ""
     updated = result.updated.date().isoformat() if result.updated else published
     authors = [str(author) for author in result.authors]
+    title = normalize_text(result.title)
+    summary = normalize_text(result.summary)
 
     return {
         "id": arxiv_id,
         "topic_hits": [topic],
-        "title": normalize_text(result.title),
+        "title": title,
         "authors": authors,
         "authors_display": authors_to_text(result.authors),
         "first_author": authors[0] if authors else "",
         "corresponding_author": unknown,
         "first_affiliation": unknown,
         "code_url": "",
-        "summary": normalize_text(result.summary),
+        "keywords": extract_keywords(title, summary, keyword_vocabulary, max_keywords),
+        "summary": summary,
         "primary_category": result.primary_category,
         "categories": list(result.categories or []),
         "published": published,
@@ -208,7 +230,13 @@ def paper_to_record(result: arxiv.Result, topic: str, unknown: str) -> dict[str,
     }
 
 
-def fetch_topic(topic: dict[str, Any], max_results: int, unknown: str) -> list[dict[str, Any]]:
+def fetch_topic(
+    topic: dict[str, Any],
+    max_results: int,
+    unknown: str,
+    keyword_vocabulary: list[str],
+    max_keywords: int,
+) -> list[dict[str, Any]]:
     client = arxiv.Client(page_size=min(max_results, 100), delay_seconds=3, num_retries=3)
     search = arxiv.Search(
         query=topic["query"],
@@ -217,7 +245,7 @@ def fetch_topic(topic: dict[str, Any], max_results: int, unknown: str) -> list[d
     )
     records = []
     for result in client.results(search):
-        records.append(paper_to_record(result, topic["name"], unknown))
+        records.append(paper_to_record(result, topic["name"], unknown, keyword_vocabulary, max_keywords))
     return records
 
 
@@ -255,26 +283,18 @@ def markdown_escape(value: str) -> str:
     return html.escape(value or "", quote=False).replace("|", "\\|")
 
 
-def compact_text(value: str, limit: int) -> str:
-    value = normalize_text(value)
-    if len(value) <= limit:
-        return value
-    return value[: max(0, limit - 1)].rstrip() + "..."
-
-
 def topic_table(
     topic: str,
     papers: list[dict[str, Any]],
     show_corr: bool,
     show_aff: bool,
-    abstract_chars: int,
 ) -> str:
     columns = ["Date", "Title"]
     if show_corr:
         columns.append("Corresponding")
     if show_aff:
         columns.append("First Affiliation")
-    columns.extend(["Paper", "Code", "Category", "Abstract"])
+    columns.extend(["Keywords", "Paper", "Code"])
 
     lines = [
         f"## {topic}",
@@ -293,12 +313,12 @@ def topic_table(
         if show_aff:
             row.append(markdown_escape(paper.get("first_affiliation", "")))
         code_url = paper.get("code_url") or ""
+        keywords = ", ".join(paper.get("keywords", []))
         row.extend(
             [
+                markdown_escape(keywords),
                 f"[abs]({paper['arxiv_url']}) / [pdf]({paper['pdf_url']})",
                 f"[repo]({code_url})" if code_url else "",
-                markdown_escape(paper.get("primary_category", "")),
-                markdown_escape(compact_text(paper.get("summary", ""), abstract_chars)),
             ]
         )
         lines.append("|" + "|".join(row) + "|")
@@ -313,7 +333,6 @@ def render_markdown(config: dict[str, Any], data: dict[str, Any], docs: bool = F
     updated = dt.date.today().isoformat()
     show_corr = bool(config["metadata"].get("show_corresponding_author", True))
     show_aff = bool(config["metadata"].get("show_first_affiliation", True))
-    abstract_chars = int(config["site"].get("abstract_chars", 320))
     topics = [topic["name"] for topic in config["topics"]]
     papers = list(data.get("papers", {}).values())
     papers.sort(key=lambda paper: (paper.get("updated", ""), paper.get("id", "")), reverse=True)
@@ -343,6 +362,7 @@ def render_markdown(config: dict[str, Any], data: dict[str, Any], docs: bool = F
             "",
             "arXiv metadata does not reliably provide corresponding authors or affiliations. "
             "Those columns are intentionally marked `TBD` unless manually curated or enriched by a later parser. "
+            "Keywords are extracted from each paper title and abstract with a domain vocabulary. "
             "The code column is a conservative best-effort GitHub lookup and may be blank when no likely official repository is found.",
             "",
         ]
@@ -351,7 +371,7 @@ def render_markdown(config: dict[str, Any], data: dict[str, Any], docs: bool = F
     for topic in topics:
         topic_papers = [paper for paper in papers if topic in paper.get("topic_hits", [])]
         if topic_papers:
-            lines.append(topic_table(topic, topic_papers, show_corr, show_aff, abstract_chars))
+            lines.append(topic_table(topic, topic_papers, show_corr, show_aff))
 
     return "\n".join(lines).rstrip() + "\n"
 
@@ -368,11 +388,14 @@ def main() -> None:
 
     max_results = int(config["site"].get("max_results_per_topic", 50))
     unknown = config["metadata"].get("unknown_value", "TBD")
+    keyword_config = config.get("keyword_extraction", {})
+    keyword_vocabulary = list(keyword_config.get("vocabulary", []))
+    max_keywords = int(keyword_config.get("max_keywords", config["site"].get("max_keywords", 6)))
     fetched: list[dict[str, Any]] = []
 
     for topic in config["topics"]:
         print(f"Fetching {topic['name']}...")
-        fetched.extend(fetch_topic(topic, max_results, unknown))
+        fetched.extend(fetch_topic(topic, max_results, unknown, keyword_vocabulary, max_keywords))
 
     data = merge_records(data, fetched)
     clean_code_links(data)

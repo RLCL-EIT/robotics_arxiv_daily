@@ -3,7 +3,7 @@ site:
   description: "Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI."
   max_results_per_topic: 60
   keep_days: 90
-  abstract_chars: 220
+  max_keywords: 6
 
 output:
   data: "data/papers.json"
@@ -21,6 +21,45 @@ code_search:
   enabled: true
   max_papers_per_run: 30
   github_max_queries_per_run: 20
+
+keyword_extraction:
+  max_keywords: 6
+  vocabulary:
+    - "dexterous hand"
+    - "dexterous manipulation"
+    - "in-hand manipulation"
+    - "robot manipulation"
+    - "contact-rich manipulation"
+    - "bimanual manipulation"
+    - "whole-body manipulation"
+    - "mobile manipulation"
+    - "grasping"
+    - "grasp synthesis"
+    - "reinforcement learning"
+    - "offline reinforcement learning"
+    - "model-based reinforcement learning"
+    - "imitation learning"
+    - "behavior cloning"
+    - "learning from demonstration"
+    - "diffusion policy"
+    - "sim-to-real"
+    - "tactile sensing"
+    - "visuo-tactile"
+    - "haptic feedback"
+    - "force feedback"
+    - "teleoperation"
+    - "vision-language-action"
+    - "VLA"
+    - "world model"
+    - "embodied agent"
+    - "foundation model"
+    - "humanoid"
+    - "LEAP hand"
+    - "policy learning"
+    - "trajectory optimization"
+    - "motion planning"
+    - "dataset"
+    - "benchmark"
 
 topics:
   - name: "Dexterous Hand"
