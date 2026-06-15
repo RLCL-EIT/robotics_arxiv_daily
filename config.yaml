@@ -3,7 +3,7 @@ site:
   description: "Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI."
   max_results_per_topic: 60
   keep_days: 90
-  abstract_chars: 320
+  abstract_chars: 220
 
 output:
   data: "data/papers.json"
@@ -16,6 +16,11 @@ metadata:
   show_corresponding_author: true
   show_first_affiliation: true
   unknown_value: "TBD"
+
+code_search:
+  enabled: true
+  max_papers_per_run: 30
+  github_max_queries_per_run: 20
 
 topics:
   - name: "Dexterous Hand"

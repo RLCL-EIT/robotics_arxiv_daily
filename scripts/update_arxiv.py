@@ -8,12 +8,27 @@ import json
 import re
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import arxiv
+import requests
 import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
+GITHUB_SEARCH_REPOS = "https://api.github.com/search/repositories"
+HTTP_HEADERS = {"User-Agent": "robotics-arxiv-daily/0.1"}
+AGGREGATOR_REPO_PATTERNS = (
+    "arxiv",
+    "daily",
+    "awesome",
+    "hub",
+    "paper",
+    "papers",
+    "survey",
+    "reading",
+    "literature",
+)
 
 
 def load_config(path: Path) -> dict[str, Any]:
@@ -50,6 +65,122 @@ def authors_to_text(authors: list[arxiv.Result.Author], max_authors: int = 4) ->
     return ", ".join(names[:max_authors]) + " et al."
 
 
+def http_get_json(url: str, params: dict[str, Any] | None = None, timeout: int = 5) -> Any | None:
+    headers = dict(HTTP_HEADERS)
+    try:
+        response = requests.get(url, headers=headers, params=params, timeout=timeout)
+        if response.status_code != 200:
+            return None
+        return response.json()
+    except requests.RequestException:
+        return None
+
+
+def normalized_tokens(value: str) -> set[str]:
+    return {token for token in re.split(r"[^a-z0-9]+", value.lower()) if len(token) >= 3}
+
+
+def title_signature(title: str) -> set[str]:
+    tokens = normalized_tokens(title)
+    signatures = set(tokens)
+    for match in re.finditer(r"\b[A-Z][A-Z0-9-]{2,}\b", title):
+        signatures.add(match.group(0).lower().replace("-", ""))
+    return signatures
+
+
+def repo_name_matches_title(full_name: str, title: str) -> bool:
+    repo_name = full_name.split("/")[-1]
+    repo_tokens = normalized_tokens(repo_name)
+    signatures = title_signature(title)
+    if repo_tokens & signatures:
+        return True
+    compact_repo = re.sub(r"[^a-z0-9]", "", repo_name.lower())
+    return bool(compact_repo and compact_repo in signatures)
+
+
+def is_probable_code_repo(full_name: str, description: str = "", title: str = "") -> bool:
+    full_name_lower = full_name.lower()
+    description_lower = description.lower()
+    if any(pattern in full_name_lower for pattern in AGGREGATOR_REPO_PATTERNS):
+        return False
+    if "daily dose" in description_lower or "paper list" in description_lower:
+        return False
+    if title and not repo_name_matches_title(full_name, title):
+        return False
+    return True
+
+
+def is_valid_code_url(url: str, title: str = "") -> bool:
+    if not url:
+        return False
+    parsed = urlparse(url)
+    if parsed.netloc.lower() != "github.com":
+        return False
+    parts = [part for part in parsed.path.split("/") if part]
+    if len(parts) < 2:
+        return False
+    return is_probable_code_repo("/".join(parts[:2]), title=title)
+
+
+def clean_code_links(data: dict[str, Any]) -> None:
+    for paper in data.get("papers", {}).values():
+        if not is_valid_code_url(paper.get("code_url", ""), paper.get("title", "")):
+            paper["code_url"] = ""
+            paper.pop("code_url_source", None)
+
+
+def find_github_code_link(title: str, arxiv_id: str) -> str:
+    title_query = normalize_text(title)
+    title_head = " ".join(title_query.split()[:8])
+    queries = [
+        f"\"{title_query}\" in:readme,description",
+        f"\"{title_head}\" \"{arxiv_id}\" in:readme,description",
+        f"\"{arxiv_id}\" in:readme,description",
+    ]
+    for query in queries:
+        data = http_get_json(
+            GITHUB_SEARCH_REPOS,
+            params={"q": query, "sort": "stars", "order": "desc", "per_page": 5},
+        )
+        if not isinstance(data, dict):
+            continue
+        for item in data.get("items", []) or []:
+            full_name = item.get("full_name", "")
+            description = item.get("description") or ""
+            url = item.get("html_url", "")
+            if is_probable_code_repo(full_name, description, title) and is_valid_code_url(url, title):
+                return url
+    return ""
+
+
+def enrich_code_links(data: dict[str, Any], max_papers: int, max_github_queries: int) -> None:
+    github_queries = 0
+    checked_papers = 0
+    papers = sorted(
+        data.get("papers", {}).values(),
+        key=lambda paper: (paper.get("updated", ""), paper.get("id", "")),
+        reverse=True,
+    )
+    for paper in papers:
+        if paper.get("code_url"):
+            continue
+        if checked_papers >= max_papers:
+            break
+        checked_papers += 1
+
+        arxiv_id = paper["id"]
+        paper["code_url"] = ""
+        if paper["code_url"]:
+            continue
+
+        if github_queries >= max_github_queries:
+            continue
+        paper["code_url"] = find_github_code_link(paper["title"], arxiv_id)
+        if paper["code_url"]:
+            paper["code_url_source"] = "github_search"
+        github_queries += 3
+
+
 def paper_to_record(result: arxiv.Result, topic: str, unknown: str) -> dict[str, Any]:
     arxiv_id = normalize_arxiv_id(result.get_short_id())
     published = result.published.date().isoformat() if result.published else ""
@@ -65,6 +196,7 @@ def paper_to_record(result: arxiv.Result, topic: str, unknown: str) -> dict[str,
         "first_author": authors[0] if authors else "",
         "corresponding_author": unknown,
         "first_affiliation": unknown,
+        "code_url": "",
         "summary": normalize_text(result.summary),
         "primary_category": result.primary_category,
         "categories": list(result.categories or []),
@@ -98,7 +230,7 @@ def merge_records(existing: dict[str, Any], new_records: list[dict[str, Any]]) -
             old_topics.update(record.get("topic_hits", []))
             record["topic_hits"] = sorted(old_topics)
             # Keep manually curated metadata if it was filled in later.
-            for key in ("corresponding_author", "first_affiliation"):
+            for key in ("corresponding_author", "first_affiliation", "code_url"):
                 old_value = papers[paper_id].get(key)
                 if old_value and old_value != "TBD":
                     record[key] = old_value
@@ -137,12 +269,12 @@ def topic_table(
     show_aff: bool,
     abstract_chars: int,
 ) -> str:
-    columns = ["Date", "Title", "Authors", "PDF"]
+    columns = ["Date", "Title"]
     if show_corr:
         columns.append("Corresponding")
     if show_aff:
         columns.append("First Affiliation")
-    columns.extend(["Category", "Abstract"])
+    columns.extend(["Paper", "Code", "Category", "Abstract"])
 
     lines = [
         f"## {topic}",
@@ -155,15 +287,16 @@ def topic_table(
         row = [
             f"**{paper.get('updated') or paper.get('published', '')}**",
             f"**{markdown_escape(paper['title'])}**",
-            markdown_escape(paper.get("authors_display", "")),
-            f"[{paper['id']}]({paper['arxiv_url']}) / [pdf]({paper['pdf_url']})",
         ]
         if show_corr:
             row.append(markdown_escape(paper.get("corresponding_author", "")))
         if show_aff:
             row.append(markdown_escape(paper.get("first_affiliation", "")))
+        code_url = paper.get("code_url") or ""
         row.extend(
             [
+                f"[abs]({paper['arxiv_url']}) / [pdf]({paper['pdf_url']})",
+                f"[repo]({code_url})" if code_url else "",
                 markdown_escape(paper.get("primary_category", "")),
                 markdown_escape(compact_text(paper.get("summary", ""), abstract_chars)),
             ]
@@ -209,7 +342,8 @@ def render_markdown(config: dict[str, Any], data: dict[str, Any], docs: bool = F
             "## Metadata Note",
             "",
             "arXiv metadata does not reliably provide corresponding authors or affiliations. "
-            "Those columns are intentionally marked `TBD` unless manually curated or enriched by a later parser.",
+            "Those columns are intentionally marked `TBD` unless manually curated or enriched by a later parser. "
+            "The code column is a conservative best-effort GitHub lookup and may be blank when no likely official repository is found.",
             "",
         ]
     )
@@ -241,6 +375,13 @@ def main() -> None:
         fetched.extend(fetch_topic(topic, max_results, unknown))
 
     data = merge_records(data, fetched)
+    clean_code_links(data)
+    if config.get("code_search", {}).get("enabled", True):
+        enrich_code_links(
+            data,
+            int(config.get("code_search", {}).get("max_papers_per_run", 30)),
+            int(config.get("code_search", {}).get("github_max_queries_per_run", 20)),
+        )
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
     data = prune_old(data, int(config["site"].get("keep_days", 90)))
     write_json(data_path, data)
