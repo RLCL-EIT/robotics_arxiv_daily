@@ -14,7 +14,7 @@ metadata:
   # arXiv API does not expose corresponding authors or affiliations.
   # These fields are kept explicit so the table does not pretend to know them.
   show_corresponding_author: true
-  show_first_affiliation: true
+  show_first_affiliation: false
   unknown_value: "TBD"
 
 code_search:

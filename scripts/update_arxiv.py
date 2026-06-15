@@ -215,7 +215,7 @@ def paper_to_record(
         "authors": authors,
         "authors_display": authors_to_text(result.authors),
         "first_author": authors[0] if authors else "",
-        "corresponding_author": unknown,
+        "corresponding_author": authors[-1] if authors else unknown,
         "first_affiliation": unknown,
         "code_url": "",
         "keywords": extract_keywords(title, summary, keyword_vocabulary, max_keywords),
@@ -258,7 +258,7 @@ def merge_records(existing: dict[str, Any], new_records: list[dict[str, Any]]) -
             old_topics.update(record.get("topic_hits", []))
             record["topic_hits"] = sorted(old_topics)
             # Keep manually curated metadata if it was filled in later.
-            for key in ("corresponding_author", "first_affiliation", "code_url"):
+            for key in ("corresponding_author", "code_url"):
                 old_value = papers[paper_id].get(key)
                 if old_value and old_value != "TBD":
                     record[key] = old_value
@@ -360,8 +360,7 @@ def render_markdown(config: dict[str, Any], data: dict[str, Any], docs: bool = F
         [
             "## Metadata Note",
             "",
-            "arXiv metadata does not reliably provide corresponding authors or affiliations. "
-            "Those columns are intentionally marked `TBD` unless manually curated or enriched by a later parser. "
+            "Corresponding author is approximated as the last author from arXiv metadata unless manually curated. "
             "Keywords are extracted from each paper title and abstract with a domain vocabulary. "
             "The code column is a conservative best-effort GitHub lookup and may be blank when no likely official repository is found.",
             "",
