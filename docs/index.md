@@ -7,7 +7,7 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-06-21**.
+Updated on **2026-06-22**.
 
 ## Topics
 
