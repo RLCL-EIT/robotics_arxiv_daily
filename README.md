@@ -2,7 +2,7 @@
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-06-26**.
+Updated on **2026-06-27**.
 
 ## Topics
 
