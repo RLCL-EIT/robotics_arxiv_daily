@@ -35940,7 +35940,8 @@
       "categories": [
         "cs.CV"
       ],
-      "code_url": "",
+      "code_url": "https://github.com/yimingc9/PhysiFormer",
+      "code_url_source": "github_search",
       "comment": "Project page: https://yimingc9.github.io/physiformer",
       "corresponding_author": "Andrea Vedaldi",
       "first_affiliation": "TBD",
@@ -36043,5 +36044,5 @@
       "updated": "2026-06-25"
     }
   },
-  "updated_at": "2026-06-27T04:45:49.408315+00:00"
+  "updated_at": "2026-06-28T05:13:16.193970+00:00"
 }

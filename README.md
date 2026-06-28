@@ -2,7 +2,7 @@
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-06-27**.
+Updated on **2026-06-28**.
 
 ## Topics
 
@@ -1049,7 +1049,7 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
 |**2026-06-25**|**Scalable Behavior Cloning with Open Data, Training, and Evaluation**|Angjoo Kanazawa|behavior cloning, teleoperation, dataset, vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.27375) / [pdf](https://arxiv.org/pdf/2606.27375)||
-|**2026-06-25**|**PhysiFormer: Learning to Simulate Mechanics in World Space**|Andrea Vedaldi|world model|[abs](https://arxiv.org/abs/2606.27364) / [pdf](https://arxiv.org/pdf/2606.27364)||
+|**2026-06-25**|**PhysiFormer: Learning to Simulate Mechanics in World Space**|Andrea Vedaldi|world model|[abs](https://arxiv.org/abs/2606.27364) / [pdf](https://arxiv.org/pdf/2606.27364)|[repo](https://github.com/yimingc9/PhysiFormer)|
 |**2026-06-25**|**RouterVLA: Turning Smoke Tests into Supervision for Heterogeneous VLA Selection**|Youran Sun|VLA, vision-language-action|[abs](https://arxiv.org/abs/2606.27355) / [pdf](https://arxiv.org/pdf/2606.27355)||
 |**2026-06-25**|**Hallucination in World Models is Predictable and Preventable**|Xiaolong Wang|world model, dataset|[abs](https://arxiv.org/abs/2606.27326) / [pdf](https://arxiv.org/pdf/2606.27326)||
 |**2026-06-25**|**Not All Actions Are Equal: Rethinking Conditioning for Dexterous World Model**|Renjing Xu|world model|[abs](https://arxiv.org/abs/2606.27325) / [pdf](https://arxiv.org/pdf/2606.27325)||
