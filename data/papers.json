@@ -46410,7 +46410,6 @@
         "cs.OS"
       ],
       "code_url": "https://github.com/SEU-PAISys/Embodied.cpp",
-      "code_url_source": "github_search",
       "comment": "12 pages, 2 figures, Project website: https://github.com/SEU-PAISys/Embodied.cpp",
       "corresponding_author": "Shuai Wang",
       "first_affiliation": "TBD",
@@ -46491,7 +46490,6 @@
         "cs.CV"
       ],
       "code_url": "https://github.com/pPetrichor/WorldDirector",
-      "code_url_source": "github_search",
       "comment": "Project Page: https://worlddirector.github.io/",
       "corresponding_author": "Qifeng Chen",
       "first_affiliation": "TBD",
@@ -46511,5 +46509,5 @@
       "updated": "2026-07-02"
     }
   },
-  "updated_at": "2026-07-04T04:29:50.088740+00:00"
+  "updated_at": "2026-07-05T04:52:34.134682+00:00"
 }
