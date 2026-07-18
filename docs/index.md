@@ -7,7 +7,7 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-07-17**.
+Updated on **2026-07-18**.
 
 ## Topics
 
@@ -685,7 +685,7 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
-|**2026-07-16**|**SciPhy Reinforcement Learning for Portfolio Optimization**|Andrey Itkin|reinforcement learning|[abs](https://arxiv.org/abs/2607.15195) / [pdf](https://arxiv.org/pdf/2607.15195)||
+|**2026-07-16**|**SciPhy Reinforcement Learning for Portfolio Optimization**|Andrey Itkin|reinforcement learning|[abs](https://arxiv.org/abs/2607.15195) / [pdf](https://arxiv.org/pdf/2607.15195)|[repo](https://github.com/mmiliukas/portfolio)|
 |**2026-07-16**|**Goal-Oriented Semantic Communication for Distributed ISAC-Enabled Vehicle Coordination**|Yansha Deng||[abs](https://arxiv.org/abs/2607.15111) / [pdf](https://arxiv.org/pdf/2607.15111)||
 |**2026-07-16**|**SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment**|Jose Luis Sanchez-Lopez|foundation model, sim-to-real, dataset, benchmark|[abs](https://arxiv.org/abs/2607.15058) / [pdf](https://arxiv.org/pdf/2607.15058)||
 |**2026-07-16**|**CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking**|Kangli Wang|VLA, vision-language-action, reinforcement learning|[abs](https://arxiv.org/abs/2607.15004) / [pdf](https://arxiv.org/pdf/2607.15004)||
