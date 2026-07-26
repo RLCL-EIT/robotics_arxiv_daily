@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-07-25**.
+Updated on **2026-07-26**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (196)
+- [Dexterous Hand](#dexterous-hand) (194)
 - [Manipulation](#manipulation) (506)
 - [Reinforcement Learning](#reinforcement-learning) (711)
 - [Imitation Learning](#imitation-learning) (264)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (174)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (172)
 - [Embodied Foundation Models](#embodied-foundation-models) (749)
 
 ## Metadata Note
@@ -220,8 +220,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-04-29**|**Global Sampling-Based Trajectory Optimization for Contact-Rich Manipulation via KernelSOS**|Frederike Dümbgen|contact-rich manipulation, trajectory optimization, in-hand manipulation|[abs](https://arxiv.org/abs/2604.27175) / [pdf](https://arxiv.org/pdf/2604.27175)||
 |**2026-04-28**|**Variational Neural Belief Parameterizations for Robust Dexterous Grasping under Multimodal Uncertainty**|Calin Belta|grasping|[abs](https://arxiv.org/abs/2604.25897) / [pdf](https://arxiv.org/pdf/2604.25897)||
 |**2026-04-28**|**HANDFUL: Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness**|Daniel Seita|dexterous manipulation, policy learning, benchmark, LEAP hand|[abs](https://arxiv.org/abs/2604.25126) / [pdf](https://arxiv.org/pdf/2604.25126)||
-|**2026-04-26**|**MUSIC: Learning Muscle-Driven Dexterous Hand Control**|C. Karen Liu|dataset, dexterous hand, reinforcement learning|[abs](https://arxiv.org/abs/2604.23886) / [pdf](https://arxiv.org/pdf/2604.23886)||
-|**2026-04-26**|**Tube Diffusion Policy: Reactive Visual-Tactile Policy Learning for Contact-rich Manipulation**|Amirhossein H. Memar|contact-rich manipulation, imitation learning, diffusion policy, policy learning, benchmark, dexterous manipulation|[abs](https://arxiv.org/abs/2604.23609) / [pdf](https://arxiv.org/pdf/2604.23609)||
 
 ## Manipulation
 
@@ -1895,8 +1893,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-04-28**|**Improving Sensing Coverage and Compliance of 3D-Printed Artificial Skins Through Multi-Modal Sensing and Soft Materials**|Alessandro Roncone||[abs](https://arxiv.org/abs/2604.25563) / [pdf](https://arxiv.org/pdf/2604.25563)||
 |**2026-04-28**|**Egocentric Tactile and Proximity Sensors as Observation Priors for Humanoid Collision Avoidance**|Alessandro Roncone|humanoid, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2604.25554) / [pdf](https://arxiv.org/pdf/2604.25554)||
 |**2026-04-27**|**SPLIT: Separating Physical-Contact via Latent Arithmetic in Image-Based Tactile Sensors**|Nicolás Navarro-Guerrero|tactile sensing|[abs](https://arxiv.org/abs/2604.24449) / [pdf](https://arxiv.org/pdf/2604.24449)||
-|**2026-04-26**|**Real-Time Non-Contact Force Compensation for Wrist-Mounted Force/Torque Sensors in Haptic-Enabled Robotic Surgery Training**|Mustafa Suphi Erden|haptic feedback, dataset|[abs](https://arxiv.org/abs/2604.23696) / [pdf](https://arxiv.org/pdf/2604.23696)||
-|**2026-04-26**|**Tube Diffusion Policy: Reactive Visual-Tactile Policy Learning for Contact-rich Manipulation**|Amirhossein H. Memar|contact-rich manipulation, imitation learning, diffusion policy, policy learning, benchmark, dexterous manipulation|[abs](https://arxiv.org/abs/2604.23609) / [pdf](https://arxiv.org/pdf/2604.23609)||
 
 ## Embodied Foundation Models
 
