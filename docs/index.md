@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-07-31**.
+Updated on **2026-08-01**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (204)
+- [Dexterous Hand](#dexterous-hand) (203)
 - [Manipulation](#manipulation) (566)
 - [Reinforcement Learning](#reinforcement-learning) (790)
 - [Imitation Learning](#imitation-learning) (292)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (182)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (180)
 - [Embodied Foundation Models](#embodied-foundation-models) (834)
 
 ## Metadata Note
@@ -229,7 +229,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-06**|**RLDX-1 Technical Report**|Jinwoo Shin|VLA, dexterous manipulation, humanoid, vision-language-action, benchmark|[abs](https://arxiv.org/abs/2605.03269) / [pdf](https://arxiv.org/pdf/2605.03269)||
 |**2026-05-05**|**FingerViP: Learning Real-World Dexterous Manipulation with Fingertip Visual Perception**|K. W. Samuel Au|dexterous manipulation|[abs](https://arxiv.org/abs/2604.21331) / [pdf](https://arxiv.org/pdf/2604.21331)||
 |**2026-05-03**|**DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation**|Yuhao Liao|sim-to-real, foundation model, dexterous manipulation, visuo-tactile|[abs](https://arxiv.org/abs/2605.05241) / [pdf](https://arxiv.org/pdf/2605.05241)||
-|**2026-05-02**|**High-Speed, Scalable Sensor Readout for Dexterous Robotic Hands via Shift-Register Multiplexing**|Robert K. Katzschmann|tactile sensing, dexterous manipulation|[abs](https://arxiv.org/abs/2605.01434) / [pdf](https://arxiv.org/pdf/2605.01434)||
 
 ## Manipulation
 
@@ -2078,8 +2077,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-04**|**Robotic Affection -- Opportunities of AI-based haptic interactions to improve social robotic touch through a multi-deep-learning approach**|Jens Gerken|grasping, sim-to-real|[abs](https://arxiv.org/abs/2605.02538) / [pdf](https://arxiv.org/pdf/2605.02538)||
 |**2026-05-04**|**ShapeGrasp: Simultaneous Visuo-Haptic Shape Completion and Grasping for Improved Robot Manipulation**|Matej Hoffmann|grasping, robot manipulation|[abs](https://arxiv.org/abs/2605.02347) / [pdf](https://arxiv.org/pdf/2605.02347)||
 |**2026-05-03**|**DexSim2Real: Foundation Model-Guided Sim-to-Real Transfer for Generalizable Dexterous Manipulation**|Yuhao Liao|sim-to-real, foundation model, dexterous manipulation, visuo-tactile|[abs](https://arxiv.org/abs/2605.05241) / [pdf](https://arxiv.org/pdf/2605.05241)||
-|**2026-05-02**|**High-Speed, Scalable Sensor Readout for Dexterous Robotic Hands via Shift-Register Multiplexing**|Robert K. Katzschmann|tactile sensing, dexterous manipulation|[abs](https://arxiv.org/abs/2605.01434) / [pdf](https://arxiv.org/pdf/2605.01434)||
-|**2026-05-02**|**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**|Ling Shi|humanoid, teleoperation|[abs](https://arxiv.org/abs/2605.01427) / [pdf](https://arxiv.org/pdf/2605.01427)||
 
 ## Embodied Foundation Models
 
