@@ -7,16 +7,16 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-02**.
+Updated on **2026-08-03**.
 
 ## Topics
 
 - [Dexterous Hand](#dexterous-hand) (202)
-- [Manipulation](#manipulation) (566)
-- [Reinforcement Learning](#reinforcement-learning) (790)
-- [Imitation Learning](#imitation-learning) (292)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (179)
-- [Embodied Foundation Models](#embodied-foundation-models) (834)
+- [Manipulation](#manipulation) (575)
+- [Reinforcement Learning](#reinforcement-learning) (801)
+- [Imitation Learning](#imitation-learning) (300)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (178)
+- [Embodied Foundation Models](#embodied-foundation-models) (845)
 
 ## Metadata Note
 
@@ -233,6 +233,16 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
+|**2026-07-31**|**Diagnosing Compositional Generalization in Sequential Robot Tasks**|Masayoshi Tomizuka|robot manipulation, dataset|[abs](https://arxiv.org/abs/2607.29687) / [pdf](https://arxiv.org/pdf/2607.29687)|[repo](https://github.com/YixiaoWang7/Diagnosing_Compositional_Generalization_Robot)|
+|**2026-07-31**|**WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning**|Xipeng Qiu|VLA, vision-language-action, reinforcement learning, world model, benchmark|[abs](https://arxiv.org/abs/2607.29613) / [pdf](https://arxiv.org/pdf/2607.29613)|[repo](https://github.com/sylvestf/WCM)|
+|**2026-07-31**|**Safe Vision Language Action Models via Barrier Enhanced Flow Matching**|Donald Ebeigbe|dataset, benchmark|[abs](https://arxiv.org/abs/2607.29569) / [pdf](https://arxiv.org/pdf/2607.29569)||
+|**2026-07-31**|**TransGraspNet: Physically and Geometrically Consistent Manipulation of Transparent Labware**|Lifeng Zhou|grasping, benchmark, dataset|[abs](https://arxiv.org/abs/2607.29567) / [pdf](https://arxiv.org/pdf/2607.29567)||
+|**2026-07-31**|**SAGP: Semantic Affordance-Guided Grasp Planning via Coarse-Zone VLM Reasoning**|Irfan Hussain||[abs](https://arxiv.org/abs/2607.29374) / [pdf](https://arxiv.org/pdf/2607.29374)||
+|**2026-07-31**|**BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning**| BWM Team|world model, sim-to-real, robot manipulation, benchmark|[abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302)||
+|**2026-07-31**|**TRACT: Temporally Routed Action Chunks with Chronological Phase Authority for Contact-Rich Manipulation**|Kei Okada|contact-rich manipulation, imitation learning|[abs](https://arxiv.org/abs/2607.29285) / [pdf](https://arxiv.org/pdf/2607.29285)||
+|**2026-07-31**|**TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction**|Shuo Wang|grasping, tactile sensing, sim-to-real|[abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231)||
+|**2026-07-31**|**ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency**|Lei Zhu|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.29169) / [pdf](https://arxiv.org/pdf/2607.29169)||
+|**2026-07-31**|**RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model**|Deli Zhao|foundation model, VLA, robot manipulation|[abs](https://arxiv.org/abs/2607.17977) / [pdf](https://arxiv.org/pdf/2607.17977)||
 |**2026-07-30**|**ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine**|Ziwei Liu|dataset, dexterous manipulation, benchmark, imitation learning, world model, vision-language-action|[abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625)||
 |**2026-07-30**|**FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation**|Chuan Wen|contact-rich manipulation, diffusion policy, force feedback|[abs](https://arxiv.org/abs/2607.28596) / [pdf](https://arxiv.org/pdf/2607.28596)||
 |**2026-07-30**|**FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception**|Zhouping Yin|dexterous manipulation, grasping, force feedback|[abs](https://arxiv.org/abs/2607.28416) / [pdf](https://arxiv.org/pdf/2607.28416)||
@@ -318,7 +328,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-21**|**Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation**|Yang Cong|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.14852) / [pdf](https://arxiv.org/pdf/2607.14852)||
 |**2026-07-20**|**FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation**|Baining Guo|VLA, vision-language-action, contact-rich manipulation|[abs](https://arxiv.org/abs/2607.18231) / [pdf](https://arxiv.org/pdf/2607.18231)||
 |**2026-07-20**|**Optimization of sim-to-real transfer in the humanoid robot NICO**|Igor Farkaš|grasping, sim-to-real, humanoid|[abs](https://arxiv.org/abs/2607.18210) / [pdf](https://arxiv.org/pdf/2607.18210)|[repo](https://github.com/jgavura/DP-NICO-calibration)|
-|**2026-07-20**|**RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model**|Deli Zhao|foundation model, VLA, robot manipulation|[abs](https://arxiv.org/abs/2607.17977) / [pdf](https://arxiv.org/pdf/2607.17977)||
 |**2026-07-20**|**MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation**|Kei Okada|foundation model, imitation learning|[abs](https://arxiv.org/abs/2607.17970) / [pdf](https://arxiv.org/pdf/2607.17970)||
 |**2026-07-20**|**ConceptTree: Bringing Semantic Transparency to Black-Box Decision Making for Robotic Manipulation**|Siyuan Li||[abs](https://arxiv.org/abs/2607.17861) / [pdf](https://arxiv.org/pdf/2607.17861)||
 |**2026-07-20**|**A Compact 3D-Printed Soft Finger with Cyclic Hydraulic Actuation**|Dandan Zhang|grasping|[abs](https://arxiv.org/abs/2607.17840) / [pdf](https://arxiv.org/pdf/2607.17840)||
@@ -804,6 +813,18 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
+|**2026-07-31**|**RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning**|Gerhard Neumann|imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.29622) / [pdf](https://arxiv.org/pdf/2607.29622)||
+|**2026-07-31**|**WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning**|Xipeng Qiu|VLA, vision-language-action, reinforcement learning, world model, benchmark|[abs](https://arxiv.org/abs/2607.29613) / [pdf](https://arxiv.org/pdf/2607.29613)|[repo](https://github.com/sylvestf/WCM)|
+|**2026-07-31**|**Convergence and Regret of the Policy Gradient for Multi-Armed Bandits in Diffusion Environment**|Du Ouyang|reinforcement learning|[abs](https://arxiv.org/abs/2607.29593) / [pdf](https://arxiv.org/pdf/2607.29593)||
+|**2026-07-31**|**DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons &amp; Dragons Combat**|Kaan Oktay|benchmark|[abs](https://arxiv.org/abs/2607.29577) / [pdf](https://arxiv.org/pdf/2607.29577)||
+|**2026-07-31**|**DreamQAS: Learning a Decision-Useful World Model for VQE-Efficient Quantum Architecture Search**|Yongli Ren|policy learning, world model|[abs](https://arxiv.org/abs/2607.29491) / [pdf](https://arxiv.org/pdf/2607.29491)||
+|**2026-07-31**|**BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning**| BWM Team|world model, sim-to-real, robot manipulation, benchmark|[abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302)||
+|**2026-07-31**|**Don't Mix Rewards, Mix Policies: Policy Decomposition and Optimization for Multi-Reward RL**|Xianyuan Zhan|reinforcement learning|[abs](https://arxiv.org/abs/2607.29246) / [pdf](https://arxiv.org/pdf/2607.29246)||
+|**2026-07-31**|**TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction**|Shuo Wang|grasping, tactile sensing, sim-to-real|[abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231)||
+|**2026-07-31**|**SAF-OPD: Stable Advantage Fusion for On-Policy Distillation**|Yun Chen|reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.29209) / [pdf](https://arxiv.org/pdf/2607.29209)||
+|**2026-07-31**|**CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning**|Thomas Tian|humanoid, foundation model, reinforcement learning, VLA|[abs](https://arxiv.org/abs/2607.29172) / [pdf](https://arxiv.org/pdf/2607.29172)||
+|**2026-07-31**|**GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks**|Pabitra Mohan Khilar|reinforcement learning|[abs](https://arxiv.org/abs/2607.23792) / [pdf](https://arxiv.org/pdf/2607.23792)||
+|**2026-07-30**|**Sovereign Cognitive Digital Twins: Fusing 6G ISAC, AI-RAN, and Zero-Trust Edge Grids for National Resilience in the Global South**|Taijuo T. Morris||[abs](https://arxiv.org/abs/2607.28756) / [pdf](https://arxiv.org/pdf/2607.28756)||
 |**2026-07-30**|**$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation**|Furong Huang|reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.28582) / [pdf](https://arxiv.org/pdf/2607.28582)||
 |**2026-07-30**|**X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching**|Tai Wang|diffusion policy, reinforcement learning|[abs](https://arxiv.org/abs/2607.28560) / [pdf](https://arxiv.org/pdf/2607.28560)||
 |**2026-07-30**|**Can Vision-Language Models Reason about AI Edits in Images?**|Qiang Ji|reinforcement learning, dataset|[abs](https://arxiv.org/abs/2607.28464) / [pdf](https://arxiv.org/pdf/2607.28464)||
@@ -861,7 +882,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-27**|**Exploratory, Communicative, and Deployable: Vision-Driven Embodied Agents for Open-World Mobile Manipulation**|Hanqing Wang|mobile manipulation, embodied agent, sim-to-real, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.13653) / [pdf](https://arxiv.org/pdf/2607.13653)||
 |**2026-07-26**|**Egocentric Station Holding of Robotic Fish in Unknown Turbulent Background Flow**|Yang Wang|reinforcement learning, sim-to-real|[abs](https://arxiv.org/abs/2607.24860) / [pdf](https://arxiv.org/pdf/2607.24860)||
 |**2026-07-26**|**PathScale-R1: Cross-scale Reasoning for Pathological Image Analysis**|Dan Hu|benchmark, reinforcement learning|[abs](https://arxiv.org/abs/2607.23794) / [pdf](https://arxiv.org/pdf/2607.23794)||
-|**2026-07-26**|**GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks**|Pabitra Mohan Khilar|reinforcement learning|[abs](https://arxiv.org/abs/2607.23792) / [pdf](https://arxiv.org/pdf/2607.23792)||
 |**2026-07-26**|**$N_0$-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens**| Fudan TEAI Team|visuo-tactile, foundation model, contact-rich manipulation, dataset, offline reinforcement learning, reinforcement learning|[abs](https://arxiv.org/abs/2607.23782) / [pdf](https://arxiv.org/pdf/2607.23782)||
 |**2026-07-26**|**Training Language Models to Cooperate with Inference-Time Controllers**|Ye Wang|reinforcement learning|[abs](https://arxiv.org/abs/2607.23771) / [pdf](https://arxiv.org/pdf/2607.23771)||
 |**2026-07-26**|**Zing: Social Mind for LLMs**|Zhu Shengyu|benchmark, reinforcement learning|[abs](https://arxiv.org/abs/2607.23740) / [pdf](https://arxiv.org/pdf/2607.23740)||
@@ -1599,6 +1619,15 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
+|**2026-07-31**|**RayViT: Ray-Conditioned Visual Representations for Viewpoint-Robust Imitation Learning**|Gerhard Neumann|imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.29622) / [pdf](https://arxiv.org/pdf/2607.29622)||
+|**2026-07-31**|**When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning**|Dylan J. Foster|imitation learning, behavior cloning|[abs](https://arxiv.org/abs/2607.29617) / [pdf](https://arxiv.org/pdf/2607.29617)||
+|**2026-07-31**|**Safe Vision Language Action Models via Barrier Enhanced Flow Matching**|Donald Ebeigbe|dataset, benchmark|[abs](https://arxiv.org/abs/2607.29569) / [pdf](https://arxiv.org/pdf/2607.29569)||
+|**2026-07-31**|**Temporal Policy: History-Initialized Action Generation for Robotic Learning from Demonstration**|Martin Jagersand|learning from demonstration, benchmark, teleoperation|[abs](https://arxiv.org/abs/2607.29482) / [pdf](https://arxiv.org/pdf/2607.29482)||
+|**2026-07-31**|**BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning**| BWM Team|world model, sim-to-real, robot manipulation, benchmark|[abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302)||
+|**2026-07-31**|**TRACT: Temporally Routed Action Chunks with Chronological Phase Authority for Contact-Rich Manipulation**|Kei Okada|contact-rich manipulation, imitation learning|[abs](https://arxiv.org/abs/2607.29285) / [pdf](https://arxiv.org/pdf/2607.29285)||
+|**2026-07-31**|**FBFM: A Training-Free Asynchronous Feedback Mechanism for Flow-Matching in World-Action Models Execution**|Shanghang Zhang||[abs](https://arxiv.org/abs/2607.29235) / [pdf](https://arxiv.org/pdf/2607.29235)||
+|**2026-07-31**|**ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency**|Lei Zhu|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.29169) / [pdf](https://arxiv.org/pdf/2607.29169)||
+|**2026-07-31**|**WorldDiT: A Unified Diffusion Architecture for World and Action Modeling**|Marcos Villagra|world model|[abs](https://arxiv.org/abs/2607.23909) / [pdf](https://arxiv.org/pdf/2607.23909)||
 |**2026-07-30**|**ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine**|Ziwei Liu|dataset, dexterous manipulation, benchmark, imitation learning, world model, vision-language-action|[abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625)||
 |**2026-07-30**|**FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation**|Chuan Wen|contact-rich manipulation, diffusion policy, force feedback|[abs](https://arxiv.org/abs/2607.28596) / [pdf](https://arxiv.org/pdf/2607.28596)||
 |**2026-07-30**|**X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching**|Tai Wang|diffusion policy, reinforcement learning|[abs](https://arxiv.org/abs/2607.28560) / [pdf](https://arxiv.org/pdf/2607.28560)||
@@ -1621,7 +1650,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-28**|**Decompose and Reorganize: Planning with Primitives and Visuomotor Policies Learned from Demonstrations**|Jia Pan|motion planning, imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.25397) / [pdf](https://arxiv.org/pdf/2607.25397)||
 |**2026-07-27**|**PAC-DP: PAC-Bayesian Diffusion Policy Learning**|Matteo Saveriano|policy learning, diffusion policy, benchmark|[abs](https://arxiv.org/abs/2607.24296) / [pdf](https://arxiv.org/pdf/2607.24296)||
 |**2026-07-27**|**FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking**|Shuaicheng Liu|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.24008) / [pdf](https://arxiv.org/pdf/2607.24008)||
-|**2026-07-27**|**WorldDiT: A Unified Diffusion Architecture for World and Action Modeling**|Marcos Villagra|world model|[abs](https://arxiv.org/abs/2607.23909) / [pdf](https://arxiv.org/pdf/2607.23909)||
 |**2026-07-26**|**PRISM: Polynomial Representations for Interaction-Structured Motor Control**|Stella X. Yu|reinforcement learning, imitation learning, diffusion policy, humanoid, contact-rich manipulation|[abs](https://arxiv.org/abs/2607.23473) / [pdf](https://arxiv.org/pdf/2607.23473)||
 |**2026-07-25**|**The Curse of Precision: A Data Scaling Law for High-Precision Robotic Manipulation**|Jincheng Yu|imitation learning|[abs](https://arxiv.org/abs/2607.23108) / [pdf](https://arxiv.org/pdf/2607.23108)||
 |**2026-07-25**|**Pose-Aware Modeling to Mitigate Pose-Related Artifacts in Tactile Gloves**|Dingtian Zhang|dexterous manipulation, teleoperation, learning from demonstration|[abs](https://arxiv.org/abs/2607.22964) / [pdf](https://arxiv.org/pdf/2607.22964)||
@@ -1896,6 +1924,7 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
+|**2026-07-31**|**TacPrint: A Wearable Fingertip Tactile Sensor for Human-to-Robot Contact Reproduction**|Shuo Wang|grasping, tactile sensing, sim-to-real|[abs](https://arxiv.org/abs/2607.29231) / [pdf](https://arxiv.org/pdf/2607.29231)||
 |**2026-07-30**|**ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine**|Ziwei Liu|dataset, dexterous manipulation, benchmark, imitation learning, world model, vision-language-action|[abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625)||
 |**2026-07-30**|**FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation**|Chuan Wen|contact-rich manipulation, diffusion policy, force feedback|[abs](https://arxiv.org/abs/2607.28596) / [pdf](https://arxiv.org/pdf/2607.28596)||
 |**2026-07-30**|**FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception**|Zhouping Yin|dexterous manipulation, grasping, force feedback|[abs](https://arxiv.org/abs/2607.28416) / [pdf](https://arxiv.org/pdf/2607.28416)||
@@ -2073,13 +2102,26 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-06**|**Reduced-order Neural Modeling with Differentiable Simulation for High-Detail Tactile Perception**|Guoxing Fang|dexterous manipulation|[abs](https://arxiv.org/abs/2605.05053) / [pdf](https://arxiv.org/pdf/2605.05053)||
 |**2026-05-06**|**From Reach to Insert: Tactile-Augmented Precision Assembly under Sub-Millimeter Tolerances**|Long Cheng|imitation learning, reinforcement learning|[abs](https://arxiv.org/abs/2605.04649) / [pdf](https://arxiv.org/pdf/2605.04649)||
 |**2026-05-06**|**Active Contact Sensing for Robust Robot-to-Human Object Handover**|David Hsu||[abs](https://arxiv.org/abs/2605.04610) / [pdf](https://arxiv.org/pdf/2605.04610)||
-|**2026-05-04**|**Robotic Affection -- Opportunities of AI-based haptic interactions to improve social robotic touch through a multi-deep-learning approach**|Jens Gerken|grasping, sim-to-real|[abs](https://arxiv.org/abs/2605.02538) / [pdf](https://arxiv.org/pdf/2605.02538)||
-|**2026-05-04**|**ShapeGrasp: Simultaneous Visuo-Haptic Shape Completion and Grasping for Improved Robot Manipulation**|Matej Hoffmann|grasping, robot manipulation|[abs](https://arxiv.org/abs/2605.02347) / [pdf](https://arxiv.org/pdf/2605.02347)||
 
 ## Embodied Foundation Models
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
+|**2026-07-31**|**WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning**|Xipeng Qiu|VLA, vision-language-action, reinforcement learning, world model, benchmark|[abs](https://arxiv.org/abs/2607.29613) / [pdf](https://arxiv.org/pdf/2607.29613)|[repo](https://github.com/sylvestf/WCM)|
+|**2026-07-31**|**FibVLA: An Efficient Temporal Vision-Language-Action Model with Fibonacci Sampling**|Shuai Wang|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.29596) / [pdf](https://arxiv.org/pdf/2607.29596)||
+|**2026-07-31**|**Safe Vision Language Action Models via Barrier Enhanced Flow Matching**|Donald Ebeigbe|dataset, benchmark|[abs](https://arxiv.org/abs/2607.29569) / [pdf](https://arxiv.org/pdf/2607.29569)||
+|**2026-07-31**|**DreamQAS: Learning a Decision-Useful World Model for VQE-Efficient Quantum Architecture Search**|Yongli Ren|policy learning, world model|[abs](https://arxiv.org/abs/2607.29491) / [pdf](https://arxiv.org/pdf/2607.29491)||
+|**2026-07-31**|**AquaJEPA: Action-Conditioned Multimodal Predictive Representations for Underwater Robot Dynamics**|Sergey Muravyov|world model|[abs](https://arxiv.org/abs/2607.29393) / [pdf](https://arxiv.org/pdf/2607.29393)||
+|**2026-07-31**|**BWM: A Low-Cost High-Fidelity World Simulator for Robot Learning**| BWM Team|world model, sim-to-real, robot manipulation, benchmark|[abs](https://arxiv.org/abs/2607.29302) / [pdf](https://arxiv.org/pdf/2607.29302)||
+|**2026-07-31**|**CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning**|Thomas Tian|humanoid, foundation model, reinforcement learning, VLA|[abs](https://arxiv.org/abs/2607.29172) / [pdf](https://arxiv.org/pdf/2607.29172)||
+|**2026-07-31**|**ActFovea: Runtime Safeguarding for VLA Policies via Spatiotemporal Visual-Action Consistency**|Lei Zhu|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.29169) / [pdf](https://arxiv.org/pdf/2607.29169)||
+|**2026-07-31**|**Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving**|Jun Li|world model|[abs](https://arxiv.org/abs/2607.29031) / [pdf](https://arxiv.org/pdf/2607.29031)||
+|**2026-07-31**|**What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations**|Heqing Du|world model|[abs](https://arxiv.org/abs/2607.27017) / [pdf](https://arxiv.org/pdf/2607.27017)||
+|**2026-07-31**|**Temporally Centered SIGReg Improves Multi-Task LeWorldModel Learning: From Analysis to Method**|Yaonan Zhu|benchmark, diffusion policy|[abs](https://arxiv.org/abs/2607.26924) / [pdf](https://arxiv.org/pdf/2607.26924)||
+|**2026-07-31**|**WorldDiT: A Unified Diffusion Architecture for World and Action Modeling**|Marcos Villagra|world model|[abs](https://arxiv.org/abs/2607.23909) / [pdf](https://arxiv.org/pdf/2607.23909)||
+|**2026-07-31**|**RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model**|Deli Zhao|foundation model, VLA, robot manipulation|[abs](https://arxiv.org/abs/2607.17977) / [pdf](https://arxiv.org/pdf/2607.17977)||
+|**2026-07-30**|**When Unlearning Fails: Reliable Data Deletion under Post-Training in Agent Networks**|Liang Dong|vision-language-action|[abs](https://arxiv.org/abs/2607.28829) / [pdf](https://arxiv.org/pdf/2607.28829)||
+|**2026-07-30**|**Mirror Learning**|Frank Wood|imitation learning, behavior cloning, world model, teleoperation|[abs](https://arxiv.org/abs/2607.28737) / [pdf](https://arxiv.org/pdf/2607.28737)||
 |**2026-07-30**|**ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine**|Ziwei Liu|dataset, dexterous manipulation, benchmark, imitation learning, world model, vision-language-action|[abs](https://arxiv.org/abs/2607.28625) / [pdf](https://arxiv.org/pdf/2607.28625)||
 |**2026-07-30**|**PhiZero: A World Model Built Around Physical Language**|Zhaoxiang Zhang|world model, benchmark|[abs](https://arxiv.org/abs/2607.28624) / [pdf](https://arxiv.org/pdf/2607.28624)|[repo](https://github.com/yaoyao-jpg/PhiZero)|
 |**2026-07-30**|**AuricularWorld: Hierarchical Action-Guided World Modeling for Fine-Grained Auricular Structure Segmentation from CT Scans**|Haiyue Jiang|world model|[abs](https://arxiv.org/abs/2607.28487) / [pdf](https://arxiv.org/pdf/2607.28487)||
@@ -2095,7 +2137,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-30**|**SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them**|Yuxiang Cai|embodied agent, benchmark|[abs](https://arxiv.org/abs/2607.27703) / [pdf](https://arxiv.org/pdf/2607.27703)||
 |**2026-07-30**|**World Action Planner: Generalizable Decision-Making with Action-Conditioned World Models**|Yilun Du|world model, imitation learning, VLA|[abs](https://arxiv.org/abs/2607.27599) / [pdf](https://arxiv.org/pdf/2607.27599)||
 |**2026-07-30**|**Cross-Embodiment Transfer via Behavior-Aligned Representations**|Dorsa Sadigh|dataset, benchmark, imitation learning, robot manipulation, vision-language-action, VLA|[abs](https://arxiv.org/abs/2607.27549) / [pdf](https://arxiv.org/pdf/2607.27549)||
-|**2026-07-30**|**What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations**|Heqing Du|world model|[abs](https://arxiv.org/abs/2607.27017) / [pdf](https://arxiv.org/pdf/2607.27017)||
 |**2026-07-30**|**RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models**|Guillaume Sartoretti|VLA, vision-language-action, reinforcement learning, imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.26991) / [pdf](https://arxiv.org/pdf/2607.26991)||
 |**2026-07-30**|**τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision**|Wenjuan Han|VLA, vision-language-action, contact-rich manipulation, tactile sensing, dataset|[abs](https://arxiv.org/abs/2607.24485) / [pdf](https://arxiv.org/pdf/2607.24485)||
 |**2026-07-30**|**LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments**|Jun Ma|world model|[abs](https://arxiv.org/abs/2607.23969) / [pdf](https://arxiv.org/pdf/2607.23969)||
@@ -2105,7 +2146,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-29**|**Mental World Modeling**|Yiran Zhao|world model, dataset|[abs](https://arxiv.org/abs/2607.27201) / [pdf](https://arxiv.org/pdf/2607.27201)||
 |**2026-07-29**|**DLAM: Distributional Latent Actions with Temporal Constraints**|Zhiheng Ma|vision-language-action, VLA, policy learning|[abs](https://arxiv.org/abs/2607.27138) / [pdf](https://arxiv.org/pdf/2607.27138)||
 |**2026-07-29**|**Mitigating Compounding Error via Video Representation Regularization**|Yisen Wang|world model|[abs](https://arxiv.org/abs/2607.27036) / [pdf](https://arxiv.org/pdf/2607.27036)||
-|**2026-07-29**|**Temporally Centered SIGReg Improves Multi-Task LeWorldModel Learning: From Analysis to Method**|Yaonan Zhu|benchmark, diffusion policy|[abs](https://arxiv.org/abs/2607.26924) / [pdf](https://arxiv.org/pdf/2607.26924)||
 |**2026-07-29**|**Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations**|Wenzhao Lian|embodied agent|[abs](https://arxiv.org/abs/2607.26809) / [pdf](https://arxiv.org/pdf/2607.26809)||
 |**2026-07-29**|**Route by Kinematics, Act by Observation: Kinematics-Supervised Expert Routing in MoE-Augmented VLA**|Yujiu Yang|VLA, benchmark|[abs](https://arxiv.org/abs/2607.26807) / [pdf](https://arxiv.org/pdf/2607.26807)||
 |**2026-07-29**|**CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation**|Wenbo Ding|VLA, world model, mobile manipulation, vision-language-action|[abs](https://arxiv.org/abs/2607.26789) / [pdf](https://arxiv.org/pdf/2607.26789)||
@@ -2143,7 +2183,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-27**|**A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference**|Haibing Guan|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.24148) / [pdf](https://arxiv.org/pdf/2607.24148)||
 |**2026-07-27**|**Scaling GUI Agents with Visual State Transitions**|Tianyu Pang|world model, benchmark|[abs](https://arxiv.org/abs/2607.24112) / [pdf](https://arxiv.org/pdf/2607.24112)||
 |**2026-07-27**|**FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking**|Shuaicheng Liu|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.24008) / [pdf](https://arxiv.org/pdf/2607.24008)||
-|**2026-07-27**|**WorldDiT: A Unified Diffusion Architecture for World and Action Modeling**|Marcos Villagra|world model|[abs](https://arxiv.org/abs/2607.23909) / [pdf](https://arxiv.org/pdf/2607.23909)||
 |**2026-07-27**|**Embodied GPT-5.1: Evidence of a World Model?**|Thiago C. Martins|world model|[abs](https://arxiv.org/abs/2607.23899) / [pdf](https://arxiv.org/pdf/2607.23899)||
 |**2026-07-27**|**On the Identifiability of Controlled World Models**|Shengbo Eben Li|world model|[abs](https://arxiv.org/abs/2607.22430) / [pdf](https://arxiv.org/pdf/2607.22430)||
 |**2026-07-27**|**Exploratory, Communicative, and Deployable: Vision-Driven Embodied Agents for Open-World Mobile Manipulation**|Hanqing Wang|mobile manipulation, embodied agent, sim-to-real, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.13653) / [pdf](https://arxiv.org/pdf/2607.13653)||
@@ -2210,7 +2249,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-20**|**Patch Policy: Efficient Embodied Control via Dense Visual Representations**|Lerrel Pinto|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.18236) / [pdf](https://arxiv.org/pdf/2607.18236)||
 |**2026-07-20**|**FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation**|Baining Guo|VLA, vision-language-action, contact-rich manipulation|[abs](https://arxiv.org/abs/2607.18231) / [pdf](https://arxiv.org/pdf/2607.18231)||
 |**2026-07-20**|**FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications**|Beidi Chen|benchmark, world model|[abs](https://arxiv.org/abs/2607.18171) / [pdf](https://arxiv.org/pdf/2607.18171)||
-|**2026-07-20**|**RynnBrain 1.1: Towards More Capable and Generalizable Embodied Foundation Model**|Deli Zhao|foundation model, VLA, robot manipulation|[abs](https://arxiv.org/abs/2607.17977) / [pdf](https://arxiv.org/pdf/2607.17977)||
 |**2026-07-20**|**SAGE: Subgoal-Conditioned Action Generation for Latent World Model Planning**|Yisen Wang|world model|[abs](https://arxiv.org/abs/2607.17973) / [pdf](https://arxiv.org/pdf/2607.17973)||
 |**2026-07-20**|**MEVION: Low-Cost Open-Source Data Collection System for Powerful and High-Speed Dual-Arm Manipulation**|Kei Okada|foundation model, imitation learning|[abs](https://arxiv.org/abs/2607.17970) / [pdf](https://arxiv.org/pdf/2607.17970)||
 |**2026-07-20**|**PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model**|Zhuoling Xiao|foundation model, embodied agent|[abs](https://arxiv.org/abs/2607.17806) / [pdf](https://arxiv.org/pdf/2607.17806)||
