@@ -7,7 +7,7 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-07**.
+Updated on **2026-08-08**.
 
 ## Topics
 
@@ -15,7 +15,7 @@ Updated on **2026-08-07**.
 - [Manipulation](#manipulation) (637)
 - [Reinforcement Learning](#reinforcement-learning) (902)
 - [Imitation Learning](#imitation-learning) (326)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (185)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (184)
 - [Embodied Foundation Models](#embodied-foundation-models) (948)
 
 ## Metadata Note
@@ -2305,7 +2305,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-12**|**Mapping Embodied Affective Touch Strategies on a Humanoid Robot**|Tony Belpaeme|humanoid|[abs](https://arxiv.org/abs/2605.11825) / [pdf](https://arxiv.org/pdf/2605.11825)||
 |**2026-05-11**|**ForceFlow: Learning to Feel and Act via Contact-Driven Flow Matching**|Jianye Hao|imitation learning, contact-rich manipulation, force feedback, VLA|[abs](https://arxiv.org/abs/2605.11048) / [pdf](https://arxiv.org/pdf/2605.11048)||
 |**2026-05-10**|**Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies**|Yu She|contact-rich manipulation, tactile sensing, policy learning, reinforcement learning|[abs](https://arxiv.org/abs/2604.27224) / [pdf](https://arxiv.org/pdf/2604.27224)||
-|**2026-05-09**|**A Visuo-Tactile Data Collection System with Haptic Feedback for Coarse-to-Fine Imitation Learning**|Daehyung Park|visuo-tactile, haptic feedback, imitation learning, dataset|[abs](https://arxiv.org/abs/2605.08757) / [pdf](https://arxiv.org/pdf/2605.08757)||
 
 ## Embodied Foundation Models
 
