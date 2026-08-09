@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-08**.
+Updated on **2026-08-09**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (210)
+- [Dexterous Hand](#dexterous-hand) (207)
 - [Manipulation](#manipulation) (637)
 - [Reinforcement Learning](#reinforcement-learning) (902)
 - [Imitation Learning](#imitation-learning) (326)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (184)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (183)
 - [Embodied Foundation Models](#embodied-foundation-models) (948)
 
 ## Metadata Note
@@ -233,9 +233,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-12**|**DexTwist: Dexterous Hand Retargeting for Twist Motion via Mixed Reality-based Teleoperation**|Dongheui Lee|teleoperation, dexterous hand|[abs](https://arxiv.org/abs/2605.12182) / [pdf](https://arxiv.org/pdf/2605.12182)||
 |**2026-05-12**|**BARISTA: A Multi-Task Egocentric Benchmark for Compositional Visual Understanding**|Philipp Johannes Schubert|benchmark, dataset|[abs](https://arxiv.org/abs/2605.12074) / [pdf](https://arxiv.org/pdf/2605.12074)||
 |**2026-05-12**|**IMPACT: An Implicit Active-Set Augmented Lagrangian for Fast Contact-Implicit Trajectory Optimization**|Georgia Chalvatzaki|trajectory optimization, benchmark, dexterous manipulation|[abs](https://arxiv.org/abs/2605.09127) / [pdf](https://arxiv.org/pdf/2605.09127)||
-|**2026-05-10**|**Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching**|Kaiyu Hang|sim-to-real, dexterous manipulation|[abs](https://arxiv.org/abs/2605.09789) / [pdf](https://arxiv.org/pdf/2605.09789)||
-|**2026-05-10**|**SABER: A Scalable Action-Based Embodied Dataset for Real-World VLA Adaptation**|Sashi Reddi|dataset, teleoperation, dexterous hand, VLA, foundation model, humanoid|[abs](https://arxiv.org/abs/2605.09613) / [pdf](https://arxiv.org/pdf/2605.09613)||
-|**2026-05-10**|**PhysHanDI: Physics-Based Reconstruction of Hand-Deformable Object Interactions**|Tae-Kyun Kim||[abs](https://arxiv.org/abs/2605.09538) / [pdf](https://arxiv.org/pdf/2605.09538)||
 
 ## Manipulation
 
@@ -2304,7 +2301,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-12**|**SI-Diff: A Framework for Learning Search and High-Precision Insertion with a Force-Domain Diffusion Policy**|Tony Hong-Yau Lo|diffusion policy|[abs](https://arxiv.org/abs/2605.12247) / [pdf](https://arxiv.org/pdf/2605.12247)||
 |**2026-05-12**|**Mapping Embodied Affective Touch Strategies on a Humanoid Robot**|Tony Belpaeme|humanoid|[abs](https://arxiv.org/abs/2605.11825) / [pdf](https://arxiv.org/pdf/2605.11825)||
 |**2026-05-11**|**ForceFlow: Learning to Feel and Act via Contact-Driven Flow Matching**|Jianye Hao|imitation learning, contact-rich manipulation, force feedback, VLA|[abs](https://arxiv.org/abs/2605.11048) / [pdf](https://arxiv.org/pdf/2605.11048)||
-|**2026-05-10**|**Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies**|Yu She|contact-rich manipulation, tactile sensing, policy learning, reinforcement learning|[abs](https://arxiv.org/abs/2604.27224) / [pdf](https://arxiv.org/pdf/2604.27224)||
 
 ## Embodied Foundation Models
 
