@@ -2,15 +2,15 @@
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-14**.
+Updated on **2026-08-16**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (205)
+- [Dexterous Hand](#dexterous-hand) (202)
 - [Manipulation](#manipulation) (690)
 - [Reinforcement Learning](#reinforcement-learning) (986)
 - [Imitation Learning](#imitation-learning) (342)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (185)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (184)
 - [Embodied Foundation Models](#embodied-foundation-models) (1069)
 
 ## Metadata Note
@@ -223,15 +223,12 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-18**|**Dexora: Open-source VLA for High-DoF Bimanual Dexterity**|Hao Zhao|VLA, dexterous hand, teleoperation, vision-language-action, dataset, benchmark|[abs](https://arxiv.org/abs/2605.18722) / [pdf](https://arxiv.org/pdf/2605.18722)||
 |**2026-05-18**|**StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion Estimation from Egocentric Video**|Xingxing Zuo|policy learning, benchmark|[abs](https://arxiv.org/abs/2605.18553) / [pdf](https://arxiv.org/pdf/2605.18553)||
 |**2026-05-18**|**A Dexterous and Compliant Gripper With Soft Hydraulic Actuation for Microgravity Manipulation**|Jianshu Zhou|dexterous manipulation|[abs](https://arxiv.org/abs/2605.17851) / [pdf](https://arxiv.org/pdf/2605.17851)||
-|**2026-05-17**|**Visual Sculpting: Visually-Aligned Planning Representations for Long-Horizon Robot Clay Sculpting**|Jean Oh|dexterous manipulation|[abs](https://arxiv.org/abs/2605.17556) / [pdf](https://arxiv.org/pdf/2605.17556)||
-|**2026-05-17**|**GeoHand: Unlocking Prior Geometry Knowledge for Monocular 3D Hand Reconstruction**|Xingyu Chen||[abs](https://arxiv.org/abs/2605.17354) / [pdf](https://arxiv.org/pdf/2605.17354)||
-|**2026-05-16**|**LACE: Latent Visual Representation for Cross-Embodiment Learning**|Michael S. Ryoo||[abs](https://arxiv.org/abs/2605.16743) / [pdf](https://arxiv.org/pdf/2605.16743)||
 
 ## Manipulation
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
-|**2026-08-13**|**DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation**|Pengfei Zhang|world model, grasping|[abs](https://arxiv.org/abs/2608.13489) / [pdf](https://arxiv.org/pdf/2608.13489)||
+|**2026-08-13**|**DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation**|Pengfei Zhang|world model, grasping|[abs](https://arxiv.org/abs/2608.13489) / [pdf](https://arxiv.org/pdf/2608.13489)|[repo](https://github.com/AMAP-ML/DreamX-Phi)|
 |**2026-08-13**|**ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models**|Weiming Zhi|world model, contact-rich manipulation|[abs](https://arxiv.org/abs/2608.13438) / [pdf](https://arxiv.org/pdf/2608.13438)||
 |**2026-08-13**|**Predictive Relative-Velocity Steering for Safe Robotic Manipulator Teleoperation in Dynamic Environments**|Xiao He|teleoperation|[abs](https://arxiv.org/abs/2608.13284) / [pdf](https://arxiv.org/pdf/2608.13284)||
 |**2026-08-13**|**S2-HWM: Sparse Event-Structured Hierarchical World Model for Long-Horizon Surgical Robot Manipulation**|Qiong Wang|world model, robot manipulation|[abs](https://arxiv.org/abs/2608.13103) / [pdf](https://arxiv.org/pdf/2608.13103)||
@@ -2448,7 +2445,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-18**|**Mixtac: A Novel Bio-Inspired Hybrid Tactile Sensor with Synergistic Event-Frame Perception**|Bin He||[abs](https://arxiv.org/abs/2605.18550) / [pdf](https://arxiv.org/pdf/2605.18550)||
 |**2026-05-18**|**CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook**|Kai Han||[abs](https://arxiv.org/abs/2605.18257) / [pdf](https://arxiv.org/pdf/2605.18257)||
 |**2026-05-18**|**AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models**|Hao Dong|VLA, vision-language-action, contact-rich manipulation|[abs](https://arxiv.org/abs/2605.07308) / [pdf](https://arxiv.org/pdf/2605.07308)||
-|**2026-05-17**|**Tactile-based Multimodal Fusion in Embodied Intelligence: A Survey of Vision, Language, and Contact-Driven Paradigms**|Hui Xiong|dataset, tactile sensing, benchmark|[abs](https://arxiv.org/abs/2605.17336) / [pdf](https://arxiv.org/pdf/2605.17336)||
 
 ## Embodied Foundation Models
 
@@ -2458,7 +2454,7 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-13**|**Alaya-EVOKE: From Linear-Scaling Supervision to Endless World**|Feng Zhao|world model|[abs](https://arxiv.org/abs/2608.13546) / [pdf](https://arxiv.org/pdf/2608.13546)|[repo](https://github.com/SII-YuanyangYin/Evoke)|
 |**2026-08-13**|**Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology**|Jihun Hamm|world model|[abs](https://arxiv.org/abs/2608.13518) / [pdf](https://arxiv.org/pdf/2608.13518)||
 |**2026-08-13**|**AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)**|Zihui Gao|world model|[abs](https://arxiv.org/abs/2608.13492) / [pdf](https://arxiv.org/pdf/2608.13492)||
-|**2026-08-13**|**DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation**|Pengfei Zhang|world model, grasping|[abs](https://arxiv.org/abs/2608.13489) / [pdf](https://arxiv.org/pdf/2608.13489)||
+|**2026-08-13**|**DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation**|Pengfei Zhang|world model, grasping|[abs](https://arxiv.org/abs/2608.13489) / [pdf](https://arxiv.org/pdf/2608.13489)|[repo](https://github.com/AMAP-ML/DreamX-Phi)|
 |**2026-08-13**|**Decoding Task Progress from VLA Representations**|Preston Culbertson|VLA, vision-language-action|[abs](https://arxiv.org/abs/2608.13474) / [pdf](https://arxiv.org/pdf/2608.13474)||
 |**2026-08-13**|**A Unifying Perspective on Causal World Models: From Observations to Representations to Structure**|Fabrizio Russo|world model|[abs](https://arxiv.org/abs/2608.13456) / [pdf](https://arxiv.org/pdf/2608.13456)||
 |**2026-08-13**|**UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models**|Lei Zhu|VLA, vision-language-action, embodied agent|[abs](https://arxiv.org/abs/2608.13453) / [pdf](https://arxiv.org/pdf/2608.13453)||
