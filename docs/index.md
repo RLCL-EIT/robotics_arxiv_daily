@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-21**.
+Updated on **2026-08-22**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (208)
+- [Dexterous Hand](#dexterous-hand) (206)
 - [Manipulation](#manipulation) (749)
 - [Reinforcement Learning](#reinforcement-learning) (1075)
 - [Imitation Learning](#imitation-learning) (367)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (188)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (187)
 - [Embodied Foundation Models](#embodied-foundation-models) (1167)
 
 ## Metadata Note
@@ -232,14 +232,12 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-26**|**Object Pose and Shape Estimation for Grasping: Does it Work?**|Rajat Talak|grasp synthesis, grasping|[abs](https://arxiv.org/abs/2605.26944) / [pdf](https://arxiv.org/pdf/2605.26944)||
 |**2026-05-26**|**Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient**|Ian Abraham|benchmark, reinforcement learning, dexterous manipulation, sim-to-real|[abs](https://arxiv.org/abs/2605.26478) / [pdf](https://arxiv.org/pdf/2605.26478)||
 |**2026-05-24**|**X-DiffVLA: X-Embodied Diffusion Action Heads for Vision-Language-Action Models**|Zongqing Lu|VLA, vision-language-action, dataset, dexterous hand, policy learning|[abs](https://arxiv.org/abs/2605.25044) / [pdf](https://arxiv.org/pdf/2605.25044)||
-|**2026-05-23**|**DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion**|Adam Lee|dexterous manipulation|[abs](https://arxiv.org/abs/2605.24630) / [pdf](https://arxiv.org/pdf/2605.24630)||
-|**2026-05-23**|**IsaacIPC: Coupling High-Fidelity Simulation and Realistic Rendering for Contact-Rich Robotic Systems**|Zhongqing Han|tactile sensing, benchmark, dexterous hand|[abs](https://arxiv.org/abs/2605.24339) / [pdf](https://arxiv.org/pdf/2605.24339)||
 
 ## Manipulation
 
 |Date|Title|Corresponding|Keywords|Paper|Code|
 |---|---|---|---|---|---|
-|**2026-08-20**|**DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery**|Hongsheng Li|benchmark, robot manipulation|[abs](https://arxiv.org/abs/2608.20308) / [pdf](https://arxiv.org/pdf/2608.20308)||
+|**2026-08-20**|**DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery**|Hongsheng Li|benchmark, robot manipulation|[abs](https://arxiv.org/abs/2608.20308) / [pdf](https://arxiv.org/pdf/2608.20308)|[repo](https://github.com/ggxxii/dreamhand)|
 |**2026-08-20**|**Video2DoorTraversal: Push Door Traversal via Simulated Door Twins**|Ruigang Yang|sim-to-real|[abs](https://arxiv.org/abs/2608.20251) / [pdf](https://arxiv.org/pdf/2608.20251)||
 |**2026-08-20**|**RoMAN-Flow: Taming Autoregressive Normalizing Flows for Offline Reinforcement Learning in Robotic Manipulation**|Yanyong Zhang|offline reinforcement learning, reinforcement learning, dataset, benchmark|[abs](https://arxiv.org/abs/2608.20208) / [pdf](https://arxiv.org/pdf/2608.20208)||
 |**2026-08-20**|**DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation**|Qiaojun Yu|mobile manipulation, dataset|[abs](https://arxiv.org/abs/2608.20114) / [pdf](https://arxiv.org/pdf/2608.20114)||
@@ -2632,7 +2630,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-26**|**Manipulating Tangible Virtual Object Dynamics to Promote Learning of Precision Force Generation**|Laura Marchal-Crespo||[abs](https://arxiv.org/abs/2605.26782) / [pdf](https://arxiv.org/pdf/2605.26782)||
 |**2026-05-25**|**PhyPush: One Push is All You Need for Sensorless Physical Property Estimation with Physics-Guided Transformers**|Aly Magassouba||[abs](https://arxiv.org/abs/2605.26284) / [pdf](https://arxiv.org/pdf/2605.26284)||
 |**2026-05-24**|**InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking**|Molong Duan|imitation learning, benchmark|[abs](https://arxiv.org/abs/2605.25216) / [pdf](https://arxiv.org/pdf/2605.25216)||
-|**2026-05-23**|**IsaacIPC: Coupling High-Fidelity Simulation and Realistic Rendering for Contact-Rich Robotic Systems**|Zhongqing Han|tactile sensing, benchmark, dexterous hand|[abs](https://arxiv.org/abs/2605.24339) / [pdf](https://arxiv.org/pdf/2605.24339)||
 
 ## Embodied Foundation Models
 
