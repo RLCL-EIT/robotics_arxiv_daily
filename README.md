@@ -2,15 +2,15 @@
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-22**.
+Updated on **2026-08-23**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (206)
+- [Dexterous Hand](#dexterous-hand) (205)
 - [Manipulation](#manipulation) (749)
 - [Reinforcement Learning](#reinforcement-learning) (1075)
 - [Imitation Learning](#imitation-learning) (367)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (187)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (186)
 - [Embodied Foundation Models](#embodied-foundation-models) (1167)
 
 ## Metadata Note
@@ -226,7 +226,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-27**|**TacSE3: Equivariant SE(3) Motion Estimation from Low-Texture Visuotactile Images for In-Gripper Tracking and Compensation**|Michael Yu Wang|in-hand manipulation|[abs](https://arxiv.org/abs/2605.17929) / [pdf](https://arxiv.org/pdf/2605.17929)||
 |**2026-05-26**|**Object Pose and Shape Estimation for Grasping: Does it Work?**|Rajat Talak|grasp synthesis, grasping|[abs](https://arxiv.org/abs/2605.26944) / [pdf](https://arxiv.org/pdf/2605.26944)||
 |**2026-05-26**|**Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient**|Ian Abraham|benchmark, reinforcement learning, dexterous manipulation, sim-to-real|[abs](https://arxiv.org/abs/2605.26478) / [pdf](https://arxiv.org/pdf/2605.26478)||
-|**2026-05-24**|**X-DiffVLA: X-Embodied Diffusion Action Heads for Vision-Language-Action Models**|Zongqing Lu|VLA, vision-language-action, dataset, dexterous hand, policy learning|[abs](https://arxiv.org/abs/2605.25044) / [pdf](https://arxiv.org/pdf/2605.25044)||
 
 ## Manipulation
 
@@ -2624,7 +2623,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-26**|**Inducing Calmness With Pocket-Sized Robotics: Reducing Movement and Heart Rate in Children through Hand-Held Tactile Interactions**|Maja Matarić||[abs](https://arxiv.org/abs/2605.27533) / [pdf](https://arxiv.org/pdf/2605.27533)||
 |**2026-05-26**|**Manipulating Tangible Virtual Object Dynamics to Promote Learning of Precision Force Generation**|Laura Marchal-Crespo||[abs](https://arxiv.org/abs/2605.26782) / [pdf](https://arxiv.org/pdf/2605.26782)||
 |**2026-05-25**|**PhyPush: One Push is All You Need for Sensorless Physical Property Estimation with Physics-Guided Transformers**|Aly Magassouba||[abs](https://arxiv.org/abs/2605.26284) / [pdf](https://arxiv.org/pdf/2605.26284)||
-|**2026-05-24**|**InvariantCloud: A Globally Invariant, Uniquely Indexed Point Cloud Framework for Robust 6-DoF Tactile Pose Tracking**|Molong Duan|imitation learning, benchmark|[abs](https://arxiv.org/abs/2605.25216) / [pdf](https://arxiv.org/pdf/2605.25216)||
 
 ## Embodied Foundation Models
 
