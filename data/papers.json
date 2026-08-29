@@ -249,70 +249,6 @@
       ],
       "updated": "2026-06-08"
     },
-    "2606.00537": {
-      "arxiv_url": "https://arxiv.org/abs/2606.00537",
-      "authors": [
-        "Junnan Nie",
-        "Jiayi Li",
-        "Jiachen Zhang",
-        "Junyi Lao",
-        "Chenghao Liu",
-        "Tianle Zhang",
-        "Songfang Huang"
-      ],
-      "authors_display": "Junnan Nie, Jiayi Li, Jiachen Zhang, Junyi Lao et al.",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "21 pages, 7 figures, 6 tables. Preprint",
-      "corresponding_author": "Songfang Huang",
-      "first_affiliation": "TBD",
-      "first_author": "Junnan Nie",
-      "id": "2606.00537",
-      "keywords": [
-        "vision-language-action"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2606.00537",
-      "primary_category": "cs.RO",
-      "published": "2026-05-30",
-      "summary": "Recent vision-language-action and diffusion-based robot policies often use action chunking, where each policy query predicts a sequence of future actions and the robot executes an open-loop prefix before re-querying. While this interface improves local motion continuity, deployment still requires choosing the execution horizon: how much of each predicted chunk should be executed before acquiring a new observation. However, our experiments show that success is strongly task-dependent and non-monotonic with respect to the execution horizon, making a single constant horizon an unreliable deployment rule. We propose PACE (Phase-Aware Chunk Execution), a training-free test-time execution method that selects the execution horizon online from the predicted chunk itself. PACE exploits the phase-dependent kinematic structure of manipulation trajectories by identifying low-speed transition points in the predicted speed profile and using them as candidate replanning boundaries. Because PACE uses only the predicted action chunk, it is plug-and-play and requires no retraining or access to policy internals. We validate PACE through large-scale evaluations in both simulation and real-robot settings. On 50 RoboTwin2.0 tasks, PACE raises the average success rate from 57.8% to 64.2%. In real-robot experiments on bimanual ALOHA and single-arm Franka platforms, PACE improves the average task score from 60.7 to 77.7 and the average success rate from 50.7% to 70.4%. Ablations and rollout-level analyses show that PACE adapts execution horizons across manipulation phases, shortening near transitions while preserving longer execution during coherent motion.",
-      "title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
-      "topic_hits": [
-        "Imitation Learning"
-      ],
-      "updated": "2026-05-30"
-    },
-    "2606.00730": {
-      "arxiv_url": "https://arxiv.org/abs/2606.00730",
-      "authors": [
-        "Roland Andrews",
-        "Justin Carpentier",
-        "Ajay Sathya"
-      ],
-      "authors_display": "Roland Andrews, Justin Carpentier, Ajay Sathya",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Ajay Sathya",
-      "first_affiliation": "TBD",
-      "first_author": "Roland Andrews",
-      "id": "2606.00730",
-      "keywords": [
-        "imitation learning"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2606.00730",
-      "primary_category": "cs.RO",
-      "published": "2026-05-30",
-      "summary": "Imitation learning (IL) is an effective approach to train complex robotics policies. Recent works have introduced hard constraints into imitation-learning optimization problems to ensure safety, stability, and robustness of the learned policy. However, we argue that these constraints are sometimes infeasible, which can lead to unstable or difficult training dynamics. We study a simple remedy for such situations based on recent theoretical results on the augmented Lagrangian method in infeasible settings. We show that our approach drives the learned policy toward the solution of a closest-feasible constrained IL problem with desirable properties. The method is illustrated on a toy driving example with a total-acceleration constraint and pedestrian-safety constraints, a setting in which infeasibility can naturally arise while still allowing a safe learned policy.",
-      "title": "Infeasible optimization problems and the hierarchical augmented Lagrangian method in imitation learning",
-      "topic_hits": [
-        "Imitation Learning"
-      ],
-      "updated": "2026-05-30"
-    },
     "2606.00966": {
       "arxiv_url": "https://arxiv.org/abs/2606.00966",
       "authors": [
@@ -107296,7 +107232,6 @@
         "cs.AI"
       ],
       "code_url": "https://github.com/Andrew0613/PAWBench",
-      "code_url_source": "github_search",
       "comment": "",
       "corresponding_author": "Xi Chen",
       "first_affiliation": "TBD",
@@ -107327,7 +107262,6 @@
         "cs.AI"
       ],
       "code_url": "https://github.com/121-labs/ViT-Expansion-in-JEPA-WM",
-      "code_url_source": "github_search",
       "comment": "12 pages, 2 figures, 6 tables",
       "corresponding_author": "Frederik Berenz",
       "first_affiliation": "TBD",
@@ -107393,7 +107327,6 @@
         "cs.RO"
       ],
       "code_url": "https://github.com/z-lab/flashvla",
-      "code_url_source": "github_search",
       "comment": "17 pages, 8 figures",
       "corresponding_author": "Zhijian Liu",
       "first_affiliation": "TBD",
@@ -107448,5 +107381,5 @@
       "updated": "2026-08-27"
     }
   },
-  "updated_at": "2026-08-28T12:25:11.560340+00:00"
+  "updated_at": "2026-08-29T07:34:32.112182+00:00"
 }

@@ -7,14 +7,14 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-28**.
+Updated on **2026-08-29**.
 
 ## Topics
 
 - [Dexterous Hand](#dexterous-hand) (205)
 - [Manipulation](#manipulation) (813)
 - [Reinforcement Learning](#reinforcement-learning) (1158)
-- [Imitation Learning](#imitation-learning) (374)
+- [Imitation Learning](#imitation-learning) (372)
 - [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (180)
 - [Embodied Foundation Models](#embodied-foundation-models) (1273)
 
@@ -2589,8 +2589,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-05-31**|**Implicit Drifting Policy: One-Step Action Generation via Conditional Expert Geometry**|Yuexin Ma|behavior cloning, imitation learning, policy learning|[abs](https://arxiv.org/abs/2606.01098) / [pdf](https://arxiv.org/pdf/2606.01098)||
 |**2026-05-31**|**$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation**|Jianlan Luo|world model, policy learning, teleoperation|[abs](https://arxiv.org/abs/2606.01027) / [pdf](https://arxiv.org/pdf/2606.01027)||
 |**2026-05-31**|**Threading Optimization for Vision-Language-Action Model Inference in Low-Cost Smart Agricultural Manipulation**|Lifeng Zhou|vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.00966) / [pdf](https://arxiv.org/pdf/2606.00966)||
-|**2026-05-30**|**Infeasible optimization problems and the hierarchical augmented Lagrangian method in imitation learning**|Ajay Sathya|imitation learning|[abs](https://arxiv.org/abs/2606.00730) / [pdf](https://arxiv.org/pdf/2606.00730)||
-|**2026-05-30**|**PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking**|Songfang Huang|vision-language-action|[abs](https://arxiv.org/abs/2606.00537) / [pdf](https://arxiv.org/pdf/2606.00537)||
 
 ## Tactile / Visuo-Tactile
 
