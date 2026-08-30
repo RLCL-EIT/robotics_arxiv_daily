@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-08-29**.
+Updated on **2026-08-30**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (205)
+- [Dexterous Hand](#dexterous-hand) (204)
 - [Manipulation](#manipulation) (813)
 - [Reinforcement Learning](#reinforcement-learning) (1158)
-- [Imitation Learning](#imitation-learning) (372)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (180)
+- [Imitation Learning](#imitation-learning) (368)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (179)
 - [Embodied Foundation Models](#embodied-foundation-models) (1273)
 
 ## Metadata Note
@@ -230,7 +230,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-02**|**EaDex: A Cross-Embodiment Dexterous Manipulation Framework from Low-Cost Demonstrations**|Yingtian Li|dexterous manipulation, reinforcement learning, imitation learning, dataset, dexterous hand|[abs](https://arxiv.org/abs/2606.03268) / [pdf](https://arxiv.org/pdf/2606.03268)||
 |**2026-06-01**|**Hand Trajectory Fusion for Egocentric Natural Language Query Grounding**|Narciso García||[abs](https://arxiv.org/abs/2606.02962) / [pdf](https://arxiv.org/pdf/2606.02962)||
 |**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|Jan Peters|reinforcement learning, dexterous manipulation, imitation learning|[abs](https://arxiv.org/abs/2606.02194) / [pdf](https://arxiv.org/pdf/2606.02194)||
-|**2026-05-31**|**Lagrangian Perturbation Diffusion Steering: Latent Reinforcement Learning for Generative Policies**|Ozgur S. Oguz|reinforcement learning, benchmark, behavior cloning, dexterous manipulation, vision-language-action|[abs](https://arxiv.org/abs/2606.01151) / [pdf](https://arxiv.org/pdf/2606.01151)||
 
 ## Manipulation
 
@@ -2585,10 +2584,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-01**|**Coherent Off-Policy Improvement of Large Behavior Models with Learned Rewards**|Jan Peters|reinforcement learning, dexterous manipulation, imitation learning|[abs](https://arxiv.org/abs/2606.02194) / [pdf](https://arxiv.org/pdf/2606.02194)||
 |**2026-06-01**|**Co-training with Ego-centric Video and Demonstration for Robot Navigation Task**|Kanata Suzuki|dataset, VLA, vision-language-action, imitation learning|[abs](https://arxiv.org/abs/2606.01951) / [pdf](https://arxiv.org/pdf/2606.01951)||
 |**2026-06-01**|**Set-Supervised Diffusion Policy: Learning Action-Chunking Diffusion through Corrections**|Jens Kober|diffusion policy, behavior cloning, dataset, policy learning|[abs](https://arxiv.org/abs/2606.01865) / [pdf](https://arxiv.org/pdf/2606.01865)||
-|**2026-05-31**|**Lagrangian Perturbation Diffusion Steering: Latent Reinforcement Learning for Generative Policies**|Ozgur S. Oguz|reinforcement learning, benchmark, behavior cloning, dexterous manipulation, vision-language-action|[abs](https://arxiv.org/abs/2606.01151) / [pdf](https://arxiv.org/pdf/2606.01151)||
-|**2026-05-31**|**Implicit Drifting Policy: One-Step Action Generation via Conditional Expert Geometry**|Yuexin Ma|behavior cloning, imitation learning, policy learning|[abs](https://arxiv.org/abs/2606.01098) / [pdf](https://arxiv.org/pdf/2606.01098)||
-|**2026-05-31**|**$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation**|Jianlan Luo|world model, policy learning, teleoperation|[abs](https://arxiv.org/abs/2606.01027) / [pdf](https://arxiv.org/pdf/2606.01027)||
-|**2026-05-31**|**Threading Optimization for Vision-Language-Action Model Inference in Low-Cost Smart Agricultural Manipulation**|Lifeng Zhou|vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.00966) / [pdf](https://arxiv.org/pdf/2606.00966)||
 
 ## Tactile / Visuo-Tactile
 
@@ -2773,7 +2768,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-02**|**Static and Dynamic Representations for Tactile Contact-Angle Estimation with Event-Based Sensors**|Benjamin Ward-Cherrier|tactile sensing|[abs](https://arxiv.org/abs/2606.03545) / [pdf](https://arxiv.org/pdf/2606.03545)||
 |**2026-06-02**|**Toward Gripper-Integrated Active Electrosense for Pre-Contact Sensing in Underwater Soft Grippers**|Guangming Xie|grasping|[abs](https://arxiv.org/abs/2606.03204) / [pdf](https://arxiv.org/pdf/2606.03204)||
 |**2026-06-02**|**Shaft-integrated Force Sensing with Transformer-based Dynamics Compensation for Telesurgery**|Zonghe Chua|haptic feedback|[abs](https://arxiv.org/abs/2605.31434) / [pdf](https://arxiv.org/pdf/2605.31434)||
-|**2026-05-31**|**S2M-Trek: From Single to Multi-Sphere Transport via Per-Frame Deep Sets on a Wheel-Legged Robot**|Yiqun Li|reinforcement learning|[abs](https://arxiv.org/abs/2606.01332) / [pdf](https://arxiv.org/pdf/2606.01332)||
 
 ## Embodied Foundation Models
 
