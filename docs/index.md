@@ -7,15 +7,15 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-09-05**.
+Updated on **2026-09-06**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (205)
-- [Manipulation](#manipulation) (846)
-- [Reinforcement Learning](#reinforcement-learning) (1238)
-- [Imitation Learning](#imitation-learning) (358)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (186)
+- [Dexterous Hand](#dexterous-hand) (204)
+- [Manipulation](#manipulation) (837)
+- [Reinforcement Learning](#reinforcement-learning) (1229)
+- [Imitation Learning](#imitation-learning) (353)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (185)
 - [Embodied Foundation Models](#embodied-foundation-models) (1377)
 
 ## Metadata Note
@@ -230,7 +230,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-08**|**DexPIE: Stable Dexterous Policy Improvement from Real-World Experience**|Yaonan Wang|dexterous manipulation, imitation learning, dataset|[abs](https://arxiv.org/abs/2606.09615) / [pdf](https://arxiv.org/pdf/2606.09615)||
 |**2026-06-08**|**Dense Force Estimation with an Event-based Optical Tactile Sensor**|Valentina Cavinato|dexterous manipulation, dataset, force feedback, grasping|[abs](https://arxiv.org/abs/2606.09451) / [pdf](https://arxiv.org/pdf/2606.09451)||
 |**2026-06-08**|**MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation**|Junwei Liang|humanoid, world model, vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.09215) / [pdf](https://arxiv.org/pdf/2606.09215)||
-|**2026-06-07**|**Video2Sim2Real: Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video**|Harish Ravichandar|sim-to-real, foundation model, motion planning|[abs](https://arxiv.org/abs/2606.08828) / [pdf](https://arxiv.org/pdf/2606.08828)||
 
 ## Manipulation
 
@@ -1073,15 +1072,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-08**|**KPGrasp: Scalable Keypoint Flow Matching for Dexterous Grasp Generation**|He Wang|benchmark|[abs](https://arxiv.org/abs/2606.09314) / [pdf](https://arxiv.org/pdf/2606.09314)||
 |**2026-06-08**|**EgoTactile: Learning Grasp Pressure for Everyday Objects from Egocentric Video**|Qingmin Liao|benchmark, tactile sensing|[abs](https://arxiv.org/abs/2606.09243) / [pdf](https://arxiv.org/pdf/2606.09243)||
 |**2026-06-08**|**EPS3D: End-to-End Feed-Forward 3D Panoptic Segmentation**|Chi-Wing Fu|benchmark|[abs](https://arxiv.org/abs/2606.08980) / [pdf](https://arxiv.org/pdf/2606.08980)||
-|**2026-06-07**|**Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks**|Farshad Khorrami|world model, diffusion policy, grasping, benchmark|[abs](https://arxiv.org/abs/2606.08775) / [pdf](https://arxiv.org/pdf/2606.08775)||
-|**2026-06-07**|**Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation**|Shanghang Zhang|world model, contact-rich manipulation, robot manipulation|[abs](https://arxiv.org/abs/2606.08737) / [pdf](https://arxiv.org/pdf/2606.08737)||
-|**2026-06-07**|**Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation**|Jie Mei|diffusion policy|[abs](https://arxiv.org/abs/2606.08657) / [pdf](https://arxiv.org/pdf/2606.08657)||
-|**2026-06-07**|**Reinforcement Learning for Flow-Matching Policies with Density Transport**|Antonio Loquercio|reinforcement learning, robot manipulation|[abs](https://arxiv.org/abs/2606.08602) / [pdf](https://arxiv.org/pdf/2606.08602)||
-|**2026-06-07**|**Real-IKEA: Physical Fidelity is the Prerequisite for Robust Manipulation**|Fan Shi|policy learning, dataset, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2606.08564) / [pdf](https://arxiv.org/pdf/2606.08564)||
-|**2026-06-07**|**OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation**|Xuelong Li|humanoid, teleoperation, robot manipulation|[abs](https://arxiv.org/abs/2606.08548) / [pdf](https://arxiv.org/pdf/2606.08548)||
-|**2026-06-07**|**Personalized and Robust Proactive Robot Assistance with Uncertainty-Guided LLM Reasoning**|Ali Ayub|dataset|[abs](https://arxiv.org/abs/2606.08458) / [pdf](https://arxiv.org/pdf/2606.08458)||
-|**2026-06-07**|**GraspFoM: Towards Reconstruction-Driven Robotic Grasping with 3D Foundation Priors**|Wufan Zhao|grasping|[abs](https://arxiv.org/abs/2606.08440) / [pdf](https://arxiv.org/pdf/2606.08440)||
-|**2026-06-07**|**PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation**|Jun Zhu|benchmark|[abs](https://arxiv.org/abs/2606.08414) / [pdf](https://arxiv.org/pdf/2606.08414)||
 
 ## Reinforcement Learning
 
@@ -2316,15 +2306,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-08**|**Counterfactual Transport Flows for Offline Conservative Trajectory Refinement**|Ira Assent|offline reinforcement learning, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2606.09115) / [pdf](https://arxiv.org/pdf/2606.09115)||
 |**2026-06-08**|**Stage-1 Controls the Entropy Regime, Not the Outcome**|Jianxiong Shen|reinforcement learning|[abs](https://arxiv.org/abs/2606.09059) / [pdf](https://arxiv.org/pdf/2606.09059)||
 |**2026-06-08**|**Scaling by Diversified Experience for Vision-Language-Action Models**|Nanyang Ye|VLA, vision-language-action, benchmark, dataset|[abs](https://arxiv.org/abs/2606.09009) / [pdf](https://arxiv.org/pdf/2606.09009)||
-|**2026-06-07**|**Video2Sim2Real: Full-Stack Autonomous Dexterous Skill Acquisition from a Single Human Video**|Harish Ravichandar|sim-to-real, foundation model, motion planning|[abs](https://arxiv.org/abs/2606.08828) / [pdf](https://arxiv.org/pdf/2606.08828)||
-|**2026-06-07**|**Guided Discovery of New Behaviors using Diffusion Policies**|Majid Khadiv|diffusion policy, reinforcement learning, trajectory optimization|[abs](https://arxiv.org/abs/2606.08743) / [pdf](https://arxiv.org/pdf/2606.08743)||
-|**2026-06-07**|**Structure-Conditioned Actor-Critic Branches for Quality-Diversity Reinforcement Learning**|Wenjian Luo|reinforcement learning|[abs](https://arxiv.org/abs/2606.08735) / [pdf](https://arxiv.org/pdf/2606.08735)||
-|**2026-06-07**|**HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning**|Georgia Chalvatzaki|reinforcement learning, sim-to-real, benchmark|[abs](https://arxiv.org/abs/2606.08610) / [pdf](https://arxiv.org/pdf/2606.08610)||
-|**2026-06-07**|**Reinforcement Learning for Flow-Matching Policies with Density Transport**|Antonio Loquercio|reinforcement learning, robot manipulation|[abs](https://arxiv.org/abs/2606.08602) / [pdf](https://arxiv.org/pdf/2606.08602)||
-|**2026-06-07**|**Real-IKEA: Physical Fidelity is the Prerequisite for Robust Manipulation**|Fan Shi|policy learning, dataset, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2606.08564) / [pdf](https://arxiv.org/pdf/2606.08564)||
-|**2026-06-07**|**Autonomous Aerial Manipulation via Contextual Contrastive Meta Reinforcement Learning**|Yang Yu|reinforcement learning|[abs](https://arxiv.org/abs/2606.08533) / [pdf](https://arxiv.org/pdf/2606.08533)||
-|**2026-06-07**|**Towards End to End Motion Planning and Execution for Autonomous Underwater Vehicles Using Reinforcement Learning**|Oren Gal|reinforcement learning, motion planning|[abs](https://arxiv.org/abs/2606.08513) / [pdf](https://arxiv.org/pdf/2606.08513)||
-|**2026-06-07**|**Self-Evolving Scientific Agent Discovers Generalizable Physically-Reasoned Fluid Control**|Liu Yang|reinforcement learning|[abs](https://arxiv.org/abs/2606.08405) / [pdf](https://arxiv.org/pdf/2606.08405)||
 
 ## Imitation Learning
 
@@ -2683,11 +2664,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-08**|**$ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models**|Alois Knoll|world model|[abs](https://arxiv.org/abs/2606.09457) / [pdf](https://arxiv.org/pdf/2606.09457)||
 |**2026-06-08**|**ReGIL: Retrieval-Guided Imitation Learning from a Single Demonstration**|Ville Kyrki|imitation learning, robot manipulation, benchmark|[abs](https://arxiv.org/abs/2606.09381) / [pdf](https://arxiv.org/pdf/2606.09381)||
 |**2026-06-08**|**Continuous Reasoning for Vision-Language-Action**|Kei Ota|VLA, vision-language-action|[abs](https://arxiv.org/abs/2606.00229) / [pdf](https://arxiv.org/pdf/2606.00229)||
-|**2026-06-07**|**Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks**|Farshad Khorrami|world model, diffusion policy, grasping, benchmark|[abs](https://arxiv.org/abs/2606.08775) / [pdf](https://arxiv.org/pdf/2606.08775)||
-|**2026-06-07**|**Guided Discovery of New Behaviors using Diffusion Policies**|Majid Khadiv|diffusion policy, reinforcement learning, trajectory optimization|[abs](https://arxiv.org/abs/2606.08743) / [pdf](https://arxiv.org/pdf/2606.08743)||
-|**2026-06-07**|**Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation**|Jie Mei|diffusion policy|[abs](https://arxiv.org/abs/2606.08657) / [pdf](https://arxiv.org/pdf/2606.08657)||
-|**2026-06-07**|**ActProbe: Action-Space Probe for Early Failure Detection of Generative Robot Policies**|Ting Cao|benchmark|[abs](https://arxiv.org/abs/2606.08508) / [pdf](https://arxiv.org/pdf/2606.08508)||
-|**2026-06-07**|**PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation**|Jun Zhu|benchmark|[abs](https://arxiv.org/abs/2606.08414) / [pdf](https://arxiv.org/pdf/2606.08414)||
 
 ## Tactile / Visuo-Tactile
 
@@ -2878,7 +2854,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-06-09**|**IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation**|Yilun Du|imitation learning|[abs](https://arxiv.org/abs/2606.10818) / [pdf](https://arxiv.org/pdf/2606.10818)||
 |**2026-06-08**|**Dense Force Estimation with an Event-based Optical Tactile Sensor**|Valentina Cavinato|dexterous manipulation, dataset, force feedback, grasping|[abs](https://arxiv.org/abs/2606.09451) / [pdf](https://arxiv.org/pdf/2606.09451)||
 |**2026-06-08**|**EgoTactile: Learning Grasp Pressure for Everyday Objects from Egocentric Video**|Qingmin Liao|benchmark, tactile sensing|[abs](https://arxiv.org/abs/2606.09243) / [pdf](https://arxiv.org/pdf/2606.09243)||
-|**2026-06-07**|**Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation**|Shanghang Zhang|world model, contact-rich manipulation, robot manipulation|[abs](https://arxiv.org/abs/2606.08737) / [pdf](https://arxiv.org/pdf/2606.08737)||
 
 ## Embodied Foundation Models
 
