@@ -7,16 +7,16 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-10-02**.
+Updated on **2026-10-03**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (224)
-- [Manipulation](#manipulation) (1032)
-- [Reinforcement Learning](#reinforcement-learning) (1389)
-- [Imitation Learning](#imitation-learning) (395)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (220)
-- [Embodied Foundation Models](#embodied-foundation-models) (1586)
+- [Dexterous Hand](#dexterous-hand) (223)
+- [Manipulation](#manipulation) (1027)
+- [Reinforcement Learning](#reinforcement-learning) (1385)
+- [Imitation Learning](#imitation-learning) (393)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (219)
+- [Embodied Foundation Models](#embodied-foundation-models) (1580)
 
 ## Metadata Note
 
@@ -249,7 +249,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-07**|**SparseCtrl-HOI: Sparse Temporal Control for Human-Object Interaction Video Generation**|Changxing Ding|dataset|[abs](https://arxiv.org/abs/2607.05994) / [pdf](https://arxiv.org/pdf/2607.05994)||
 |**2026-07-06**|**Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation**|Mengshi Qi|sim-to-real, dexterous hand, grasping, reinforcement learning, dexterous manipulation|[abs](https://arxiv.org/abs/2607.04940) / [pdf](https://arxiv.org/pdf/2607.04940)||
 |**2026-07-06**|**HUGS: Guiding Unified Dexterous Grasp Synthesis Across Modes and Scales via Learned Human Priors**|Xiang Li|grasp synthesis, grasping, dataset|[abs](https://arxiv.org/abs/2607.04554) / [pdf](https://arxiv.org/pdf/2607.04554)||
-|**2026-07-04**|**ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling**|Zhaojie Ju|dexterous manipulation, reinforcement learning|[abs](https://arxiv.org/abs/2607.03828) / [pdf](https://arxiv.org/pdf/2607.03828)||
 
 ## Manipulation
 
@@ -1282,11 +1281,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-05**|**AutoSpeed: Annotation-Free Stage-Adaptive Motion Speed Learning for Robot Manipulation**|Wenchao Ding|robot manipulation|[abs](https://arxiv.org/abs/2607.01051) / [pdf](https://arxiv.org/pdf/2607.01051)||
 |**2026-07-05**|**Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force**|Shuran Song|dataset, robot manipulation, world model|[abs](https://arxiv.org/abs/2606.30988) / [pdf](https://arxiv.org/pdf/2606.30988)||
 |**2026-07-05**|**OpenSPM: An Environment-Transferable Robotic Key Spatial Pose Memory and Closed-Loop High-Frequency Flow-Matching Action Generation Model**|Zhidong Deng|vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.29936) / [pdf](https://arxiv.org/pdf/2606.29936)||
-|**2026-07-04**|**Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control**|Yong Li|world model|[abs](https://arxiv.org/abs/2607.03964) / [pdf](https://arxiv.org/pdf/2607.03964)||
-|**2026-07-04**|**Occluding the Solution Space: Planner-Agnostic Adversarial Attacks on Tolerance-Aware Manipulation**|Zhihong Tian|motion planning|[abs](https://arxiv.org/abs/2607.03758) / [pdf](https://arxiv.org/pdf/2607.03758)||
-|**2026-07-04**|**OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies**|Ruohan Gao|teleoperation, contact-rich manipulation, tactile sensing|[abs](https://arxiv.org/abs/2607.03723) / [pdf](https://arxiv.org/pdf/2607.03723)||
-|**2026-07-04**|**GRASP: Graph-Reasoning Aided Survey Planning for High-Fidelity Related Work Generation**|Jessica Ouyang||[abs](https://arxiv.org/abs/2607.03709) / [pdf](https://arxiv.org/pdf/2607.03709)||
-|**2026-07-04**|**CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts**|Xipeng Qiu|VLA, vision-language-action, benchmark|[abs](https://arxiv.org/abs/2607.03693) / [pdf](https://arxiv.org/pdf/2607.03693)||
 
 ## Reinforcement Learning
 
@@ -2677,10 +2671,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-05**|**HALO-WA: Hybrid-Attention Latent-Guided Online Reinforcement Learning for World-Action Models**|Dapeng Zhang|reinforcement learning|[abs](https://arxiv.org/abs/2607.04265) / [pdf](https://arxiv.org/pdf/2607.04265)||
 |**2026-07-05**|**Towards Effcient Low Altitude Sensing: A Dual Heterogeneous Graph Learning Method for UAV Task Allocation**|Tingting Zhang|benchmark|[abs](https://arxiv.org/abs/2607.04255) / [pdf](https://arxiv.org/pdf/2607.04255)||
 |**2026-07-05**|**Mask-based Predictive Representations for Reinforcement Learning**|Kai Zhao|reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.04153) / [pdf](https://arxiv.org/pdf/2607.04153)||
-|**2026-07-04**|**CDCP: Conditional Diffusion Model with Contextual Prompts for Multi-task Offline Safe Reinforcement Learning**|Changjun Jiang|reinforcement learning|[abs](https://arxiv.org/abs/2607.03903) / [pdf](https://arxiv.org/pdf/2607.03903)||
-|**2026-07-04**|**AdaptiveSD A Stability-Aware, Runtime-Adaptive Speculative Decoding Framework with Multi-Policy Orchestration for CPU-Constrained LLM Inference**|Sadra Saremi|reinforcement learning|[abs](https://arxiv.org/abs/2607.03876) / [pdf](https://arxiv.org/pdf/2607.03876)||
-|**2026-07-04**|**ObjRetarget: An Object-Aware Motion Retargeting Framework with Anthropomorphic Arm Constraints and Polyhedral Hand Modeling**|Zhaojie Ju|dexterous manipulation, reinforcement learning|[abs](https://arxiv.org/abs/2607.03828) / [pdf](https://arxiv.org/pdf/2607.03828)||
-|**2026-07-04**|**Explainable Reinforcement Learning for Adaptive Traffic Signal Control**|Michael Hunter|reinforcement learning|[abs](https://arxiv.org/abs/2607.03703) / [pdf](https://arxiv.org/pdf/2607.03703)||
 
 ## Imitation Learning
 
@@ -3079,8 +3069,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-06**|**Beyond Monotonic Progress: Retry-Supervised Value Learning for Robot Imitation**|Li Zhao|imitation learning, behavior cloning, robot manipulation|[abs](https://arxiv.org/abs/2606.24633) / [pdf](https://arxiv.org/pdf/2606.24633)||
 |**2026-07-05**|**HALO-WA: Hybrid-Attention Latent-Guided Online Reinforcement Learning for World-Action Models**|Dapeng Zhang|reinforcement learning|[abs](https://arxiv.org/abs/2607.04265) / [pdf](https://arxiv.org/pdf/2607.04265)||
 |**2026-07-05**|**OpenSPM: An Environment-Transferable Robotic Key Spatial Pose Memory and Closed-Loop High-Frequency Flow-Matching Action Generation Model**|Zhidong Deng|vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.29936) / [pdf](https://arxiv.org/pdf/2606.29936)||
-|**2026-07-04**|**HyperDCM: Dynamic Cluster Memory Replay in Hyperbolic Space for Continual Robotic Navigation Across Scenes**|Xian Wei|diffusion policy, dataset|[abs](https://arxiv.org/abs/2607.16267) / [pdf](https://arxiv.org/pdf/2607.16267)||
-|**2026-07-04**|**WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control**|Heng Tao Shen|foundation model, imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.03941) / [pdf](https://arxiv.org/pdf/2607.03941)||
 
 ## Tactile / Visuo-Tactile
 
@@ -3305,7 +3293,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-06**|**Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models**|Yunzhu Li|world model, dataset, benchmark|[abs](https://arxiv.org/abs/2607.05390) / [pdf](https://arxiv.org/pdf/2607.05390)|[repo](https://github.com/lhy0807/deform360)|
 |**2026-07-06**|**Closing the Reality Gap: Zero-Shot Sim-to-Real Deployment for Dexterous Force-Based Grasping and Manipulation**|Mengshi Qi|sim-to-real, dexterous hand, grasping, reinforcement learning, dexterous manipulation|[abs](https://arxiv.org/abs/2607.04940) / [pdf](https://arxiv.org/pdf/2607.04940)||
 |**2026-07-05**|**Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force**|Shuran Song|dataset, robot manipulation, world model|[abs](https://arxiv.org/abs/2606.30988) / [pdf](https://arxiv.org/pdf/2606.30988)||
-|**2026-07-04**|**OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies**|Ruohan Gao|teleoperation, contact-rich manipulation, tactile sensing|[abs](https://arxiv.org/abs/2607.03723) / [pdf](https://arxiv.org/pdf/2607.03723)||
 
 ## Embodied Foundation Models
 
@@ -3313,7 +3300,7 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |---|---|---|---|---|---|
 |**2026-10-01**|**ROWBench: Do Video Models Render What the Program Specifies?**|Zhixiang Wang|benchmark, world model|[abs](https://arxiv.org/abs/2610.02205) / [pdf](https://arxiv.org/pdf/2610.02205)||
 |**2026-10-01**|**Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents**|Haozhi Qi|dataset, embodied agent|[abs](https://arxiv.org/abs/2610.02204) / [pdf](https://arxiv.org/pdf/2610.02204)||
-|**2026-10-01**|**World Observer: Joint Actor-Observer Generation for Persistent World Modeling**|Seungryong Kim|world model, benchmark|[abs](https://arxiv.org/abs/2610.02162) / [pdf](https://arxiv.org/pdf/2610.02162)||
+|**2026-10-01**|**World Observer: Joint Actor-Observer Generation for Persistent World Modeling**|Seungryong Kim|world model, benchmark|[abs](https://arxiv.org/abs/2610.02162) / [pdf](https://arxiv.org/pdf/2610.02162)|[repo](https://github.com/cvlab-kaist/world-observer)|
 |**2026-10-01**|**DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication**|Junshan Zhang|VLA, benchmark, vision-language-action|[abs](https://arxiv.org/abs/2610.02161) / [pdf](https://arxiv.org/pdf/2610.02161)||
 |**2026-10-01**|**4Director: Controlling Video World Models with Rigid 3D Geometry**|Yaoyao Liu|world model, dataset|[abs](https://arxiv.org/abs/2610.02160) / [pdf](https://arxiv.org/pdf/2610.02160)||
 |**2026-10-01**|**UniWAM: Unified World-Action Model**|Haoang Li|vision-language-action|[abs](https://arxiv.org/abs/2610.02054) / [pdf](https://arxiv.org/pdf/2610.02054)||
@@ -4891,9 +4878,3 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-07-05**|**DynaVieW: Schema-Guided World Modeling for Understanding Hierarchical Visual Dynamics**|Antoine Bosselut|world model|[abs](https://arxiv.org/abs/2607.04112) / [pdf](https://arxiv.org/pdf/2607.04112)||
 |**2026-07-05**|**Repair the Amplifier, Not the Symptom: Stable World-Model Correction for Agent Rollouts**|Zekun Cai|world model, benchmark|[abs](https://arxiv.org/abs/2607.01767) / [pdf](https://arxiv.org/pdf/2607.01767)||
 |**2026-07-05**|**OpenSPM: An Environment-Transferable Robotic Key Spatial Pose Memory and Closed-Loop High-Frequency Flow-Matching Action Generation Model**|Zhidong Deng|vision-language-action, VLA|[abs](https://arxiv.org/abs/2606.29936) / [pdf](https://arxiv.org/pdf/2606.29936)||
-|**2026-07-04**|**Worldscape-MoE: A Unified Mixture-of-Experts World Model for Scalable Heterogeneous Action Control**|Yong Li|world model|[abs](https://arxiv.org/abs/2607.03964) / [pdf](https://arxiv.org/pdf/2607.03964)||
-|**2026-07-04**|**ThermoForce: A Physics-Structured Interventional World Model for Building HVAC Control**|Yifan Wang|world model, foundation model, benchmark|[abs](https://arxiv.org/abs/2607.03942) / [pdf](https://arxiv.org/pdf/2607.03942)||
-|**2026-07-04**|**WSA$_1$: a 3D-Centric World-Spatial-Action Model for Generalizable Robot Control**|Heng Tao Shen|foundation model, imitation learning, benchmark|[abs](https://arxiv.org/abs/2607.03941) / [pdf](https://arxiv.org/pdf/2607.03941)||
-|**2026-07-04**|**Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models**|Pichao Wang|VLA, vision-language-action, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2607.03751) / [pdf](https://arxiv.org/pdf/2607.03751)||
-|**2026-07-04**|**CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts**|Xipeng Qiu|VLA, vision-language-action, benchmark|[abs](https://arxiv.org/abs/2607.03693) / [pdf](https://arxiv.org/pdf/2607.03693)||
-|**2026-07-04**|**Predicting Closed-Loop Performance of Latent World Models: Offline Checkpoint Selection for MPC and Model-Based RL Under Non-Markovian Rewards in LunarLander**|Nikolai Smolyanskiy|world model|[abs](https://arxiv.org/abs/2607.01736) / [pdf](https://arxiv.org/pdf/2607.01736)||
