@@ -929,209 +929,6 @@
       ],
       "updated": "2026-08-06"
     },
-    "2608.00391": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00391",
-      "authors": [
-        "Qi Luo",
-        "Shuaijun Liu",
-        "Hao Zhao",
-        "Kunlin Li",
-        "Xiaobo Wang",
-        "Ningxing Su",
-        "Dongsheng Wang",
-        "Yun Chen"
-      ],
-      "authors_display": "Qi Luo, Shuaijun Liu, Hao Zhao, Kunlin Li et al.",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "code_url": "",
-      "comment": "11 pages, 8 figures",
-      "corresponding_author": "Yun Chen",
-      "first_affiliation": "TBD",
-      "first_author": "Qi Luo",
-      "id": "2608.00391",
-      "keywords": [
-        "VLA"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00391",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Token skipping is a widely used training-free way to accelerate vision--language--action (VLA) models by bypassing computation for most visual tokens at each control step according to a gate. When the next gate is harvested from the previous accelerated forward, however, the tokens skipped at one step are also the ones least visible to the next gate, and the damage can compound across control steps until the task fails. We study the two mechanisms this class is built on, reuse and deletion, crossing each against where its gate signal comes from on identical episodes. At a skip ratio of 0.9 on LIBERO-Object, both collapse when the gate comes from the model's own accelerated forwards, to 0.68 under reuse and to 0.31 under deletion against a dense 1.00, and the collapse is invisible to the action-level detectors we evaluate. What separates collapse from dense-level operation is not the mechanism but whether the gate is clean, computed by a forward that skipped nothing. We therefore propose actuation-slack refresh, one dense pass run while the robot executes its current action chunk, off the critical path, that hands the next step a clean gate and a fresh KV base. Since the measured detectors do not reliably reveal the failure, the refresh is unconditional rather than triggered. Both mechanisms then recover to 0.98, keeping the speed of skipping and the information of a dense pass. We then integrate the refresh into state-of-the-art caching and pruning methods across two VLA policies, 4 LIBERO suites, and 4 SIMPLER tasks, where it repairs every collapse caused by using a self-harvested gate. Serve latency drops 18--22\\% below dense, measured both in simulation and on a physical robot. Where the gate signal comes from, not how tokens are skipped, decides closed-loop reliability for accelerated VLAs.",
-      "title": "The Gate, Not the Cache: Gate Provenance Bounds the Closed-Loop Reliability of Training-Free VLA Token Skipping",
-      "topic_hits": [
-        "Embodied Foundation Models",
-        "Imitation Learning"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00502": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00502",
-      "authors": [
-        "Yufei Zhang",
-        "Chenlu Zhan",
-        "Donghui Sun",
-        "Xiaoxin Chen",
-        "Hongwei Wang"
-      ],
-      "authors_display": "Yufei Zhang, Chenlu Zhan, Donghui Sun, Xiaoxin Chen et al.",
-      "categories": [
-        "cs.CV"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Hongwei Wang",
-      "first_affiliation": "TBD",
-      "first_author": "Yufei Zhang",
-      "id": "2608.00502",
-      "keywords": [
-        "reinforcement learning"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00502",
-      "primary_category": "cs.CV",
-      "published": "2026-08-01",
-      "summary": "Affordance grounding aims to localize the functional region for interaction, such as the handle to grasp or the button to press, rather than the whole object. This makes it more challenging than generic visual grounding because the target region is smaller, more ambiguous, and more dependent on task context, especially for compact vision-language models (VLMs) used in embodied settings. Recent sequence-level supervision and reinforcement learning improve coordinate prediction quality, yet compact autoregressive VLMs still lack reliable affordance-aware visual focus before coordinate generation: the model can produce better coordinate tokens while its cross-modal attention remains diffuse and weakly anchored to the true affordance evidence. To address it, we propose SpatialAfford, a two-stage framework that first aligns attention to the ground-truth affordance region through Spatial Attention Alignment (SAA), then refines coordinate prediction with Spatial-Aware GRPO. By explicitly teaching the model where to look before optimizing where to ground, SpatialAfford turns affordance grounding from a purely output-constrained objective into attention-grounded spatial reasoning. Across ShareRobot-Bench, ReasonAff, and PartAfford, SpatialAfford consistently improves affordance grounding, with a compact 4B model outperforming stronger 7B+ baselines.",
-      "title": "SpatialAfford: Teaching Compact VLMs Where to Look and Where to Ground for Affordance",
-      "topic_hits": [
-        "Manipulation"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00547": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00547",
-      "authors": [
-        "Zihang Yao",
-        "Chaoyue Ding",
-        "Yingying Yu"
-      ],
-      "authors_display": "Zihang Yao, Chaoyue Ding, Yingying Yu",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "6 pages, 3 figures, 2 tables",
-      "corresponding_author": "Yingying Yu",
-      "first_affiliation": "TBD",
-      "first_author": "Zihang Yao",
-      "id": "2608.00547",
-      "keywords": [
-        "visuo-tactile",
-        "contact-rich manipulation",
-        "benchmark"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00547",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Contact-rich manipulation remains challenging because successful control depends on physical interaction cues that are often weakly observable from vision alone. Recent tactile world action models jointly model future visual observations and tactile signals to guide action generation, but how such futures should be structured for effective use by the action expert remains underexplored. Directly studying this question with learned world action models is difficult because end-to-end behavior entangles physically invalid visual futures, unreliable predictions, inaccurate or cross-modally inconsistent tactile forecasts, and an unreadable future-to-action interface. To make this interface independently studyable, we introduce Oracle Visuo-Tactile Foresight (OVTF), a controlled framework that supplies paired RGB and tactile futures from successful trajectories verified in simulation. By fixing the future provider, OVTF isolates the interface and asks a cleaner question: if the future is successful and physically executable, what representation allows the action expert to absorb its benefit? Within OVTF, we propose Asymmetric Phase-Local Future Memory (AFM), in which visual memory reads future vision, each tactile memory jointly attends to its own tactile stream and phase-aligned future vision, and cross-tactile access is blocked. We compare AFM with Modality-Isolated Future Memory (IFM), which removes visual-to-tactile access and processes each future modality independently. Across seven tasks on the UniVTAC simulation benchmark, AFM achieves 32.0% average success, compared with 23.7% for IFM and 14.9% for UniVTAC-ACT. This controlled comparison shows that selective phase-aligned visual-tactile routing provides a more actionable future-to-action bridge than complete modality isolation.",
-      "title": "Disentangling Visuo-Tactile Foresight: Oracle-Guided Interface Discovery for World Action Models",
-      "topic_hits": [
-        "Manipulation",
-        "Tactile / Visuo-Tactile"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00554": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00554",
-      "authors": [
-        "Xiaoyang Chen",
-        "Shengcheng Luo",
-        "Haoran Guo",
-        "Jiaming Jiang",
-        "Wanlin Li",
-        "Ziyuan Jiao",
-        "Chenxi Xiao"
-      ],
-      "authors_display": "Xiaoyang Chen, Shengcheng Luo, Haoran Guo, Jiaming Jiang et al.",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "code_url": "",
-      "comment": "16 pages, 17 figures",
-      "corresponding_author": "Chenxi Xiao",
-      "first_affiliation": "TBD",
-      "first_author": "Xiaoyang Chen",
-      "id": "2608.00554",
-      "keywords": [
-        "reinforcement learning",
-        "LEAP hand"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00554",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Dexterous object rotation is a sequential contact problem: each support, release, and re-contact decision must both produce the desired object motion, and prepare the hand configuration for continued rotation. Existing reinforcement learning methods discover such movement patterns through trial and error on specific robotic hand embodiments, without explicitly accounting for how each contact transition affects the hand's ability to sustain object rotation in subsequent steps. We introduce DexMani, a framework that transfers human demonstrations as contact-conditioned manipulability evolution. This prior captures how successful human contact transitions reshape the object-rotation directions available to the hand. DexMani then learns this manipulability evolution and uses it to guide downstream reinforcement learning, enabling rotation skills to be acquired across robot embodiments with distinct kinematics and active-contact configurations. Across the Shadow Hand, Allegro Hand, and XHand, DexMani achieves the highest success rates in every evaluated setting for both seen and unseen objects. DexMani reaches an average success rate of 57.5% on LEAP Hand, outperforming other baselines and producing smoother rotatory motions. Project site: https://dexmani.github.io",
-      "title": "DexMani: Human-Derived Manipulability Guidance for Dexterous Rotation",
-      "topic_hits": [
-        "Dexterous Hand",
-        "Reinforcement Learning"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00569": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00569",
-      "authors": [
-        "Daojie Peng",
-        "Fulong Ma",
-        "Bingtao Wang",
-        "Sheng Wang",
-        "Jun Ma"
-      ],
-      "authors_display": "Daojie Peng, Fulong Ma, Bingtao Wang, Sheng Wang et al.",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Jun Ma",
-      "first_affiliation": "TBD",
-      "first_author": "Daojie Peng",
-      "id": "2608.00569",
-      "keywords": [
-        "VLA",
-        "vision-language-action"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00569",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Deploying billion-parameter Vision-Language-Action (VLA) policies on mobile robots creates a systems conflict: semantic reasoning benefits from cloud GPUs, whereas closed-loop control must respond locally despite network delay and jitter. Existing hierarchical and asynchronous policies improve throughput, but their slow-path representations can still arrive stale or require explicit scheduling and delay cues. We introduce CloudEdgeVLA, a cloud-edge policy that treats temporal misalignment as a representation-learning problem. A cloud VLA encodes delayed observations into slowly varying task features, while a lightweight edge head combines the latest available cloud feature with current local vision. During training, current and randomly delayed frames are paired with the same current action target in fresh and stale paths. This objective encourages the cloud representation to preserve task-level information while the edge path supplies state-sensitive corrections. Across four LIBERO suites, CloudEdgeVLA retains 63.8--78.0% success with a 40-step uniform-delay window, whereas VLASH reaches at most 6.4% and the evaluated single-path baselines at most 3.0%. By removing blocking synchronization from the control loop, the design offers a practical route to scalable VLA deployment in which cloud models can grow while edge computation remains lightweight and responsive.",
-      "title": "Latency-Tolerant Cloud-Edge Collaborative Vision-Language-Action Models via Emergent Representational Specialization",
-      "topic_hits": [
-        "Embodied Foundation Models"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00591": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00591",
-      "authors": [
-        "Yibin Dong"
-      ],
-      "authors_display": "Yibin Dong",
-      "categories": [
-        "cs.AI"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Yibin Dong",
-      "first_affiliation": "TBD",
-      "first_author": "Yibin Dong",
-      "id": "2608.00591",
-      "keywords": [
-        "world model"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00591",
-      "primary_category": "cs.AI",
-      "published": "2026-08-01",
-      "summary": "Stochastic world models are usually evaluated by the accuracy and calibration of their predicted futures. These criteria leave a decision-relevant ambiguity: the same conditional future distribution can arise because an observation aliases different physical states, or because the dynamics remain random after the declared full state is fixed. We prove that this attribution is not identifiable from ordinary transition data, even with an optimal probabilistic predictor. We introduce ClosurePairs, an interventional evaluation protocol that crosses compatible microstates with repeated exogenous disturbances. A two-way variance decomposition identifies state aliasing, process noise, and their nonlinear interaction; an independent-repeat variant applies when disturbances cannot be reused. On likelihood-equivalent Gaussian systems, paired supervision reduces alias-fraction error 15.96-fold at identical test NLL. Across 18 nonlinear Langevin conditions, it reduces attribution MAE from 0.372 to 0.051 and sensing regret from 0.0138 to 0.0003 without changing NLL. On a pixel-conditioned recurrent model, a frozen shared-state probe reduces alias-fraction MAE against a deep ensemble from 0.584 to 0.130 in distribution and from 0.630 to 0.170 out of distribution over ten seeds. Finally, in a matched-total-variance REFINE/BRANCH test, a total-variance router reaches 66.48 percent plus or minus 1.06 percent accuracy, whereas ClosurePairs reaches 99.99 percent plus or minus 0.02 percent and improves selected NLL from -2.087 to -2.717 over five seeds. ClosurePairs therefore measures why futures branch, information that proper forecast scores cannot identify.",
-      "title": "Why Does the Future Branch? Identifiable Closure Tests for Stochastic Physical World Models",
-      "topic_hits": [
-        "Embodied Foundation Models"
-      ],
-      "updated": "2026-08-01"
-    },
     "2608.00600": {
       "arxiv_url": "https://arxiv.org/abs/2608.00600",
       "authors": [
@@ -1162,150 +959,6 @@
         "Manipulation"
       ],
       "updated": "2026-08-06"
-    },
-    "2608.00625": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00625",
-      "authors": [
-        "Zongyuan Shen",
-        "Shalabh Gupta",
-        "Shancheng Zhao",
-        "Dehua Zhou",
-        "Gao Wang",
-        "Rui Cheng",
-        "Yaming Ou",
-        "Zhongqiang Ren",
-        "Yikui Zhai",
-        "C. L. Philip Chen"
-      ],
-      "authors_display": "Zongyuan Shen, Shalabh Gupta, Shancheng Zhao, Dehua Zhou et al.",
-      "categories": [
-        "cs.RO",
-        "cs.AI"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "C. L. Philip Chen",
-      "first_affiliation": "TBD",
-      "first_author": "Zongyuan Shen",
-      "id": "2608.00625",
-      "keywords": [
-        "motion planning",
-        "policy learning",
-        "sim-to-real"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00625",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Motion planning in dynamic environments is a fundamental problem in robotics, aiming to generate safe and efficient paths, trajectories, or control actions in the presence of moving obstacles, uncertain predictions, and multi-agent interactions. It has broad applications in autonomous driving, service robotics, warehouse logistics, human-robot collaboration, crowd navigation, and multi-robot systems. This survey reviews representative works published primarily between 2015 and 2025, with a particular focus on how recent learning-based advances extend, complement, or interact with classical planning foundations. We first revisit classical planning methods as algorithmic foundations and reference frameworks for learning-based extensions. We then propose a role-of-learning taxonomy that categorizes existing methods according to how learning participates in the planning pipeline, including direct policy learning, learning-augmented classical planning, hybrid planning, and training enhancement methods. For each category, we summarize the main problem settings, representative algorithms, key ideas, integration mechanisms, strengths, and limitations. We further analyze how observation representations, prediction uncertainty, interaction modeling, planner integration, safety constraints, and training strategies shape learning-based motion planning in dynamic environments. Finally, we discuss open challenges and future directions, including sim-to-real gap, safe and certifiable planning, dense crowd navigation, perception-planning coupling, and embodied AI.",
-      "title": "Learning-Based Motion Planning for Dynamic Environments: From Foundational Algorithms to Emerging Paradigms",
-      "topic_hits": [
-        "Reinforcement Learning"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00652": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00652",
-      "authors": [
-        "Amir Belder",
-        "Gonçalo Dias Pais",
-        "Refael Vivanti",
-        "Omri Carmi",
-        "Daniel DeTone",
-        "Oren Shrout",
-        "Ido Gattegno",
-        "Ayellet Tal"
-      ],
-      "authors_display": "Amir Belder, Gonçalo Dias Pais, Refael Vivanti, Omri Carmi et al.",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Ayellet Tal",
-      "first_affiliation": "TBD",
-      "first_author": "Amir Belder",
-      "id": "2608.00652",
-      "keywords": [
-        "benchmark",
-        "foundation model"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00652",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Human assistance in robotics spans around several tasks such as navigation, object manipulation, and placement, where a key challenge is selecting target destinations that align with human intentions or preferences. We focus on this challenge in the context of Virtual Placement (VP), the task of identifying all plausible target locations given scene context and human-centric constraints. This differs from traditional placement tasks that typically focus on a single, predefined target location. The VP problem is complex, as it requires both global and local reasoning about the scene's geometry, semantics, and plausibility. To address this gap, we introduce {\\bf Assistant Placement Aria}, the first benchmark to explore diverse aspects of VP, including global, local, and human-centric constraints. It contains both synthetic and real indoor scenes annotated for three tasks: (i)~2D Panel Placement, (ii)~Sitting Suggestion, and (iii)~TV Placement. Each scene includes 2D images, a 3D point cloud, and a textual description of the objects within the scene. By contributing this benchmark, we aim to encourage further research in this underexplored and challenging field that is critically dependent on relevant data. We also evaluate several foundation models for object detection and segmentation on our benchmark.",
-      "title": "Assistant Placement Aria: A Benchmark for Egocentric Placement Assistance",
-      "topic_hits": [
-        "Manipulation"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00679": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00679",
-      "authors": [
-        "Xiangwei Wang",
-        "Nanduni Nimalsiri",
-        "Yu Xia",
-        "Peng Wang",
-        "Saman Halgamuge"
-      ],
-      "authors_display": "Xiangwei Wang, Nanduni Nimalsiri, Yu Xia, Peng Wang et al.",
-      "categories": [
-        "cs.AI",
-        "cs.MA"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Saman Halgamuge",
-      "first_affiliation": "TBD",
-      "first_author": "Xiangwei Wang",
-      "id": "2608.00679",
-      "keywords": [
-        "reinforcement learning"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00679",
-      "primary_category": "cs.AI",
-      "published": "2026-08-01",
-      "summary": "Safety interventions for large populations of network-coupled agents must protect shared constraints without unnecessarily overriding task-oriented policy decisions. We present HetGPS, a hybrid graph-control framework synergizing learned graph risk with physics-anchored correction by separating intervention magnitude from corrective direction. An action-conditioned graph residual model schedules state-dependent intervention authority, while a physics model determines its direction. For electric vehicle (EV) charging, we couple this filter with a parameter-shared heterogeneous graph soft actor-critic policy, enabling topology-aware coordination with a learned model size independent of fleet size. Across five nested distribution networks with 200--3,218 EVs and 100 evaluation days, Adaptive Authority reduces bus--step voltage violations from 3.93--7.74\\% without filtering to 0.52--3.44\\%, while maintaining 99.06--100\\% departure success. Relative to the same physics-directed projection with fixed authority, it improves mean reward on all five networks and lowers the mean safety score on four. The deployed policy-and-risk model contains 383,702 learned parameters at every scale; at 3,218 EVs, a matched centralized SAC actor is about $170\\times$ larger. A policy trained on the eight-transformer system transfers zero-shot to the 16- and 32-transformer systems, attaining 0.57--0.75\\% violation rates and at least 99.99\\% departure success. These results show that learned graph risk can allocate intervention authority at scale while feeder physics anchors corrective action.",
-      "title": "HetGPS: Scalable Graph Multi-Agent Reinforcement Learning with Physics-Anchored Adaptive Safety for EV Charging",
-      "topic_hits": [
-        "Reinforcement Learning"
-      ],
-      "updated": "2026-08-01"
-    },
-    "2608.00730": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00730",
-      "authors": [
-        "Renhao Lu",
-        "Mingxin Wang",
-        "Chenyang Cao",
-        "Yang Yang",
-        "Guoping Pan",
-        "Kangkang Dong",
-        "Yi Cheng",
-        "Houde Liu"
-      ],
-      "authors_display": "Renhao Lu, Mingxin Wang, Chenyang Cao, Yang Yang et al.",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "8 pages, 8 figures. Accepted to the 2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)",
-      "corresponding_author": "Houde Liu",
-      "first_affiliation": "TBD",
-      "first_author": "Renhao Lu",
-      "id": "2608.00730",
-      "keywords": [
-        "diffusion policy"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00730",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for robotic surface cleaning. Conventional wiping often spreads the stain, while scrubbing provides stronger friction but risks damaging the surface. In this paper, we propose Push-Wiper, a framework that reformulates viscous stain cleaning as an aggregation problem. Push-Wiper employs a sponge to progressively gather stains through segmented pushing trajectories, followed by a post-processing phase that detaches the aggregated material and enables sponge self-cleaning. We adopt a stepwise strategy for stain gathering and leverage Diffusion Policy to generate adaptive pushing action sequences. These sequences are executed through our Arbitrary Surface Pose Interpolator (ASPI) and a hybrid force-position controller, allowing the method to generalize to stains with diverse spatial distributions. Push-Wiper achieves a cleaning score (CS), defined as the percentage of stain area removed, up to 130% higher than baseline methods. Without additional training, Push-Wiper also transfers in a zero-shot manner to solid residues, liquid spills, unseen viscous stains, and curved surfaces with varying geometries. Our experiments demonstrate the cleaning effectiveness of Push-Wiper and its strong generalization ability. The project website is available at https://push-wiper.github.io/.",
-      "title": "Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories",
-      "topic_hits": [
-        "Imitation Learning"
-      ],
-      "updated": "2026-08-01"
     },
     "2608.00793": {
       "arxiv_url": "https://arxiv.org/abs/2608.00793",
@@ -1340,44 +993,6 @@
         "Manipulation"
       ],
       "updated": "2026-08-06"
-    },
-    "2608.00880": {
-      "arxiv_url": "https://arxiv.org/abs/2608.00880",
-      "authors": [
-        "Shamel Fahmi",
-        "Arianna Ilvonen",
-        "Samuel Zapolsky",
-        "Yu-Ming Chen",
-        "Ravi Boggavarapu",
-        "Paul Drews",
-        "Ashwin Khadke",
-        "Dean Molinaro",
-        "Kaiyu Zheng",
-        "Alfred Rizzi",
-        "Gabriel Nelson"
-      ],
-      "authors_display": "Shamel Fahmi, Arianna Ilvonen, Samuel Zapolsky, Yu-Ming Chen et al.",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "",
-      "corresponding_author": "Gabriel Nelson",
-      "first_affiliation": "TBD",
-      "first_author": "Shamel Fahmi",
-      "id": "2608.00880",
-      "keywords": [
-        "reinforcement learning"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.00880",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Bicycle robots are fast and energy efficient, but their simple mechanical design and their underactuated and non-holonomic dynamics make highly agile maneuvers difficult to achieve. Here, we use Reinforcement Learning (RL) to enable a bicycle robot to learn and compose a diverse repertoire of dynamic acrobatic stunts. Using different RL formulations such as waypoint following, pose reaching, twist tracking, guided tracking, and motion imitation, the robot acquires autonomous single and multi-table forward and lateral jumps, steerable jumps, front flips, kip-ups, kip-downs, driving, wheelies, bunny hops, and three-point turns. To coordinate these behaviors, we introduce an orchestrator that transitions between policies using state-dependent triggers, enabling robust long-horizon acrobatic stunts. We validate the approach on the Ultra Mobility Vehicle (UMV), a custom bicycle robot, in simulation and hardware. The robot repeatedly traverses tables up to 1 m high, performs more than 15 consecutive autonomous jumps while following waypoints, handles previously unseen multi-table configurations, executes continuous repertoires of kipups, jumps, flips, kip-downs, over more than 20 consecutive trials, and performs more than 10 consecutive autonomous and steerable repertoires of wheelies, lateral jumps, and single-wheel jump downs. These results demonstrate that RL can endow bicycle robots with levels of agility previously associated primarily with legged platforms while preserving the speed and efficiency of wheeled locomotion, establishing a foundation for bicycle acrobatics.",
-      "title": "Bicycle Acrobatics with Reinforcement Learning",
-      "topic_hits": [
-        "Reinforcement Learning"
-      ],
-      "updated": "2026-08-01"
     },
     "2608.00908": {
       "arxiv_url": "https://arxiv.org/abs/2608.00908",
@@ -10454,41 +10069,6 @@
         "Embodied Foundation Models"
       ],
       "updated": "2026-08-07"
-    },
-    "2608.07553": {
-      "arxiv_url": "https://arxiv.org/abs/2608.07553",
-      "authors": [
-        "Andres Rivas",
-        "Anselmo R. Cukla",
-        "Rodrigo S. Guerra",
-        "Bruna V. Guterres",
-        "Ricardo B. Grando"
-      ],
-      "authors_display": "Andres Rivas, Anselmo R. Cukla, Rodrigo S. Guerra, Bruna V. Guterres et al.",
-      "categories": [
-        "cs.RO"
-      ],
-      "code_url": "",
-      "comment": "Paper accepted at the ICCAS 2026",
-      "corresponding_author": "Ricardo B. Grando",
-      "first_affiliation": "TBD",
-      "first_author": "Andres Rivas",
-      "id": "2608.07553",
-      "keywords": [
-        "learning from demonstration",
-        "teleoperation",
-        "dataset"
-      ],
-      "pdf_url": "https://arxiv.org/pdf/2608.07553",
-      "primary_category": "cs.RO",
-      "published": "2026-08-01",
-      "summary": "Robotic manipulation often requires object specific programming, manual data annotation, or calibrated perception pipelines, which limits rapid deployment in practical settings. Learning from demonstration offers a more direct alternative, but collecting demonstrations can still demand human teleoperation or kinesthetic teaching. This paper presents a self supervised visual manipulation method in which a robot automatically generates demonstrations around a target pose and learns relative pose corrections directly from wrist mounted RGB images. The proposed pipeline uses ROS~2 and Isaac Sim to collect labeled image-pose pairs without requiring explicit camera to robot extrinsic calibration. Separate datasets are generated for planar refinement and coarse three dimensional approach, and a convolutional network is trained to regress relative translation and rotation from single frame RGB observations. During execution, a coarse to fine controller first approaches the object using models trained with height variation and then refines the final alignment using planar data. The method is evaluated both in simulation and on a real UR5e collaborative robot equipped with a gripper and a monocular camera. In simulation, the refinement stage reduces the final planar dispersion from 9.69 mm to 5.38 mm. In real world experiments, the system performs end to end grasp attempts on three physical objects and reaches success rates of 66.6% and 63.6% for two objects without object rotation, while still maintaining partial robustness under rotated conditions. These results show that automatically generated demonstrations can support practical visual manipulation with limited setup effort, while also exposing remaining challenges in depth prediction and object dependent generalization.",
-      "title": "Self Supervised Learning from Automatically Generated Demonstrations for Visual Robotic Manipulation",
-      "topic_hits": [
-        "Imitation Learning",
-        "Manipulation"
-      ],
-      "updated": "2026-08-01"
     },
     "2608.07558": {
       "arxiv_url": "https://arxiv.org/abs/2608.07558",
@@ -162176,7 +161756,6 @@
         "cs.CV"
       ],
       "code_url": "https://github.com/cvlab-kaist/L3G-World",
-      "code_url_source": "github_search",
       "comment": "Project page: https://cvlab-kaist.github.io/L3G-World/",
       "corresponding_author": "Seungryong Kim",
       "first_affiliation": "TBD",
@@ -162248,7 +161827,6 @@
         "cs.LG"
       ],
       "code_url": "https://github.com/dynamical-inference/world2vec",
-      "code_url_source": "github_search",
       "comment": "https://worldmodels.science/",
       "corresponding_author": "Steffen Schneider",
       "first_affiliation": "TBD",
@@ -162310,5 +161888,5 @@
       "updated": "2026-10-29"
     }
   },
-  "updated_at": "2026-10-30T06:41:12.849758+00:00"
+  "updated_at": "2026-10-31T06:31:42.462724+00:00"
 }
