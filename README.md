@@ -2,16 +2,16 @@
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-11-13**.
+Updated on **2026-11-14**.
 
 ## Topics
 
-- [Dexterous Hand](#dexterous-hand) (329)
-- [Manipulation](#manipulation) (1311)
-- [Reinforcement Learning](#reinforcement-learning) (1763)
-- [Imitation Learning](#imitation-learning) (523)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (290)
-- [Embodied Foundation Models](#embodied-foundation-models) (2131)
+- [Dexterous Hand](#dexterous-hand) (327)
+- [Manipulation](#manipulation) (1305)
+- [Reinforcement Learning](#reinforcement-learning) (1756)
+- [Imitation Learning](#imitation-learning) (522)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (289)
+- [Embodied Foundation Models](#embodied-foundation-models) (2122)
 
 ## Metadata Note
 
@@ -348,8 +348,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-17**|**ViHaTeleop: A Low-Cost, Lightweight Visual-Haptic Teleoperation System for Dexterous Manipulation Learning**|Koichi Hashimoto|teleoperation, dexterous manipulation, learning from demonstration, LEAP hand|[abs](https://arxiv.org/abs/2608.16572) / [pdf](https://arxiv.org/pdf/2608.16572)||
 |**2026-08-16**|**ReForce: Learning Force-aware Retargeting for Dexterous Manipulation**|Xiaolong Wang|dexterous manipulation, teleoperation, grasping|[abs](https://arxiv.org/abs/2608.15560) / [pdf](https://arxiv.org/pdf/2608.15560)||
 |**2026-08-16**|**Contact Modes Are Strata: What Geometric Structure Buys in Discrete-Continuous Planning**|Jonathan Kelly|contact-rich manipulation, dexterous hand|[abs](https://arxiv.org/abs/2608.15541) / [pdf](https://arxiv.org/pdf/2608.15541)||
-|**2026-08-15**|**EgoTac: In-the-wild Tactile Prediction from Egocentric Vision**|Yang Gao|dexterous manipulation, dataset, benchmark|[abs](https://arxiv.org/abs/2608.15060) / [pdf](https://arxiv.org/pdf/2608.15060)||
-|**2026-08-15**|**MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text**|Laszlo A. Jeni|benchmark, dataset|[abs](https://arxiv.org/abs/2608.10162) / [pdf](https://arxiv.org/pdf/2608.10162)||
 
 ## Manipulation
 
@@ -1660,12 +1658,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-16**|**ReForce: Learning Force-aware Retargeting for Dexterous Manipulation**|Xiaolong Wang|dexterous manipulation, teleoperation, grasping|[abs](https://arxiv.org/abs/2608.15560) / [pdf](https://arxiv.org/pdf/2608.15560)||
 |**2026-08-16**|**Contact Modes Are Strata: What Geometric Structure Buys in Discrete-Continuous Planning**|Jonathan Kelly|contact-rich manipulation, dexterous hand|[abs](https://arxiv.org/abs/2608.15541) / [pdf](https://arxiv.org/pdf/2608.15541)||
 |**2026-08-16**|**TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM**|Han Ding|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.27205) / [pdf](https://arxiv.org/pdf/2607.27205)|[repo](https://github.com/H-EmbodVis/TurboVLA)|
-|**2026-08-15**|**GUIDER: Evaluating Goal-Free Human Intent Inference for Teleoperated Manipulation on Real-Robot Data**|Maria Kyrarini|grasping|[abs](https://arxiv.org/abs/2608.15446) / [pdf](https://arxiv.org/pdf/2608.15446)||
-|**2026-08-15**|**Accelerating Mixed Discrete-Continuous Motion Planning via Neural Graphs of Convex Sets**|Taskin Padir|motion planning, contact-rich manipulation|[abs](https://arxiv.org/abs/2608.15440) / [pdf](https://arxiv.org/pdf/2608.15440)||
-|**2026-08-15**|**SOS! : A Streamlined Object-Conditional Transformer for Model-free Segmentation**|Slobodan Ilic|benchmark|[abs](https://arxiv.org/abs/2608.15295) / [pdf](https://arxiv.org/pdf/2608.15295)||
-|**2026-08-15**|**PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies**|Jungong Han|vision-language-action, VLA, grasping|[abs](https://arxiv.org/abs/2608.15285) / [pdf](https://arxiv.org/pdf/2608.15285)||
-|**2026-08-15**|**StructRL: Structured Action-Space Exploration for Flow-Based VLAs**|Yu-Gang Jiang|VLA, vision-language-action, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2608.15139) / [pdf](https://arxiv.org/pdf/2608.15139)||
-|**2026-08-15**|**GaussMemory: Task-Driven 3D Gaussian Scene Memory for Long-Horizon Robotic Manipulation**|Masatoshi Ishikawa|VLA|[abs](https://arxiv.org/abs/2608.14986) / [pdf](https://arxiv.org/pdf/2608.14986)||
 
 ## Reinforcement Learning
 
@@ -3427,13 +3419,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-16**|**Scalable Pontryagin-Guided Adjoint-to-Control Recovery for Constrained Dynamic Portfolio Choice**|Byung Hwa Lim|benchmark|[abs](https://arxiv.org/abs/2608.15667) / [pdf](https://arxiv.org/pdf/2608.15667)||
 |**2026-08-16**|**Temporal Logic Guided Universal Task Representations for Reinforcement Learning**|Zhen Kan|reinforcement learning|[abs](https://arxiv.org/abs/2608.15509) / [pdf](https://arxiv.org/pdf/2608.15509)||
 |**2026-08-16**|**Vision-Based Tactile Intelligence for Robotics: Sensing, Learning, and Embodied Manipulation**|Michael Yu Wang|dataset, tactile sensing, foundation model, sim-to-real, benchmark|[abs](https://arxiv.org/abs/2608.15490) / [pdf](https://arxiv.org/pdf/2608.15490)||
-|**2026-08-15**|**Ranking-Augmented On-Policy Optimization with Adaptive Advantage-Normalization for Constrained Control**|Qadeer Ahmed||[abs](https://arxiv.org/abs/2608.15359) / [pdf](https://arxiv.org/pdf/2608.15359)||
-|**2026-08-15**|**$D^{2}R^{2}$: Discrete Diffusion with Regulation Reinforcement for Single-Cell Perturbation Prediction**|Qiang Zhu||[abs](https://arxiv.org/abs/2608.15288) / [pdf](https://arxiv.org/pdf/2608.15288)||
-|**2026-08-15**|**StructRL: Structured Action-Space Exploration for Flow-Based VLAs**|Yu-Gang Jiang|VLA, vision-language-action, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2608.15139) / [pdf](https://arxiv.org/pdf/2608.15139)||
-|**2026-08-15**|**Max-Q Selective Imitation for Human-in-the-Loop Online Robot Learning**|Yishan Wang|reinforcement learning|[abs](https://arxiv.org/abs/2608.15088) / [pdf](https://arxiv.org/pdf/2608.15088)||
-|**2026-08-15**|**LLM-Based Hierarchical Coordinated Control with Continuation-Aware Policy Learning**|Yu Mei|policy learning, reinforcement learning|[abs](https://arxiv.org/abs/2608.15041) / [pdf](https://arxiv.org/pdf/2608.15041)||
-|**2026-08-15**|**MetaReason: Precise Interleaved Multimodal Reasoning via Editing Meta Information for Solving Geometry Problems**|Xiao-Ping Zhang|dataset, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2608.15006) / [pdf](https://arxiv.org/pdf/2608.15006)||
-|**2026-08-15**|**An Asynchronous Triggered MAC Protocol for Underwater Acoustic Networks**|Jun Liu|reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2608.10533) / [pdf](https://arxiv.org/pdf/2608.10533)||
 
 ## Imitation Learning
 
@@ -3961,7 +3946,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-17**|**SurgVIL: Scaling Surgical Robot Imitation Learning with Open-source Surgical Videos**|Axel Krieger|imitation learning, dataset, policy learning|[abs](https://arxiv.org/abs/2608.16058) / [pdf](https://arxiv.org/pdf/2608.16058)||
 |**2026-08-17**|**Learning Varying Physical Therapist-Patient Interactions for Robot-mediated Upper Limb Task-Specific Training**|Ying Tan|benchmark|[abs](https://arxiv.org/abs/2608.15995) / [pdf](https://arxiv.org/pdf/2608.15995)||
 |**2026-08-16**|**TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM**|Han Ding|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.27205) / [pdf](https://arxiv.org/pdf/2607.27205)|[repo](https://github.com/H-EmbodVis/TurboVLA)|
-|**2026-08-15**|**PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies**|Jungong Han|vision-language-action, VLA, grasping|[abs](https://arxiv.org/abs/2608.15285) / [pdf](https://arxiv.org/pdf/2608.15285)||
 
 ## Tactile / Visuo-Tactile
 
@@ -4256,7 +4240,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-16**|**ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation**|Xuesong Li|VLA, visuo-tactile, vision-language-action, contact-rich manipulation, benchmark|[abs](https://arxiv.org/abs/2608.15816) / [pdf](https://arxiv.org/pdf/2608.15816)||
 |**2026-08-16**|**Tac4Loco: Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion**|Jun Ma|humanoid, policy learning|[abs](https://arxiv.org/abs/2608.15766) / [pdf](https://arxiv.org/pdf/2608.15766)||
 |**2026-08-16**|**Vision-Based Tactile Intelligence for Robotics: Sensing, Learning, and Embodied Manipulation**|Michael Yu Wang|dataset, tactile sensing, foundation model, sim-to-real, benchmark|[abs](https://arxiv.org/abs/2608.15490) / [pdf](https://arxiv.org/pdf/2608.15490)||
-|**2026-08-15**|**EgoTac: In-the-wild Tactile Prediction from Egocentric Vision**|Yang Gao|dexterous manipulation, dataset, benchmark|[abs](https://arxiv.org/abs/2608.15060) / [pdf](https://arxiv.org/pdf/2608.15060)||
 
 ## Embodied Foundation Models
 
@@ -6384,12 +6367,3 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-16**|**EcoVLA: Energy-Efficient Device-Edge Co-Inference for Vision-Language-Action Models under Real-Time Constraints**|Jianlei Yang|VLA, vision-language-action|[abs](https://arxiv.org/abs/2608.15502) / [pdf](https://arxiv.org/pdf/2608.15502)||
 |**2026-08-16**|**Bit-Flip Attacks on Vision-Language-Action Models: Action-Decoding Architecture Shapes the Vulnerability**|Honglong Chen|vision-language-action, VLA, foundation model|[abs](https://arxiv.org/abs/2608.15475) / [pdf](https://arxiv.org/pdf/2608.15475)||
 |**2026-08-16**|**TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM**|Han Ding|VLA, vision-language-action|[abs](https://arxiv.org/abs/2607.27205) / [pdf](https://arxiv.org/pdf/2607.27205)|[repo](https://github.com/H-EmbodVis/TurboVLA)|
-|**2026-08-15**|**FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge**|Nikil Dutt|benchmark, embodied agent, dataset|[abs](https://arxiv.org/abs/2608.15410) / [pdf](https://arxiv.org/pdf/2608.15410)||
-|**2026-08-15**|**Physiological World Models for Human State Transitions**|Bin Chong|world model, benchmark|[abs](https://arxiv.org/abs/2608.15309) / [pdf](https://arxiv.org/pdf/2608.15309)||
-|**2026-08-15**|**PhaseLoRA: Control-Regime-Conditioned Low-Rank Adaptation for Continuous-Action Vision-Language-Action Policies**|Jungong Han|vision-language-action, VLA, grasping|[abs](https://arxiv.org/abs/2608.15285) / [pdf](https://arxiv.org/pdf/2608.15285)||
-|**2026-08-15**|**Remember Smarter: Visual History Compressor and Hyperbolic Experience Space for Robotic Memory**|Cheng Deng|vision-language-action, VLA|[abs](https://arxiv.org/abs/2608.15269) / [pdf](https://arxiv.org/pdf/2608.15269)||
-|**2026-08-15**|**StructRL: Structured Action-Space Exploration for Flow-Based VLAs**|Yu-Gang Jiang|VLA, vision-language-action, reinforcement learning, benchmark|[abs](https://arxiv.org/abs/2608.15139) / [pdf](https://arxiv.org/pdf/2608.15139)||
-|**2026-08-15**|**SCOPE: Score-Isolated Agentic Optimization for Video World Models**|Feifei Gao|world model, benchmark|[abs](https://arxiv.org/abs/2608.15043) / [pdf](https://arxiv.org/pdf/2608.15043)||
-|**2026-08-15**|**PACE: Phase-Progress-Aware Credit for Long-Horizon Embodied Manipulation**|Hongzhou Wang|vision-language-action, VLA|[abs](https://arxiv.org/abs/2608.15026) / [pdf](https://arxiv.org/pdf/2608.15026)||
-|**2026-08-15**|**ForceU-VLA: A Force-Aware Vision-Language-Action Model for Embodied Ultrasound Scanning**|Qing Cai|VLA, vision-language-action, dataset|[abs](https://arxiv.org/abs/2608.15009) / [pdf](https://arxiv.org/pdf/2608.15009)||
-|**2026-08-15**|**Evidence of Absence: Cross-Modal Abductive Risk Perception to Sustain World Models When Vision Fails**|Ravi Sankar|world model|[abs](https://arxiv.org/abs/2608.14952) / [pdf](https://arxiv.org/pdf/2608.14952)||
