@@ -7,16 +7,16 @@ title: My arXiv Daily
 
 Daily arXiv papers for dexterous manipulation, robot learning, and embodied AI.
 
-Updated on **2026-11-20**.
+Updated on **2026-11-21**.
 
 ## Topics
 
 - [Dexterous Hand](#dexterous-hand) (330)
-- [Manipulation](#manipulation) (1339)
-- [Reinforcement Learning](#reinforcement-learning) (1796)
-- [Imitation Learning](#imitation-learning) (533)
-- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (291)
-- [Embodied Foundation Models](#embodied-foundation-models) (2240)
+- [Manipulation](#manipulation) (1336)
+- [Reinforcement Learning](#reinforcement-learning) (1788)
+- [Imitation Learning](#imitation-learning) (530)
+- [Tactile / Visuo-Tactile](#tactile--visuo-tactile) (287)
+- [Embodied Foundation Models](#embodied-foundation-models) (2237)
 
 ## Metadata Note
 
@@ -1697,9 +1697,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-23**|**Robust Bimanual Vision-Language-Action Models via Embarrassingly Simple Modality Masking**|Jiaqi Wang|vision-language-action, VLA, bimanual manipulation|[abs](https://arxiv.org/abs/2608.22419) / [pdf](https://arxiv.org/pdf/2608.22419)||
 |**2026-08-23**|**MotionDLO: Hybrid Event- and Frame-Based Tracking of Deformable Linear Objects**|Jörg Franke|dataset|[abs](https://arxiv.org/abs/2608.22398) / [pdf](https://arxiv.org/pdf/2608.22398)||
 |**2026-08-23**|**Unified Condition-Action Modeling for Accurate One-Step Action Generation**|Jianfei Yang|robot manipulation|[abs](https://arxiv.org/abs/2608.16153) / [pdf](https://arxiv.org/pdf/2608.16153)||
-|**2026-08-22**|**Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control**|Arash Adel|diffusion policy, benchmark, sim-to-real, contact-rich manipulation|[abs](https://arxiv.org/abs/2608.22100) / [pdf](https://arxiv.org/pdf/2608.22100)||
-|**2026-08-22**|**CIDER: Continual Interactive Distillation for Embodied Reinforcement Learning**|Maoqing Yao|reinforcement learning|[abs](https://arxiv.org/abs/2608.21899) / [pdf](https://arxiv.org/pdf/2608.21899)||
-|**2026-08-22**|**Vision-Guided Morphing Quadcopter for Multi-Geometry Payload Transport through Narrow Passages**|R. Prasanth Kumar|grasping, force feedback|[abs](https://arxiv.org/abs/2608.21879) / [pdf](https://arxiv.org/pdf/2608.21879)||
 
 ## Reinforcement Learning
 
@@ -3493,14 +3490,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-23**|**WAM-OPD: On-Policy Distillation for World Action Models**|Zezhi Tang|reinforcement learning|[abs](https://arxiv.org/abs/2608.22364) / [pdf](https://arxiv.org/pdf/2608.22364)||
 |**2026-08-23**|**Risk-Sensitive Reinforcement Learning with Smoothed Quantile Objectives**|Sajad Khodadadian|reinforcement learning|[abs](https://arxiv.org/abs/2608.22227) / [pdf](https://arxiv.org/pdf/2608.22227)||
 |**2026-08-23**|**On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models**|Yang Yu|behavior cloning, policy learning, world model|[abs](https://arxiv.org/abs/2608.22197) / [pdf](https://arxiv.org/pdf/2608.22197)||
-|**2026-08-22**|**Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control**|Arash Adel|diffusion policy, benchmark, sim-to-real, contact-rich manipulation|[abs](https://arxiv.org/abs/2608.22100) / [pdf](https://arxiv.org/pdf/2608.22100)||
-|**2026-08-22**|**Counterfactual Quotient Models: Learning What Actions Change, Not What the World Does**|Jianxin Li||[abs](https://arxiv.org/abs/2608.22092) / [pdf](https://arxiv.org/pdf/2608.22092)||
-|**2026-08-22**|**Beyond Fixed Directions: Adaptive Representation Analysis of Reasoning and Memorization in LLMs**|Shaheen Nabi|reinforcement learning, dataset|[abs](https://arxiv.org/abs/2608.21919) / [pdf](https://arxiv.org/pdf/2608.21919)||
-|**2026-08-22**|**CIDER: Continual Interactive Distillation for Embodied Reinforcement Learning**|Maoqing Yao|reinforcement learning|[abs](https://arxiv.org/abs/2608.21899) / [pdf](https://arxiv.org/pdf/2608.21899)||
-|**2026-08-22**|**LLMs are Few-Shot Decision-Makers: Generalized Context-Aware Microgrid Frequency Control through Prompt Decision Transformer**|Wenchuan Wu|reinforcement learning|[abs](https://arxiv.org/abs/2608.21858) / [pdf](https://arxiv.org/pdf/2608.21858)||
-|**2026-08-22**|**CounterAlign: Counterfactual Supervision for Vision-Language-Action Models**|Yueh-Hua Wu|VLA, vision-language-action, behavior cloning, reinforcement learning, dataset, benchmark|[abs](https://arxiv.org/abs/2608.21740) / [pdf](https://arxiv.org/pdf/2608.21740)||
-|**2026-08-22**|**State-Space Model-Enabled Reinforcement Learning for Magnetic Configuration Controlon EXL-50U**|EXL-50U Team|reinforcement learning, policy learning|[abs](https://arxiv.org/abs/2608.21737) / [pdf](https://arxiv.org/pdf/2608.21737)||
-|**2026-08-22**|**Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving**|Achim Rettberg|reinforcement learning|[abs](https://arxiv.org/abs/2608.20129) / [pdf](https://arxiv.org/pdf/2608.20129)||
 
 ## Imitation Learning
 
@@ -4036,9 +4025,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-24**|**Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation**|Wenzhao Lian|VLA, imitation learning|[abs](https://arxiv.org/abs/2608.22800) / [pdf](https://arxiv.org/pdf/2608.22800)||
 |**2026-08-23**|**Predicting Consequences and Reinforcing Navigation Policies with Latent World Models**|Shuhan Shen|world model, policy learning, reinforcement learning, dataset, imitation learning|[abs](https://arxiv.org/abs/2608.26190) / [pdf](https://arxiv.org/pdf/2608.26190)||
 |**2026-08-23**|**WorldToken: Time-First Sequence Modeling for Robotic Imitation Learning**|Chao Gao|imitation learning, dataset|[abs](https://arxiv.org/abs/2608.22591) / [pdf](https://arxiv.org/pdf/2608.22591)||
-|**2026-08-22**|**Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control**|Arash Adel|diffusion policy, benchmark, sim-to-real, contact-rich manipulation|[abs](https://arxiv.org/abs/2608.22100) / [pdf](https://arxiv.org/pdf/2608.22100)||
-|**2026-08-22**|**Vision Guided Target Conditioned Control for Autonomous Excavation**|Jianqiang Wang|benchmark|[abs](https://arxiv.org/abs/2608.21778) / [pdf](https://arxiv.org/pdf/2608.21778)||
-|**2026-08-22**|**CounterAlign: Counterfactual Supervision for Vision-Language-Action Models**|Yueh-Hua Wu|VLA, vision-language-action, behavior cloning, reinforcement learning, dataset, benchmark|[abs](https://arxiv.org/abs/2608.21740) / [pdf](https://arxiv.org/pdf/2608.21740)||
 
 ## Tactile / Visuo-Tactile
 
@@ -4331,10 +4317,6 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-24**|**From Anonymous Shapes to Named Places: A Tool for Braille and Place-Semantic Annotation of Tactile Maps**|Leilani H. Gilpin||[abs](https://arxiv.org/abs/2608.23820) / [pdf](https://arxiv.org/pdf/2608.23820)||
 |**2026-08-24**|**TacWAM: Anchor-Guided World Action Model with Mechanics-Aware Tactile Prediction**|Yong Li|contact-rich manipulation, grasping, in-hand manipulation|[abs](https://arxiv.org/abs/2607.28391) / [pdf](https://arxiv.org/pdf/2607.28391)||
 |**2026-08-23**|**The Potential of Haptic Foundation Models**|Abdulmotaleb El Saddik|foundation model, dataset, benchmark|[abs](https://arxiv.org/abs/2608.28664) / [pdf](https://arxiv.org/pdf/2608.28664)||
-|**2026-08-22**|**Remote Surfaces at Your Fingertips: Electrovibration-Based Tactile Feedback for Robot Teleoperation via Touchscreen Interfaces**|Manuel Giuliani|teleoperation, haptic feedback, force feedback, contact-rich manipulation|[abs](https://arxiv.org/abs/2609.27938) / [pdf](https://arxiv.org/pdf/2609.27938)||
-|**2026-08-22**|**An Interpretable Deep Learning Framework for Material Perception and Classification from Multisensory Tactile Data**|Yasemin Vardar||[abs](https://arxiv.org/abs/2608.21894) / [pdf](https://arxiv.org/pdf/2608.21894)||
-|**2026-08-22**|**Vision-Guided Morphing Quadcopter for Multi-Geometry Payload Transport through Narrow Passages**|R. Prasanth Kumar|grasping, force feedback|[abs](https://arxiv.org/abs/2608.21879) / [pdf](https://arxiv.org/pdf/2608.21879)||
-|**2026-08-22**|**Safety-Critical Bilateral Teleoperation for Omnidirectional Aerial Manipulation Using Force-Sensorless Haptic Feedback**|Jeonghyun Byun|haptic feedback, teleoperation|[abs](https://arxiv.org/abs/2608.21735) / [pdf](https://arxiv.org/pdf/2608.21735)||
 
 ## Embodied Foundation Models
 
@@ -6577,6 +6559,3 @@ Corresponding author is approximated as the last author from arXiv metadata unle
 |**2026-08-23**|**DreamMimic: Learning Visuomotor Whole-Body Loco-Manipulation via World Model**|Xingyu Lai|humanoid, world model|[abs](https://arxiv.org/abs/2608.22278) / [pdf](https://arxiv.org/pdf/2608.22278)||
 |**2026-08-23**|**On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models**|Yang Yu|behavior cloning, policy learning, world model|[abs](https://arxiv.org/abs/2608.22197) / [pdf](https://arxiv.org/pdf/2608.22197)||
 |**2026-08-23**|**GigaBrain-WBC-0.5: A Behavior World Model for Robust Whole-Body Control with Environment Interaction**|Jiwen Lu|world model, humanoid, dataset|[abs](https://arxiv.org/abs/2608.18234) / [pdf](https://arxiv.org/pdf/2608.18234)||
-|**2026-08-22**|**Ludi${}_{\scriptscriptstyle 0.1}$: An Agentic System for Socially Intelligent Robots**|Junha Roh|foundation model|[abs](https://arxiv.org/abs/2608.22035) / [pdf](https://arxiv.org/pdf/2608.22035)||
-|**2026-08-22**|**ViSMoE: Visual-Aware Sparse Mixture-of-Experts for Embodied Referring Expression Grounding**|Piji Li|embodied agent, dataset|[abs](https://arxiv.org/abs/2608.21878) / [pdf](https://arxiv.org/pdf/2608.21878)||
-|**2026-08-22**|**CounterAlign: Counterfactual Supervision for Vision-Language-Action Models**|Yueh-Hua Wu|VLA, vision-language-action, behavior cloning, reinforcement learning, dataset, benchmark|[abs](https://arxiv.org/abs/2608.21740) / [pdf](https://arxiv.org/pdf/2608.21740)||
